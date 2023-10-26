@@ -1,0 +1,691 @@
+@import url(https://db.onlinewebfonts.com/c/cfdc7772d1426068d6cc35816bdb06f8?family=Visby+CF+Bold);
+@import url(https://db.onlinewebfonts.com/c/79927a8d010a79419f5c30e4d87409d5?family=Visby+CF+Medium);
+@import url(https://db.onlinewebfonts.com/c/b9391bb2feac4ed6fb895074dfe3bb9d?family=Visby+Light);
+@import url(https://db.onlinewebfonts.com/c/183f7076688b0fedd6643362cf90339b?family=Visby+CF+Thin);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header .menu-right{
+    display: none;
+}
+
+header{
+    background-color: #131B26;
+    display: flex;
+    height: 200px;
+}
+
+header .logo{
+    padding: 50px;
+}
+
+header .menu a{
+    margin-left: 20px;
+    font-family: "Visby Light";
+    color: orange;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+header .menu a:hover{
+    color: rgb(164, 107, 0);
+    border-bottom: 3px solid orange;
+    border-radius: 2px;
+}
+
+header .menu{
+    float: right;
+    margin-right: 80px;
+    margin-top: -140px;
+    padding: 20px;
+}
+
+.scav{
+    background-image: url(/imagens/FOTO-1.png);
+    height: 950px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.equipe{
+    width: 100%;
+    height: 120vh;
+    background-color: #131B26;
+    margin-top: -20px;
+}
+
+.equipe .equipe-img{
+    position: relative;
+    top: 15%;
+    width: 39%;
+}
+
+.equipe .simbolo-1{
+    width: 8%;
+    position: relative;
+    left: 50%;
+    top: -43%;
+}
+
+.equipe .equipe-txt{
+    position: relative;
+    top: -38%;
+    left: 50%;
+    width: 50%;
+}
+
+.equipe h1{
+    font-family: "Visby CF bold";
+    color: orange;
+    font-size: 7rem;
+}
+
+.equipe h2{
+    font-family: "Visby CF Thin";
+    font-weight: 100;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 3rem;
+}
+
+.equipe-txt a{
+    font-family: "Visby CF bold";
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: orange;
+    border: 3px solid orange;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.servicos{
+    z-index: 10;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 1600px;
+    margin-top: -15%;
+    position: relative;
+    background-image: url(/imagens/FUNDO-SERVIÇOS.png);
+}
+
+.servicos a{
+    position: relative;
+    top: 40%;
+    left: 45%;
+    font-size: 2.5rem;
+    color: white;
+    border: 4px solid white;
+    border-radius: 10px;
+    font-family: "Visby CF bold";
+    padding: 5px;
+    text-decoration: none;
+}
+
+.servicos .top-servicos{
+    position: relative;
+    top: 20%;
+    left: 13%;
+    width: 70%;
+    align-items: center;
+    text-align: center;
+}
+
+.servicos .simbolo-2{
+    width: 13%;
+}
+
+.servicos .top-servicos h1{
+    font-size: 4rem;
+    font-family: "Visby CF bold";
+    color: white;
+    margin-top: 30px;
+}
+
+.center-servicos{
+    justify-content: space-around;
+    text-align: left;
+    width: 95%;
+    display: flex;
+    position: relative;
+    top: 30%;
+    left: 2%;
+}
+
+.center-servicos h1{
+    font-size: 1.5rem;
+    color: white;
+    font-family: "Visby CF Thin";
+    line-height: 30px;
+}
+
+.center-servicos .agronegocio{
+    position: relative;
+}
+
+.rellax{
+    margin-top: -710px;
+    margin-bottom: 300px;
+    position: relative;
+    z-index: -100;
+}
+
+.paralax{
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100%;
+    min-height: 800px;
+    background-image: url(/imagens/DSC00625-Aprimorado-NR.jpg);
+}
+
+.aba-isa {
+    background-image: url(/imagens/fundo-isa-e-rodape.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 2050px;
+}
+
+.aba-isa .isa-img{
+    width: 33%;
+    top: 8%;
+    left: 10%;
+    position: relative;
+}
+
+.aba-isa .center-isa img{
+    width: 15%;
+    margin-bottom: 30px;
+}
+
+.aba-isa .center-isa{
+    top: 10%;
+    left: 10%;
+    position: relative;
+    width: 50%;
+}
+
+.aba-isa .center-isa h1{
+    font-family: "Visby CF Bold";
+    font-size: 6rem;
+    color: orange;
+    margin-bottom: 40px;
+}
+
+.aba-isa .center-isa h2{
+    font-family: "Visby CF Thin";
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+}
+
+.aba-isa a{
+    font-family: "Visby CF Bold";
+    font-size: 2.2rem;
+    text-decoration: none;
+    color: orange;
+    border: 4px solid orange;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+}
+
+.aba-isa a .wpp{
+    position: relative;
+    top: 38px;
+    left: -3px;
+    width: 45px;
+}
+
+.rodape{
+    width: 80%;
+    position: relative;
+    top: 21%;
+    left: 10%;
+    display: flex;
+    align-self: center;
+    bottom: -10%;
+}
+
+.rodape .roda-fora{
+    width: 19%;
+    margin-right: 40px;
+}
+
+.rodape .txt-footer .relogio, .email, .insta, .whatsapp{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px; 
+}
+
+
+.rodape .txt-footer .relogio img, .email img, .insta img, .whatsapp img{
+    width: 6%;
+    text-align: center;
+}
+
+.rodape .txt-footer .relogio h1, .email h1, .insta h1, .whatsapp h1{
+    margin-left: 10px;
+    font-size: 1.5rem;
+    font-family: "Visby CF Bold";
+    color: #131B26;
+    position: relative;
+}
+
+@media (max-width:430px) {
+    header{
+        height: 150px;
+    }
+
+    header img{
+        width: 200px;
+        margin-left: -20px;
+    }
+
+    header .menu{
+        display: none;
+    }
+
+    header .menu-right{
+        display: block;
+    }
+
+    .equipe{
+        margin-top: -760px;
+        height: 850px;
+    }
+
+    .equipe .equipe-img{
+        width: 60%;
+        top: 5%;
+        left: 13%;
+        position: relative;
+    }
+
+    .equipe .simbolo-1{
+        position: relative;
+        top: 10%;
+        left: 48%;
+    }
+
+    .equipe .equipe-txt{
+        position: relative;
+        width: 80%;
+        left: 20%;
+        top: 10%;
+        text-align: left;
+    }
+
+    .equipe .equipe-txt h1{
+        font-size: 1.9rem;
+    }
+
+    .equipe .equipe-txt h2{
+        font-size: 1.8rem;
+    }
+
+    .equipe a{
+        position: relative;
+        left: 21%;
+        font-size: 1.2rem;
+        z-index: 10;
+        border: 2px solid orange;
+    }
+
+    .servicos{
+        position: relative;
+        margin-top: -35%;
+        width: 100%;
+        height: 1050px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .center-servicos h1{
+        font-size: 18px;
+        line-height: 14px;
+    }
+
+    .center-servicos .agronegocio, .locacao, .terraplanagem{
+        position: relative;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .center-servicos img{
+        width: 180px;
+        margin-bottom: 10px;
+    }
+
+    .center-servicos{
+        position: relative;
+        top: 220px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .servicos .top-servicos img{
+        width: 100px;
+        margin-top: -40px;
+        position: relative;
+    }
+
+    .servicos .top-servicos h1{
+        font-size: 1.3rem;
+    }
+
+    .servicos a{
+        font-size: 12px;
+        position: relative;
+        top: 220px;
+        left: 40%;
+        border: 2px solid white;
+    }
+
+    .rellax{
+        height: 450px;
+    }
+
+    .paralax{
+        position: relative;
+        margin-top: 40%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .aba-isa{
+        background-position: 60%;
+        height: 1100px;
+    }
+
+    .aba-isa .isa-img{
+        width: 70%;
+        position: relative;
+        top: 8%;
+        left: 15%;
+    }
+
+    .aba-isa .center-isa{
+        position: relative;
+        top: 15%;
+        left: 100px;
+    }
+
+    .aba-isa .center-isa .wpp{
+        width: 27px;
+    }
+
+    .aba-isa .center-isa a{
+        font-size: 12px;
+        width: 150px;
+        height: 50px;
+        left: 30px;
+        position: relative;
+        border: 2px solid orange;
+    }
+
+    .aba-isa .center-isa #img-top-isa{
+        width: 80px;
+        left: 30%;
+        position: relative;
+    }
+
+    .aba-isa .center-isa h1{
+        font-size: 25px;
+        text-align: center;
+        position: relative;
+    }
+
+    .aba-isa .center-isa h2{
+        font-size: 22px;
+        bottom: 10px;
+        width: 380px;
+        left: -35%;
+        position: relative;
+        text-align: center;
+    }
+
+    .rodape {
+        position: relative;
+        top: 27%;
+    }
+
+    .rodape .roda-fora{
+        display: none;
+    }
+
+    .rodape .txt-footer{
+        position: relative;
+        left: 10%;
+    }
+
+    .rodape .txt-footer .relogio, .email, .whatsapp, .insta{
+        width: 300px;
+    }
+
+    .rodape .txt-footer .relogio h1, .email h1, .whatsapp h1, .insta h1{
+        font-size: 15px;
+        margin-bottom: -10px;
+    }
+
+    .rodape .txt-footer .relogio img, .email img, .whatsapp img, .insta img{
+        width: 20px;
+        margin-bottom: -10px;
+    }
+
+}
+
+@media (max-width:390px) {
+    header{
+        height: 150px;
+    }
+
+    header img{
+        width: 200px;
+        margin-left: -20px;
+    }
+
+    header .menu{
+        display: none;
+    }
+
+    header .menu-right{
+        display: block;
+    }
+
+    .equipe{
+        margin-top: -760px;
+        height: 800px;
+    }
+
+    .equipe .equipe-img{
+        width: 60%;
+        top: 5%;
+        left: 13%;
+        position: relative;
+    }
+
+    .equipe .simbolo-1{
+        position: relative;
+        top: 10%;
+        left: 48%;
+    }
+
+    .equipe .equipe-txt{
+        position: relative;
+        width: 70%;
+        left: 20%;
+        top: 10%;
+        text-align: left;
+    }
+
+    .equipe .equipe-txt h1{
+        font-size: 1.9rem;
+        width: 250px;
+    }
+
+    .equipe .equipe-txt h2{
+        font-size: 1.8rem;
+    }
+
+    .equipe a{
+        position: relative;
+        left: 15%;
+        font-size: 1.7rem;
+        z-index: 10;
+    }
+
+    .servicos{
+        position: relative;
+        margin-top: -35%;
+        width: 100%;
+        height: 1000px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .center-servicos h1{
+        font-size: 18px;
+        line-height: 14px;
+    }
+
+    .center-servicos .agronegocio, .locacao, .terraplanagem{
+        position: relative;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .center-servicos img{
+        width: 180px;
+        margin-bottom: 10px;
+    }
+
+    .center-servicos{
+        position: relative;
+        top: 220px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .servicos .top-servicos img{
+        width: 100px;
+        margin-top: -40px;
+        position: relative;
+    }
+
+    .servicos .top-servicos h1{
+        font-size: 1.3rem;
+    }
+
+    .servicos a{
+        font-size: 12px;
+        position: relative;
+        top: 220px;
+        left: 40%;
+    }
+
+    .rellax{
+        height: 500px;
+    }
+
+    .paralax{
+        position: relative;
+        margin-top: 40%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .aba-isa{
+        background-position: 60%;
+        height: 1100px;
+    }
+
+    .aba-isa .isa-img{
+        width: 70%;
+        position: relative;
+        top: 8%;
+        left: 15%;
+    }
+
+    .aba-isa .center-isa{
+        position: relative;
+        top: 15%;
+        left: 100px;
+    }
+
+    .aba-isa .center-isa .wpp{
+        width: 27px;
+    }
+
+    .aba-isa .center-isa a{
+        font-size: 12px;
+        width: 150px;
+        height: 50px;
+        left: 20px;
+        position: relative;
+    }
+
+    .aba-isa .center-isa #img-top-isa{
+        width: 80px;
+        left: 30%;
+        position: relative;
+    }
+
+    .aba-isa .center-isa h1{
+        font-size: 25px;
+        text-align: center;
+        position: relative;
+    }
+
+    .aba-isa .center-isa h2{
+        font-size: 22px;
+        bottom: 10px;
+        width: 380px;
+        left: -48%;
+        position: relative;
+        text-align: center;
+    }
+
+    .rodape {
+        position: relative;
+        top: 30%;
+        height: 100px;
+    }
+
+    .rodape .roda-fora{
+        display: none;
+    }
+
+    .rodape .txt-footer{
+        position: relative;
+        left: 10%;
+        width: 200px;
+        bottom: 15px;
+    }
+
+    .rodape .txt-footer .relogio, .email, .whatsapp, .insta{
+        width: 300px;
+    }
+
+    .rodape .txt-footer .relogio h1, .email h1, .whatsapp h1, .insta h1{
+        font-size: 15px;
+        margin-bottom: -10px;
+    }
+
+    .rodape .txt-footer .relogio img, .email img, .whatsapp img, .insta img{
+        width: 15px;
+        margin-bottom: -10px;
+    }
+
+}

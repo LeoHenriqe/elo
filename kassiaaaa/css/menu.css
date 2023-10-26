@@ -1,0 +1,119 @@
+.burger {
+  display: inline-block;
+  border: 0;
+  background: none;
+  outline: 0;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 3px;
+  border-bottom: 5px solid orange;
+  width: 40px;
+  transition: border-bottom 1s ease-in-out;
+  -webkit-transition: border-bottom 1s ease-in-out;
+}
+
+.burger::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.burger:before {
+  content: "";
+  display: block;
+  border-bottom: 5px solid orange;
+  width: 100%;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  transition: transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+
+.burger:after {
+  border-radius: 3px;
+  content: "";
+  display: block;
+  border-bottom: 5px solid orange;
+  width: 100%;
+  margin-bottom: 5px;
+  transition: transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+
+.burger-check {
+  display: none;
+}
+
+.burger-check:checked ~ .burger {
+  border-bottom: 4px solid transparent;
+  transition: border-bottom 0.8s ease-in-out;
+  -webkit-transition: border-bottom 0.8s ease-in-out;
+}
+
+.burger-check:checked ~ .burger:before {
+  transform: rotate(-405deg) translateY(1px) translateX(-3px);
+  -webkit-transform: rotate(-405deg) translateY(1px) translateX(-3px);
+  transition: transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+
+.burger-check:checked ~ .burger:after {
+  transform: rotate(405deg) translateY(-4px) translateX(-5px);
+  -webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);
+  transition: transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+
+.navigation {
+  margin-top: 50px;
+  margin-right: -80px;
+  float: left;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.burger-check:checked ~ .navigation {
+  max-height: 500px;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.menu-right{
+  float: right;
+  margin-top: -100px;
+  margin-right: 40px;
+  margin-left: 0px;
+}
+
+a {
+  font-family: "Visby CF Bold";
+  font-size: 2.1rem;
+  color: white;
+  padding: 8px;
+  margin: 0;
+  text-align: center;
+}
+
+.navi {
+  background-color: orange;
+  margin: 0;
+  padding: 5px;
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+.menu-right li {
+  border-bottom: 1px solid rgb(255, 139, 85);
+  list-style: none;
+  font-size: 25px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: none;
+}
