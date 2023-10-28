@@ -58,22 +58,25 @@ header .menu{
     margin-top: -20px;
 }
 
+.container-equipe{
+    height: 100%;
+    width: 100%;
+}
+
 .equipe .equipe-img{
     position: relative;
     top: 15%;
-    width: 39%;
+    left: 10%;
+    width: 38%;
 }
 
 .equipe .simbolo-1{
-    width: 8%;
-    position: relative;
-    left: 50%;
-    top: -43%;
+    width: 13%;
 }
 
 .equipe .equipe-txt{
     position: relative;
-    top: -38%;
+    top: -45%;
     left: 50%;
     width: 50%;
 }
@@ -302,17 +305,23 @@ header .menu{
         height: 850px;
     }
 
+    .container-equipe{
+        align-items: center;
+        text-align: center;
+        position: relative;
+        height: 650px;
+    }
+
     .equipe .equipe-img{
         width: 60%;
         top: 5%;
-        left: 13%;
         position: relative;
     }
 
     .equipe .simbolo-1{
         position: relative;
         top: 10%;
-        left: 48%;
+        left: 35%;
     }
 
     .equipe .equipe-txt{
@@ -402,6 +411,10 @@ header .menu{
         background-position: center center;
     }
 
+    .container-isa{
+        height: 660px;
+    }
+
     .aba-isa{
         background-position: 60%;
         height: 1100px;
@@ -429,6 +442,7 @@ header .menu{
         width: 150px;
         height: 50px;
         left: 30px;
+        top: 60px;
         position: relative;
         border: 2px solid orange;
     }
@@ -509,18 +523,19 @@ header .menu{
 
     .equipe .container-equipe{
         position: relative;
-        top: 5%;
+        top: 1%;
+        height: 500px;
     }
 
     .equipe .equipe-img{
         width: 60%;
-        left: 20%;
+        left: 1%;
         position: relative;
     }
 
     .equipe-txt .simbolo-1{
         position: relative;
-        left: 40%;
+        left: 38%;
         margin-bottom: 15px;
         margin-top: 15px;
     }
@@ -682,12 +697,13 @@ header .menu{
     }
 
     .rodape .roda-fora{
-        display: none;
+        display: block;
+        width: 30%;
     }
 
     .rodape .txt-footer{
         position: relative;
-        left: 10%;
+        left: -3%;
         width: 200px;
         bottom: 15px;
     }
@@ -697,12 +713,12 @@ header .menu{
     }
 
     .rodape .txt-footer .relogio h1, .email h1, .whatsapp h1, .insta h1{
-        font-size: 15px;
+        font-size: 10px;
         margin-bottom: -10px;
     }
 
     .rodape .txt-footer .relogio img, .email img, .whatsapp img, .insta img{
-        width: 15px;
+        width: 10px;
         margin-bottom: -10px;
     }
 
