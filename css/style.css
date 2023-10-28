@@ -518,13 +518,13 @@ header .menu{
 
     .equipe{
         margin-top: -760px;
-        height: 800px;
+        height: 900px;
     }
 
     .equipe .container-equipe{
         position: relative;
-        top: 1%;
-        height: 500px;
+        top: 5%;
+        height: 600px;
     }
 
     .equipe .equipe-img{
