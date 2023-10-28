@@ -704,12 +704,12 @@ header .menu{
     .rodape .txt-footer{
         position: relative;
         left: -3%;
-        width: 200px;
+        width: 10%;
         bottom: 15px;
     }
 
     .rodape .txt-footer .relogio, .email, .whatsapp, .insta{
-        width: 300px;
+        width: 150px;
     }
 
     .rodape .txt-footer .relogio h1, .email h1, .whatsapp h1, .insta h1{
