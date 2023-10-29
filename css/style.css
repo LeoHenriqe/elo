@@ -479,25 +479,28 @@ header .menu{
     }
 
     .rodape .roda-fora{
-        display: none;
+        display: block;
+        width: 120px;
+        height: 100px;
     }
 
     .rodape .txt-footer{
         position: relative;
-        left: 10%;
+        left: -5%;
+        top: -10px;
     }
 
     .rodape .txt-footer .relogio, .email, .whatsapp, .insta{
-        width: 300px;
+        width: 250px;
     }
 
     .rodape .txt-footer .relogio h1, .email h1, .whatsapp h1, .insta h1{
-        font-size: 15px;
+        font-size: 12px;
         margin-bottom: -10px;
     }
 
     .rodape .txt-footer .relogio img, .email img, .whatsapp img, .insta img{
-        width: 20px;
+        width: 12px;
         margin-bottom: -10px;
     }
 
