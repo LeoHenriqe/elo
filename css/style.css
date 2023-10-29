@@ -311,27 +311,22 @@ header .menu{
         align-items: center;
         text-align: center;
         position: relative;
-        height: 700px;
+        height: 500px;
     }
 
     .equipe .equipe-img{
         width: 60%;
-        top: 10%;
+        top: 20%;
         margin-left: -80px;
         position: relative;
-    }
-
-    .equipe .simbolo-1{
-        position: relative;
-        left: 35%;
     }
 
     .equipe .equipe-txt{
         position: relative;
         width: 70%;
-        left: 20%;
+        left: 15%;
         top: 15%;
-        text-align: left;
+        text-align: center;
     }
 
     .equipe .equipe-txt h1{
@@ -344,7 +339,6 @@ header .menu{
 
     .equipe a{
         position: relative;
-        left: 21%;
         font-size: 1.2rem;
         z-index: 10;
         border: 2px solid orange;
