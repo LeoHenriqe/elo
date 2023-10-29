@@ -91,6 +91,7 @@ header .menu{
     font-family: "Visby CF Thin";
     font-weight: 100;
     margin-top: 40px;
+    width: 850px;
     margin-bottom: 50px;
     color: white;
     font-size: 3rem;
@@ -195,6 +196,11 @@ header .menu{
     height: 2050px;
 }
 
+.aba-isa .container-isa{
+    position: relative;
+    top: 10%;
+}
+
 .aba-isa .isa-img{
     width: 33%;
     top: 8%;
@@ -208,7 +214,7 @@ header .menu{
 }
 
 .aba-isa .center-isa{
-    top: 10%;
+    top: 30%;
     left: 10%;
     position: relative;
     width: 50%;
@@ -324,7 +330,7 @@ header .menu{
         position: relative;
         width: 70%;
         left: 15%;
-        top: 15%;
+        top: 10%;
         text-align: center;
     }
 
@@ -333,7 +339,10 @@ header .menu{
     }
 
     .equipe .equipe-txt h2{
-        font-size: 1.8rem;
+        font-size: 1.7rem;
+        width: 400px;
+        position: relative;
+        left: -50px;
     }
 
     .equipe a{
@@ -438,7 +447,7 @@ header .menu{
         width: 150px;
         height: 50px;
         left: 30px;
-        top: 60px;
+        top: 20px;
         position: relative;
         border: 2px solid #F99F42;
     }
@@ -642,13 +651,13 @@ header .menu{
     .aba-isa .isa-img{
         width: 70%;
         position: relative;
-        top: 8%;
+        top: -5%;
         left: 15%;
     }
 
     .aba-isa .center-isa{
         position: relative;
-        top: 15%;
+        top: 10%;
         left: 100px;
     }
 
