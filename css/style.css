@@ -25,14 +25,14 @@ header .logo{
 header .menu a{
     margin-left: 20px;
     font-family: "Visby Light";
-    color: orange;
+    color: #F99F42;
     font-size: 2rem;
     cursor: pointer;
 }
 
 header .menu a:hover{
     color: rgb(164, 107, 0);
-    border-bottom: 3px solid orange;
+    border-bottom: 3px solid #F99F42;
     border-radius: 2px;
 }
 
@@ -83,7 +83,7 @@ header .menu{
 
 .equipe h1{
     font-family: "Visby CF bold";
-    color: orange;
+    color: #F99F42;
     font-size: 7rem;
 }
 
@@ -100,8 +100,8 @@ header .menu{
     font-family: "Visby CF bold";
     text-decoration: none;
     font-size: 2.5rem;
-    color: orange;
-    border: 3px solid orange;
+    color: #F99F42;
+    border: 3px solid #F99F42;
     border-radius: 8px;
     padding: 5px;
 }
@@ -217,7 +217,7 @@ header .menu{
 .aba-isa .center-isa h1{
     font-family: "Visby CF Bold";
     font-size: 6rem;
-    color: orange;
+    color: #F99F42;
     margin-bottom: 40px;
 }
 
@@ -231,8 +231,8 @@ header .menu{
     font-family: "Visby CF Bold";
     font-size: 2.2rem;
     text-decoration: none;
-    color: orange;
-    border: 4px solid orange;
+    color: #F99F42;
+    border: 4px solid #F99F42;
     border-radius: 10px;
     align-items: center;
     text-align: center;
@@ -303,19 +303,20 @@ header .menu{
     }
 
     .equipe{
-        margin-top: -760px;
-        height: 890px;
+        margin-top: -740px;
+        height: 900px;
     }
 
     .container-equipe{
-        align-items: center;
         text-align: center;
         position: relative;
+        height: 400px;
+        background-color: red;
+        top: 10%;
     }
 
     .equipe .equipe-img{
         width: 60%;
-        top: 15%;
         margin-left: -80px;
         position: relative;
     }
@@ -340,7 +341,7 @@ header .menu{
         position: relative;
         font-size: 1.2rem;
         z-index: 10;
-        border: 2px solid orange;
+        border: 2px solid #F99F42;
     }
 
     .servicos{
@@ -440,7 +441,7 @@ header .menu{
         left: 30px;
         top: 60px;
         position: relative;
-        border: 2px solid orange;
+        border: 2px solid #F99F42;
     }
 
     .aba-isa .center-isa #img-top-isa{
@@ -657,7 +658,7 @@ header .menu{
     }
 
     .aba-isa .center-isa a{
-        border: 1px solid orange;
+        border: 1px solid #F99F42;
         font-size: 12px;
         width: 150px;
         height: 50px;
