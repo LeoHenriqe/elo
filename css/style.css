@@ -284,12 +284,13 @@ header .menu{
 
 @media (max-width:430px) {
     header{
-        height: 150px;
+        height: 110px;
     }
 
     header img{
-        width: 200px;
+        width: 160px;
         margin-left: -20px;
+        margin-top: -10px;
     }
 
     header .menu{
@@ -298,37 +299,38 @@ header .menu{
 
     header .menu-right{
         display: block;
+        margin-top: -90px;
     }
 
     .equipe{
         margin-top: -760px;
-        height: 850px;
+        height: 890px;
     }
 
     .container-equipe{
         align-items: center;
         text-align: center;
         position: relative;
-        height: 650px;
+        height: 700px;
     }
 
     .equipe .equipe-img{
         width: 60%;
-        top: 5%;
+        top: 10%;
+        margin-left: -80px;
         position: relative;
     }
 
     .equipe .simbolo-1{
         position: relative;
-        top: 10%;
         left: 35%;
     }
 
     .equipe .equipe-txt{
         position: relative;
-        width: 80%;
+        width: 70%;
         left: 20%;
-        top: 10%;
+        top: 15%;
         text-align: left;
     }
 
