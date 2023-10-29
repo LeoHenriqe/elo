@@ -311,12 +311,11 @@ header .menu{
         align-items: center;
         text-align: center;
         position: relative;
-        height: 500px;
     }
 
     .equipe .equipe-img{
         width: 60%;
-        top: 20%;
+        top: 15%;
         margin-left: -80px;
         position: relative;
     }
@@ -357,6 +356,7 @@ header .menu{
     .center-servicos h1{
         font-size: 18px;
         line-height: 14px;
+        font-weight: 600;
     }
 
     .center-servicos .agronegocio, .locacao, .terraplanagem{
