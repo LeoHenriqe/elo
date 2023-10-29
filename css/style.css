@@ -508,11 +508,11 @@ header .menu{
 
 @media (max-width:390px) {
     header{
-        height: 150px;
+        height: 120px;
     }
 
     header img{
-        width: 200px;
+        width: 170px;
         margin-left: -20px;
     }
 
@@ -537,7 +537,7 @@ header .menu{
 
     .equipe .equipe-img{
         width: 60%;
-        left: 1%;
+        left: 10%;
         position: relative;
     }
 
@@ -562,7 +562,9 @@ header .menu{
     }
 
     .equipe .equipe-txt h2{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
+        width: 350px;
+        text-align: center;
     }
 
     .equipe a{
