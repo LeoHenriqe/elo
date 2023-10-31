@@ -44,10 +44,14 @@ header .menu{
 }
 
 .scav{
-    height: 950px;
+    max-height: 1100px;
+    position: relative;
+    top: -10px;
+}
+
+.scav video{
     width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
+    height: 50%;
 }
 
 .equipe{
