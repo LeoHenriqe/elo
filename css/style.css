@@ -527,6 +527,13 @@ header .menu{
         height: 900px;
     }
 
+    .equipe .equipe-img{
+        width: 55%;
+        height: 53%;
+        margin-left: -80px;
+        position: relative;
+    }
+
     .aba-isa .center-isa h2{
         font-size: 22px;
         bottom: 10px;
@@ -535,6 +542,8 @@ header .menu{
         position: relative;
         text-align: center;
     }
+
+
 
 
 }
