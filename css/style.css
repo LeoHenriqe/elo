@@ -434,7 +434,7 @@ header .menu{
 
     .aba-isa .center-isa{
         position: relative;
-        top: 10%;
+        top: 1%;
         left: 100px;
     }
 
@@ -462,6 +462,7 @@ header .menu{
         font-size: 25px;
         text-align: center;
         position: relative;
+        margin-top: -10%;
     }
 
     .aba-isa .center-isa h2{
