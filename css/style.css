@@ -288,6 +288,10 @@ header .menu{
     position: relative;
 }
 
+.rodape .logo-rodape{
+    display: none;
+}
+
 @media (max-width:600px) {
     header{
         height: 110px;
@@ -309,7 +313,8 @@ header .menu{
     }
 
     .equipe{
-        margin-top: -195%;
+        position: relative;
+        margin-top: -173%;
         height: 900px;
     }
 
@@ -481,18 +486,13 @@ header .menu{
     }
 
     .rodape .roda-fora{
-        display: block;
-        width: 60px;
-        height: 60px;
-        left: 5%;
-        position: absolute;
-        top: -20px;
+        display: none;
     }
 
     .rodape .txt-footer{
         position: relative;
-        left: -5%;
-        top: 60px;
+        left: 2%;
+        top: 50px;
     }
 
     .rodape .txt-footer .relogio, .email, .whatsapp, .insta{
@@ -510,232 +510,31 @@ header .menu{
         margin-bottom: -10px;
     }
 
-}
-/*
-@media (max-width:390px) {
-    header{
-        height: 120px;
-    }
-
-    header img{
-        width: 170px;
-        margin-left: -20px;
-    }
-
-    header .menu{
-        display: none;
-    }
-
-    header .menu-right{
+    .rodape .logo-rodape{
         display: block;
+        width: 170px;
+        height: 50px;
+        left: 1%;
+        position: absolute;
+        top: -20px;
     }
 
+}
+
+@media (max-width:390px) {
     .equipe{
         margin-top: -760px;
         height: 900px;
     }
 
-    .equipe .container-equipe{
-        position: relative;
-        top: 5%;
-        height: 600px;
-    }
-
-    .equipe .equipe-img{
-        width: 60%;
-        left: 10%;
-        position: relative;
-    }
-
-    .equipe-txt .simbolo-1{
-        position: relative;
-        left: 38%;
-        margin-bottom: 15px;
-        margin-top: 15px;
-    }
-
-    .equipe .equipe-txt{
-        position: relative;
-        width: 70%;
-        left: 20%;
-        top: 10%;
-        text-align: left;
-    }
-
-    .equipe .equipe-txt h1{
-        font-size: 1.9rem;
-        width: 250px;
-    }
-
-    .equipe .equipe-txt h2{
-        font-size: 1.6rem;
-        width: 350px;
-        text-align: center;
-    }
-
-    .equipe a{
-        position: relative;
-        left: 15%;
-        font-size: 1.7rem;
-        z-index: 10;
-    }
-
-    .servicos{
-        position: relative;
-        margin-top: -35%;
-        width: 100%;
-        height: 1150px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-    }
-
-    .center-servicos h1{
-        font-size: 18px;
-        line-height: 14px;
-    }
-
-    .center-servicos .agronegocio, .locacao, .terraplanagem{
-        position: relative;
-        text-align: center;
-        margin-bottom: 30px;
-        margin-top: 25px;
-    }
-
-    .center-servicos img{
-        width: 180px;
-        margin-bottom: 10px;
-    }
-
-    .center-servicos{
-        position: relative;
-        top: 200px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .servicos .top-servicos{
-        top: 17%;
-        position: relative;
-    }
-
-    .servicos .top-servicos img{
-        width: 100px;
-        margin-top: -70px;
-        position: relative;
-    }
-
-    .servicos .top-servicos h1{
-        font-size: 1.3rem;
-    }
-
-    .servicos a{
-        font-size: 12px;
-        position: relative;
-        top: 200px;
-        left: 40%;
-    }
-
-    .rellax{
-        height: 500px;
-    }
-
-    .paralax{
-        position: relative;
-        margin-top: 40%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-    }
-
-    .container-isa{
-        position: relative;
-        top: 5%;
-        height: 620px;
-    }
-
-    .aba-isa{
-        background-position: 60%;
-        height: 1100px;
-    }
-
-    .aba-isa .isa-img{
-        width: 70%;
-        position: relative;
-        top: -5%;
-        left: 15%;
-    }
-
-    .aba-isa .center-isa{
-        position: relative;
-        top: 10%;
-        left: 100px;
-    }
-
-    .aba-isa .center-isa .wpp{
-        width: 24px;
-    }
-
-    .aba-isa .center-isa a{
-        border: 1px solid #F99F42;
-        font-size: 12px;
-        width: 150px;
-        height: 50px;
-        left: 20px;
-        position: relative;
-    }
-
-    .aba-isa .center-isa #img-top-isa{
-        width: 80px;
-        left: 30%;
-        position: relative;
-    }
-
-    .aba-isa .center-isa h1{
-        font-size: 25px;
-        text-align: center;
-        position: relative;
-    }
-
     .aba-isa .center-isa h2{
         font-size: 22px;
         bottom: 10px;
-        width: 380px;
-        left: -48%;
+        width: 390px;
+        left: -52%;
         position: relative;
         text-align: center;
     }
 
-    .rodape {
-        position: relative;
-        top: 30%;
-        height: 100px;
-    }
-
-    .rodape .roda-fora{
-        display: block;
-        width: 30%;
-    }
-
-    .rodape .txt-footer{
-        position: relative;
-        left: -3%;
-        width: 10%;
-        bottom: 15px;
-    }
-
-    .rodape .txt-footer .relogio, .email, .whatsapp, .insta{
-        width: 150px;
-    }
-
-    .rodape .txt-footer .relogio h1, .email h1, .whatsapp h1, .insta h1{
-        font-size: 10px;
-        margin-bottom: -10px;
-    }
-
-    .rodape .txt-footer .relogio img, .email img, .whatsapp img, .insta img{
-        width: 10px;
-        margin-bottom: -10px;
-    }
 
 }
