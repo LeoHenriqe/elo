@@ -309,7 +309,7 @@ header .menu{
     }
 
     .equipe{
-        margin-top: -740px;
+        margin-top: -195%;
         height: 900px;
     }
 
@@ -340,7 +340,7 @@ header .menu{
 
     .equipe .equipe-txt h2{
         font-size: 1.7rem;
-        width: 400px;
+        width: 370px;
         position: relative;
         left: -50px;
     }
@@ -469,7 +469,7 @@ header .menu{
         font-size: 22px;
         bottom: 10px;
         width: 380px;
-        left: -35%;
+        left: -50%;
         position: relative;
         text-align: center;
     }
