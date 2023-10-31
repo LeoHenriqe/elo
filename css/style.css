@@ -288,7 +288,7 @@ header .menu{
     position: relative;
 }
 
-@media (max-width:1050px) {
+@media (max-width:600px) {
     header{
         height: 110px;
     }
