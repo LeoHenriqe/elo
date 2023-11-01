@@ -541,9 +541,10 @@ header .menu{
 }
 
 @media (max-width:390px) {
+
     .equipe .equipe-txt h2{
         font-size: 1.3rem;
-        width: 350px;
+        width: 300px;
         left: -13%;
     }
 
@@ -555,7 +556,7 @@ header .menu{
     }
 
     .aba-isa .center-isa h2{
-        width: 350px;
+        width: 300px;
         left: -40%;
         position: relative;
     }
