@@ -320,7 +320,7 @@ header .menu{
     }
 
     .scav{
-        height: 1040px;
+        height: 320px;
         width: 100%;
         position: relative;
         top: -30px;
@@ -536,9 +536,9 @@ header .menu{
 }
 
 @media (max-width:390px) {
-    .equipe{
-        margin-top: -760px;
-        height: 900px;
+    .scav{
+        height: 320px;
+        position: relative;
     }
 
     .equipe .equipe-img{
