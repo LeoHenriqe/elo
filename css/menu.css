@@ -64,8 +64,9 @@
 }
 
 .navigation {
-  margin-top: 50px;
-  margin-right: -80px;
+  margin-top: 20px;
+  margin-left: -65px;
+  position: absolute;
   float: left;
   overflow: hidden;
   max-height: 0;

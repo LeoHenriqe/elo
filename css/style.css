@@ -48,6 +48,7 @@ header .menu{
     width: 100%;
     position: relative;
     top: -10px;
+    z-index: -100;
 }
 
 .scav video{
@@ -318,7 +319,15 @@ header .menu{
     }
 
     .scav{
-        top: -25px;
+        height: 1040px;
+        width: 100%;
+        position: relative;
+        top: -30px;
+        z-index: -100;
+    }
+    
+    .scav video{
+        height: 310px;
     }
 
     .equipe{
@@ -551,9 +560,7 @@ header .menu{
         left: -52%;
         position: relative;
         text-align: center;
-    }
-
-
+}
 
 
 }
