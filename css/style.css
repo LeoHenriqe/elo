@@ -50,7 +50,7 @@ header .menu{
     width: 100%;
     position: relative;
     top: -10px;
-    z-index: -1;
+    z-index: 100;
 }
 
 .scav video{
@@ -321,7 +321,7 @@ header .menu{
     }
 
     .scav{
-        height: 320px;
+        height: 1040px;
         width: 100%;
         position: relative;
         top: -30px;
@@ -329,11 +329,13 @@ header .menu{
     }
     
     .scav video{
-        height: 320px;
+        height: 310px;
     }
 
     .equipe{
         position: relative;
+        margin-top: -173%;
+        height: 900px;
     }
 
     .container-equipe{
@@ -364,7 +366,7 @@ header .menu{
 
     .equipe .equipe-txt h2{
         font-size: 1.7rem;
-        width: 400px;
+        width: 370px;
         position: relative;
         left: -50px;
     }
@@ -541,23 +543,26 @@ header .menu{
 }
 
 @media (max-width:390px) {
-
-    .equipe .equipe-txt h2{
-        font-size: 1.3rem;
-        width: 300px;
-        left: -13%;
+    .equipe{
+        margin-top: -760px;
+        height: 900px;
     }
 
     .equipe .equipe-img{
         width: 60%;
-        height: 50%;
+        height: 55%;
         margin-left: -80px;
         position: relative;
     }
 
     .aba-isa .center-isa h2{
-        width: 300px;
-        left: -40%;
+        font-size: 22px;
+        bottom: 10px;
+        width: 390px;
+        left: -52%;
         position: relative;
-    }
+        text-align: center;
+}
+
+
 }
