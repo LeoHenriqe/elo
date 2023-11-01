@@ -550,19 +550,20 @@ header .menu{
 
     .equipe .equipe-txt h2{
         font-size: 1.3rem;
-        width: 370px;
+        width: 350px;
+        left: -13%;
     }
 
     .equipe .equipe-img{
-        width: 50%;
+        width: 60%;
         height: 50%;
         margin-left: -80px;
         position: relative;
     }
 
     .aba-isa .center-isa h2{
-        width: 380px;
-        left: -48%;
+        width: 350px;
+        left: -40%;
         position: relative;
     }
 }
