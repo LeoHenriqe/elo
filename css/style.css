@@ -369,7 +369,6 @@ header .menu{
         width: 400px;
         position: relative;
         left: -50px;
-        background-color: red;
     }
 
     .equipe a{
@@ -549,6 +548,11 @@ header .menu{
         height: 900px;
     }
 
+    .equipe .equipe-txt h2{
+        font-size: 1.5rem;
+        width: 370px;
+    }
+
     .equipe .equipe-img{
         width: 60%;
         height: 60%;
@@ -557,12 +561,8 @@ header .menu{
     }
 
     .aba-isa .center-isa h2{
-        font-size: 22px;
-        bottom: 10px;
-        width: 390px;
-        left: -52%;
+        width: 380px;
+        left: -48%;
         position: relative;
-        text-align: center;
     }
-
 }
