@@ -549,13 +549,13 @@ header .menu{
     }
 
     .equipe .equipe-txt h2{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         width: 370px;
     }
 
     .equipe .equipe-img{
-        width: 60%;
-        height: 60%;
+        width: 50%;
+        height: 50%;
         margin-left: -80px;
         position: relative;
     }
