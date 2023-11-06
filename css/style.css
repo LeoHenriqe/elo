@@ -306,7 +306,7 @@ header .menu{
     
 }
 
-@media (max-width:1600px) {
+@media (max-width:1200px) {
     header{
         height: 110px;
     }
