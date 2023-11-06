@@ -301,7 +301,7 @@ header .menu{
     display: none;
 }
 
-@media (max-width:1200px) {
+@media (max-width:600px) {
     header{
         height: 110px;
     }
@@ -543,6 +543,12 @@ header .menu{
         position: relative;
         margin-bottom: -50px;
     }
+
+    .equipe .container-equipe h2{
+        font-size: 24px;
+        position: relative;
+        margin-left: -14px;
+    }
     
     .equipe .equipe-img{
         width: 60%;
@@ -571,7 +577,7 @@ header .menu{
     }
 
     .scav{
-        height: 330px;
+        height: 340px;
         position: relative;
         margin-bottom: -60px;
     }
