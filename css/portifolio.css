@@ -49,6 +49,30 @@ body{
     height: 800px;
 }
 
+#select{
+    color: white;
+    border-bottom: solid 2px white;
+}
+
+#btn-voltar-sec{
+    height: 200px;
+}
+
+#btn-voltar-sec .btn-voltar{
+    position: relative;
+    left: 48%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 2.5rem;
+    z-index: 10;
+    border: 2px solid #F99F42;
+    color: #F99F42;
+    text-decoration: none;
+    border-radius: 8px;
+    top: 40%;
+    font-family: "Visby CF bold";
+}
+
 @media (max-width:600px){
     #terra .dentro-terra h1{
         font-size: 40px;
@@ -74,7 +98,11 @@ body{
     #portifolio-img .imgs-port img{
         width: 100%;
         height: 300px;
-        
+    }
+
+    #btn-voltar-sec .btn-voltar{
+        position: relative;
+        left: 35%;
     }
 
 } 
