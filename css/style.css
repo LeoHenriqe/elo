@@ -28,6 +28,7 @@ header .menu a{
     color: #F99F42;
     font-size: 2rem;
     cursor: pointer;
+    text-decoration: none;
 }
 
 header .menu a:hover{
@@ -198,10 +199,11 @@ header .menu{
 
 .aba-isa{
     background-image: url(/imagens/fundo-isa-e-rodape.png);
-    background-size: cover;
-    background-repeat: no-repeat;
     width: 100%;
-    height: 2000px;
+    height: 900px;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 .aba-isa .container-isa{
