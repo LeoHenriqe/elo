@@ -543,7 +543,7 @@ header .menu{
         position: relative;
         margin-bottom: -50px;
     }
-
+    
     .equipe .equipe-img{
         width: 60%;
         height: 55%;
@@ -561,4 +561,12 @@ header .menu{
     }
 
 
+}
+
+@media (max-width:414px) {
+    .equipe .container-equipe h2{
+        font-size: 24px;
+        position: relative;
+        left: -35px;
+    }
 }
