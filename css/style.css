@@ -443,7 +443,7 @@ header .menu{
 
     .aba-isa{
         background-position: 80%;
-        height: 900px;
+        height: 1000px;
         width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -458,7 +458,7 @@ header .menu{
 
     .aba-isa .center-isa{
         position: relative;
-        top: -5%;
+        top: 2%;
         left: 100px;
     }
 
@@ -499,8 +499,8 @@ header .menu{
     }
 
     .rodape {
-        position: relative;
-        top: 2px;
+        margin-top: -50px;
+        height: 100px;
     }
 
     .rodape .roda-fora{
@@ -510,6 +510,7 @@ header .menu{
     .rodape .txt-footer{
         position: relative;
         left: 2%;
+        height: 80px;
         top: 50px;
     }
 
