@@ -585,6 +585,11 @@ header .menu{
         width: 350px;
     }
 
+    .equipe .container-equipe{
+        position: relative;
+        top: 20%;
+    }
+
     .scav{
         height: 340px;
         position: relative;
