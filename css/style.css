@@ -198,17 +198,16 @@ header .menu{
 }
 
 .aba-isa{
-    background-image: url(/imagens/fundo-isa-e-rodape.png);
+    background-image: url(/imagens/fundo-isa-e-rodape\ 2.png);
     width: 100%;
-    height: 900px;
-    background-size: contain;
+    height: 1350px;
+    background-size: cover;
     background-position: right;
-    background-repeat: no-repeat;
 }
 
 .aba-isa .container-isa{
     position: relative;
-    top: 10%;
+    top: 5%;
 }
 
 .aba-isa .isa-img{
@@ -232,20 +231,20 @@ header .menu{
 
 .aba-isa .center-isa h1{
     font-family: "Visby CF Bold";
-    font-size: 4rem;
+    font-size: 3.4rem;
     color: #F99F42;
     margin-bottom: 40px;
 }
 
 .aba-isa .center-isa h2{
     font-family: "Visby CF Thin";
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: rgb(255, 255, 255);
 }
 
 .aba-isa a{
     font-family: "Visby CF Bold";
-    font-size: 2.2rem;
+    font-size: 1.7rem;
     text-decoration: none;
     color: #F99F42;
     border: 4px solid #F99F42;
@@ -265,7 +264,7 @@ header .menu{
 .rodape{
     width: 80%;
     position: relative;
-    top: 42%;
+    top: 12%;
     left: 10%;
     display: flex;
     align-self: center;
