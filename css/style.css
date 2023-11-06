@@ -301,7 +301,12 @@ header .menu{
     display: none;
 }
 
-@media (max-width:600px) {
+@media (max-widht: 1600px){
+    
+    
+}
+
+@media (max-width:1600px) {
     header{
         height: 110px;
     }
