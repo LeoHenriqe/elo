@@ -301,11 +301,6 @@ header .menu{
     display: none;
 }
 
-@media (max-widht: 1600px){
-    
-    
-}
-
 @media (max-width:1200px) {
     header{
         height: 110px;
@@ -335,7 +330,7 @@ header .menu{
     }
     
     .scav video{
-        height: 310px;
+        height: 320px;
     }
 
     .container-equipe{
@@ -544,7 +539,7 @@ header .menu{
 
 @media (max-width:390px) {
     .scav{
-        height: 320px;
+        height: 330px;
         position: relative;
     }
 
@@ -562,7 +557,7 @@ header .menu{
         left: -52%;
         position: relative;
         text-align: center;
-}
+    }
 
 
 }
