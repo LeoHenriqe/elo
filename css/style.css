@@ -541,6 +541,7 @@ header .menu{
     .scav{
         height: 330px;
         position: relative;
+        margin-bottom: -50px;
     }
 
     .equipe .equipe-img{
