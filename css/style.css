@@ -572,14 +572,14 @@ header .menu{
 @media (max-width:414px) {
     
     .equipe .container-equipe h2{
-        font-size: 22px;
+        font-size: 25px;
         position: relative;
-        left: -20px;
+        left: -25px;
         width: 350px;
     }
 
     .equipe .container-equipe h1{
-        font-size: 25px;
+        font-size: 30px;
         position: relative;
         left: -30px;
         width: 350px;
@@ -599,4 +599,5 @@ header .menu{
         position: relative;
         text-align: center;
     }
+
 }
