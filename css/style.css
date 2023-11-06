@@ -537,7 +537,7 @@ header .menu{
 
 }
 
-@media (max-width:428px) {
+@media (max-width:390px) {
     .scav{
         height: 330px;
         position: relative;
