@@ -443,19 +443,22 @@ header .menu{
 
     .aba-isa{
         background-position: 80%;
-        height: 1000px;
+        height: 900px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .aba-isa .isa-img{
         width: 70%;
         position: relative;
-        top: 8%;
+        top: -2%;
         left: 15%;
     }
 
     .aba-isa .center-isa{
         position: relative;
-        top: 1%;
+        top: -5%;
         left: 100px;
     }
 
@@ -497,7 +500,7 @@ header .menu{
 
     .rodape {
         position: relative;
-        top: 8%;
+        top: 2px;
     }
 
     .rodape .roda-fora{
