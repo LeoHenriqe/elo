@@ -569,4 +569,10 @@ header .menu{
         position: relative;
         left: -35px;
     }
+
+    .scav{
+        height: 330px;
+        position: relative;
+        margin-bottom: -60px;
+    }
 }
