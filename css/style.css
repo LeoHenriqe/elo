@@ -301,7 +301,7 @@ header .menu{
     display: none;
 }
 
-@media (max-width:600px) {
+@media (max-width:1200px) {
     header{
         height: 110px;
     }
@@ -570,15 +570,33 @@ header .menu{
 }
 
 @media (max-width:414px) {
+    
     .equipe .container-equipe h2{
-        font-size: 24px;
+        font-size: 20px;
         position: relative;
-        left: -35px;
+        left: -20px;
+        width: 350px;
+    }
+
+    .equipe .container-equipe h1{
+        font-size: 20px;
+        position: relative;
+        left: -20px;
+        width: 350px;
     }
 
     .scav{
         height: 340px;
         position: relative;
         margin-bottom: -60px;
+    }
+
+    .aba-isa .center-isa h2{
+        font-size: 20px;
+        bottom: 10px;
+        width: 390px;
+        left: -42%;
+        position: relative;
+        text-align: center;
     }
 }
