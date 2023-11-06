@@ -300,7 +300,7 @@ header .menu{
     display: none;
 }
 
-@media (max-width:1200px) {
+@media (max-width:600px) {
     header{
         height: 110px;
     }
@@ -442,8 +442,8 @@ header .menu{
     }
 
     .aba-isa{
-        background-position: 60%;
-        height: 1050px;
+        background-position: 80%;
+        height: 1000px;
     }
 
     .aba-isa .isa-img{
@@ -460,44 +460,44 @@ header .menu{
     }
 
     .aba-isa .center-isa .wpp{
-        width: 27px;
+        width: 25px;
     }
 
     .aba-isa .center-isa a{
         font-size: 12px;
         width: 150px;
         height: 50px;
-        left: 30px;
+        left: 25px;
         top: 20px;
         position: relative;
         border: 2px solid #F99F42;
     }
 
     .aba-isa .center-isa #img-top-isa{
-        width: 80px;
+        width: 70px;
         left: 30%;
         position: relative;
     }
 
-    .aba-isa .center-isa h1{
-        font-size: 25px;
+    .aba-isa .container-isa .center-isa h1{
+        font-size: 20px;
         text-align: center;
         position: relative;
         margin-top: -10%;
     }
 
-    .aba-isa .center-isa h2{
-        font-size: 22px;
+    .aba-isa .container-isa .center-isa h2{
+        font-size: 18px;
         bottom: 10px;
-        width: 400px;
-        left: -40%;
+        width: 300px;
+        left: -25%;
         position: relative;
         text-align: center;
     }
 
     .rodape {
         position: relative;
-        top: 23%;
+        top: 8%;
     }
 
     .rodape .roda-fora{
@@ -557,15 +557,10 @@ header .menu{
     }
 
     .aba-isa .center-isa h2{
-        font-size: 22px;
-        bottom: 10px;
-        width: 390px;
-        left: -52%;
+        left: -50%;
         position: relative;
         text-align: center;
     }
-
-
 }
 
 @media (max-width:428px) {
