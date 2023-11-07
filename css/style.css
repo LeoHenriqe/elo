@@ -355,8 +355,7 @@ header .menu{
         text-align: center;
         position: relative;
         height: 400px;
-        margin-top: 20%;
-        background-color: red;
+        margin-top: 10%;
     }
 
     .equipe{
@@ -374,7 +373,7 @@ header .menu{
         position: relative;
         width: 70%;
         left: 15%;
-        top: 20%;
+        top: 10%;
         text-align: center;
     }
 
