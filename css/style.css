@@ -154,7 +154,7 @@ header .menu{
 .servicos .top-servicos{
     position: relative;
     top: 15%;
-    left: 15%;
+    left: 13%;
     width: 70%;
     align-items: center;
     text-align: center;
@@ -337,19 +337,18 @@ header .menu{
 
     header .menu-right{
         display: block;
-        margin-top: -90px;
+        margin-top: -45px;
     }
 
     .scav{
         height: 320px;
         width: 100%;
         position: relative;
-        top: -30px;
-        z-index: -100;
+        top: -50px;
     }
     
     .scav video{
-        height: 320px;
+        height: 200px;
     }
 
     .container-equipe{
