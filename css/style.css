@@ -15,18 +15,26 @@ header .menu-right{
 header{
     background-color: #131B26;
     display: flex;
-    height: 200px;
+    height: 120px;
+    align-items: center;
 }
 
 header .logo{
-    padding: 50px;
+    padding: 20px;
+}
+
+header .logo img{
+    width: 12%;
+    position: relative;
+    top: 5px;
+    left: 50px;
 }
 
 header .menu a{
     margin-left: 20px;
     font-family: "Visby Light";
     color: #F99F42;
-    font-size: 2rem;
+    font-size: 1.5rem;
     cursor: pointer;
     text-decoration: none;
 }
@@ -40,7 +48,7 @@ header .menu a:hover{
 header .menu{
     float: right;
     margin-right: 80px;
-    margin-top: -140px;
+    margin-top: -80px;
     padding: 20px;
 }
 
@@ -56,27 +64,29 @@ header .menu{
 
 .scav video{
     width: 100%;
-    height: 1080px;
+    height: 750px;
     object-fit: cover;
 }
 
 .equipe{
     width: 100%;
-    height: 120vh;
+    height: 100vh;
     background-color: #131B26;
-    margin-top: -20px;
+    margin-top: -350px;
 }
 
 .container-equipe{
-    height: 100%;
+    height: 70%;
     width: 100%;
+    position: relative;
+    top: 80px;
 }
 
 .equipe .equipe-img{
     position: relative;
     top: 15%;
     left: 10%;
-    width: 38%;
+    width: 28%;
 }
 
 .equipe .simbolo-1{
@@ -85,15 +95,15 @@ header .menu{
 
 .equipe .equipe-txt{
     position: relative;
-    top: -45%;
+    top: -60%;
     left: 50%;
-    width: 50%;
+    width: 40%;
 }
 
 .equipe h1{
     font-family: "Visby CF bold";
     color: #F99F42;
-    font-size: 7rem;
+    font-size: 4rem;
 }
 
 .equipe h2{
@@ -103,13 +113,13 @@ header .menu{
     width: 850px;
     margin-bottom: 50px;
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .equipe-txt a{
     font-family: "Visby CF bold";
     text-decoration: none;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #F99F42;
     border: 3px solid #F99F42;
     border-radius: 8px;
@@ -117,13 +127,13 @@ header .menu{
 }
 
 .servicos{
-    z-index: 10;
+    z-index: 1000;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     width: 100%;
-    height: 1600px;
-    margin-top: -15%;
+    height: 1350px;
+    margin-top: -10%;
     position: relative;
     background-image: url(/imagens/FUNDO-SERVIÇOS.png);
 }
@@ -132,7 +142,7 @@ header .menu{
     position: relative;
     top: 40%;
     left: 45%;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: white;
     border: 4px solid white;
     border-radius: 10px;
@@ -143,7 +153,7 @@ header .menu{
 
 .servicos .top-servicos{
     position: relative;
-    top: 20%;
+    top: 15%;
     left: 13%;
     width: 70%;
     align-items: center;
@@ -151,11 +161,11 @@ header .menu{
 }
 
 .servicos .simbolo-2{
-    width: 13%;
+    width: 8%;
 }
 
 .servicos .top-servicos h1{
-    font-size: 4rem;
+    font-size: 2rem;
     font-family: "Visby CF bold";
     color: white;
     margin-top: 30px;
@@ -167,7 +177,7 @@ header .menu{
     width: 95%;
     display: flex;
     position: relative;
-    top: 30%;
+    top: 25%;
     left: 2%;
 }
 
@@ -183,8 +193,8 @@ header .menu{
 }
 
 .rellax{
-    margin-top: -710px;
-    margin-bottom: 300px;
+    margin-top: -610px;
+    margin-bottom: 200px;
     position: relative;
     z-index: -100;
 }
@@ -200,9 +210,10 @@ header .menu{
 .aba-isa{
     background-image: url(/imagens/fundo-isa-e-rodape\ 2.png);
     width: 100%;
-    height: 1350px;
+    height: 1100px;
     background-size: cover;
     background-position: right;
+    background-repeat: no-repeat;
 }
 
 .aba-isa .container-isa{
@@ -210,41 +221,47 @@ header .menu{
     top: 5%;
 }
 
-.aba-isa .isa-img{
-    width: 20%;
-    top: 8%;
-    left: 10%;
+.aba-isa .container-isa #img-top-isa{
+    width: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+
+.aba-isa .container-isa .isa-img{
+    width: 12%;
+    top: 10%;
+    left: 15%;
     position: relative;
 }
 
-.aba-isa .center-isa img{
-    width: 10%;
-    margin-bottom: 30px;
+.aba-isa .center-isa a img{
+    width: 5%;
+    margin-bottom: 25px;
 }
 
 .aba-isa .center-isa{
-    top: 30%;
-    left: 10%;
+    margin-top: 1%;
+    left: 15%;
     position: relative;
-    width: 50%;
+    width: 40%;
 }
 
 .aba-isa .center-isa h1{
     font-family: "Visby CF Bold";
-    font-size: 3.4rem;
+    font-size: 2.5rem;
     color: #F99F42;
     margin-bottom: 40px;
 }
 
 .aba-isa .center-isa h2{
     font-family: "Visby CF Thin";
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: rgb(255, 255, 255);
 }
 
 .aba-isa a{
     font-family: "Visby CF Bold";
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     text-decoration: none;
     color: #F99F42;
     border: 4px solid #F99F42;
@@ -252,11 +269,13 @@ header .menu{
     align-items: center;
     text-align: center;
     padding: 8px;
+    position: relative;
+    top: 20px;
 }
 
 .aba-isa a .wpp{
     position: relative;
-    top: 38px;
+    top: 33px;
     left: -3px;
     width: 45px;
 }
@@ -264,22 +283,23 @@ header .menu{
 .rodape{
     width: 80%;
     position: relative;
-    top: 12%;
+    top: 20%;
     left: 10%;
     display: flex;
     align-self: center;
 }
 
 .rodape .roda-fora{
-    width: 19%;
-    margin-right: 40px;
+    width: 15%;
+    height: 15%;
+    margin-right: 80px;
 }
 
 .rodape .txt-footer .relogio, .email, .insta, .whatsapp{
     width: 500px;
     display: flex;
     align-items: center;
-    margin-bottom: 40px; 
+    margin-top: 10px;
 }
 
 
