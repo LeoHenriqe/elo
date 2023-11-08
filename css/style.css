@@ -448,7 +448,7 @@ header .menu{
     }
 
     .rellax{
-        height: 650px;
+        height: 600px;
     }
 
     .paralax{
@@ -638,12 +638,49 @@ header .menu{
     }
 
     .aba-isa .center-isa h2{
-        font-size: 20px;
         bottom: 10px;
         width: 390px;
-        left: -42%;
+        margin-left: 10%;
         position: relative;
         text-align: center;
+    }
+
+    .aba-isa .center-isa h1{
+        bottom: 10px;
+        width: 390px;
+        margin-left: -60%;
+        position: relative;
+        text-align: center;
+    }
+
+    .aba-isa .center-isa #img-top-isa{
+        left: 82px;
+    }
+
+    .aba-isa .center-isa a{
+        left: 40px;
+    }
+
+    .rodape .txt-footer{
+        position: relative;
+        left: 2%;
+        height: 80px;
+        top: 50px;
+    }
+
+    .rodape .txt-footer .relogio, .email, .whatsapp, .insta{
+        width: 250px;
+        margin-bottom: 15px;
+    }
+
+    .rodape .txt-footer .relogio h1, .email h1, .whatsapp h1, .insta h1{
+        font-size: 12px;
+        margin-bottom: -10px;
+    }
+
+    .rodape .txt-footer .relogio img, .email img, .whatsapp img, .insta img{
+        width: 12px;
+        margin-bottom: -10px;
     }
 
 }
