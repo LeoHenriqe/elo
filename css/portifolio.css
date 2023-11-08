@@ -74,6 +74,11 @@ body{
 }
 
 @media (max-width:600px){
+
+    header{
+        height: 70px;
+    }
+
     #terra .dentro-terra h1{
         font-size: 40px;
     }
