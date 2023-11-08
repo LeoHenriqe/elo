@@ -586,26 +586,47 @@ header .menu{
     }
 
     .aba-isa .center-isa h2{
-        left: -50%;
+        left: -40%;
         position: relative;
         text-align: center;
     }
 }
 
 @media (max-width:428px) {
-    
-    .equipe .container-equipe h2{
-        font-size: 25px;
-        position: relative;
-        left: -25px;
-        width: 350px;
+
+    .equipe .container-equipe .equipe-txt h1{
+        font-size: 23px;
+        width: 200px;
+        left: 15%;
     }
 
-    .equipe .container-equipe h1{
-        font-size: 30px;
+    .equipe .container-equipe .equipe-txt h2{
+        font-size: 18px;
+    }
+
+    .aba-isa .container-isa .center-isa h2{
+        bottom: 10px;
+        width: 300px;
+        margin-left: 5%;
         position: relative;
-        left: -25px;
-        width: 350px;
+        text-align: center;
+    }
+
+    .aba-isa .container-isa .center-isa h1{
+        bottom: 10px;
+        width: 200px;
+        margin-left: -10%;
+        position: relative;
+        text-align: center;
+    }
+
+    .aba-isa .center-isa #img-top-isa{
+        margin-left: -10px;
+    }
+
+    .aba-isa .center-isa a{
+        margin-left: -2px;
+        font-size: 9px;
     }
 
 }
