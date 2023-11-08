@@ -607,7 +607,7 @@ header .menu{
     .aba-isa .container-isa .center-isa h2{
         bottom: 10px;
         width: 300px;
-        margin-left: 5%;
+        margin-left: 10%;
         position: relative;
         text-align: center;
     }
@@ -658,28 +658,20 @@ header .menu{
         margin-bottom: -60px;
     }
 
-    .aba-isa .center-isa h2{
-        bottom: 10px;
-        width: 390px;
+    .aba-isa .container-isa .center-isa h2{
         margin-left: 10%;
-        position: relative;
-        text-align: center;
     }
 
-    .aba-isa .center-isa h1{
-        bottom: 10px;
-        width: 390px;
-        margin-left: -60%;
-        position: relative;
-        text-align: center;
+    .aba-isa .container-isa .center-isa h1{
+        margin-left: -5%;
     }
 
     .aba-isa .center-isa #img-top-isa{
-        left: 82px;
+        left: 90px;
     }
 
     .aba-isa .center-isa a{
-        left: 40px;
+        left: 50px;
     }
 
     .rodape .txt-footer{
