@@ -461,7 +461,9 @@ header .menu{
     }
 
     .container-isa{
+        flex-direction: column;
         height: 580px;
+        position: relative;
     }
 
     .aba-isa{
@@ -475,19 +477,19 @@ header .menu{
     .aba-isa .container-isa .isa-img{
         width: 70%;
         position: relative;
-        top: 2%;
+        top: -8%;
         left: 17%;
     }
 
     .aba-isa .center-isa{
         position: relative;
-        top: 2%;
-        left: 100px;
+        top: -14%;
+        left: 23%;
     }
 
     .aba-isa .center-isa .wpp{
         width: 20px;
-        top: 30px;
+        top: 32px;
     }
 
     .aba-isa .center-isa a{
@@ -502,7 +504,7 @@ header .menu{
 
     .aba-isa .center-isa #img-top-isa{
         width: 35%;
-        left: 43%;
+        left: 42%;
         position: relative;
     }
 
@@ -510,7 +512,7 @@ header .menu{
         font-size: 20px;
         text-align: center;
         position: relative;
-        margin-top: 5%;
+        margin-top: 2%;
         left: 10%;
     }
 
@@ -524,7 +526,7 @@ header .menu{
     }
 
     .rodape {
-        margin-top: -50px;
+        margin-top: -25%;
         height: 100px;
     }
 
