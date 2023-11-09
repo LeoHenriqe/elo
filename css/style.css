@@ -649,8 +649,12 @@ header .menu{
         margin-left: -5%;
     }
 
+    .aba-isa .container-isa .isa-img{
+        left: 15%;
+    }
+
     .aba-isa .center-isa #img-top-isa{
-        left: 90px;
+        left: 50%;
     }
 
     .aba-isa .center-isa a{
