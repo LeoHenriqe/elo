@@ -353,7 +353,8 @@ header .menu{
         flex-direction: column;
         top: 300px;
         left: 1%;
-        width: 100%;
+        width: 98%;
+        background-color: red;
     }
 
     .equipe .container-equipe h1{
