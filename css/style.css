@@ -218,7 +218,8 @@ header .menu{
 
 .aba-isa .container-isa{
     position: relative;
-    top: 5%;
+    top: 11%;
+    display: flex;
 }
 
 .aba-isa .container-isa #img-top-isa{
@@ -228,9 +229,8 @@ header .menu{
 } 
 
 .aba-isa .container-isa .isa-img{
-    width: 12%;
-    top: 10%;
-    left: 15%;
+    width: 28%;
+    left: 10%;
     position: relative;
 }
 
@@ -240,7 +240,7 @@ header .menu{
 }
 
 .aba-isa .center-isa{
-    margin-top: 1%;
+    margin-top: 2%;
     left: 15%;
     position: relative;
     width: 40%;
@@ -248,14 +248,14 @@ header .menu{
 
 .aba-isa .center-isa h1{
     font-family: "Visby CF Bold";
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     color: #F99F42;
     margin-bottom: 40px;
 }
 
 .aba-isa .center-isa h2{
     font-family: "Visby CF Thin";
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: rgb(255, 255, 255);
 }
 
@@ -283,7 +283,7 @@ header .menu{
 .rodape{
     width: 80%;
     position: relative;
-    top: 20%;
+    top: 26%;
     left: 10%;
     display: flex;
     align-self: center;
