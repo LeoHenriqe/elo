@@ -690,27 +690,32 @@ header .menu{
 }
 
 
-@media only screen and (min-width: 430px) {
+@media only screen and (min-width: 428px) {
 
     .equipe .container-equipe .equipe-txt h1{
         font-size: 23px;
         width: 200px;
-        margin-left: 18%;
+        margin-left: 25%;
+    }
+
+    .equipe .container-equipe .equipe-img{
+        width: 70%;
+        height: 70%;
     }
 
     .equipe .container-equipe .equipe-txt h2{
-        font-size: 18px;
-        margin-left: 8%;
+        font-size: 20px;
+        margin-left: 2%;
     }
 
     .equipe .container-equipe{
-        top: 22%;
+        top: 18%;
     }
 
     .aba-isa .container-isa .center-isa h2{
         bottom: 10px;
-        width: 300px;
-        margin-left: 15%;
+        width: 350px;
+        margin-left: -5%;
         position: relative;
     }
 
@@ -723,11 +728,13 @@ header .menu{
     }
 
     .aba-isa .center-isa #img-top-isa{
-        margin-left: 10%;
+        left: 55%;
+        width: 25%;
+        background-color: red;
     }
 
     .aba-isa .center-isa a{
-        margin-left: 15%;
+        left: 30%;
         font-size: 10px;
         top: -5px;
     }
