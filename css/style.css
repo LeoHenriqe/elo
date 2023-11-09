@@ -567,7 +567,7 @@ header .menu{
 
 }
 
-@media only screen and (min-width: 390px) {
+@media only screen and (max-width: 390px) {
 
     .scav{
         height: 330px;
@@ -618,7 +618,7 @@ header .menu{
 }
 
 
-@media only screen and (min-width: 414px) {
+@media only screen and (max-width: 414px) {
     
     .equipe .container-equipe h2{
         font-size: 25px;
@@ -690,7 +690,7 @@ header .menu{
 }
 
 
-@media only screen and (min-width: 428px) {
+@media only screen and (max-width: 428px) {
 
     .equipe .container-equipe .equipe-txt h1{
         font-size: 23px;
@@ -730,7 +730,6 @@ header .menu{
     .aba-isa .center-isa #img-top-isa{
         left: 55%;
         width: 25%;
-        background-color: red;
     }
 
     .aba-isa .center-isa a{
