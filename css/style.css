@@ -320,7 +320,7 @@ header .menu{
     display: none;
 }
 
-@media (max-width:600px) {
+@media only screen and (max-width: 600px) {
     header{
         height: 120px;
     }
@@ -567,7 +567,8 @@ header .menu{
 
 }
 
-@media (max-width:390px) {
+@media only screen and (min-width: 390px) {
+
     .scav{
         height: 330px;
         position: relative;
@@ -575,9 +576,9 @@ header .menu{
     }
 
     .equipe .container-equipe h2{
-        font-size: 24px;
+        font-size: 20px;
         position: relative;
-        margin-left: -14px;
+        margin-left: 1%;
     }
     
     .equipe .equipe-img{
@@ -587,53 +588,34 @@ header .menu{
         position: relative;
     }
 
-    .aba-isa .center-isa h2{
-        left: -40%;
-        position: relative;
-        text-align: center;
+    .aba-isa .center-isa #img-top-isa{
+        left: 50%;
+        background-color: red;
     }
-}
-
-@media (max-width:428px) {
-
-    .equipe .container-equipe .equipe-txt h1{
-        font-size: 23px;
-        width: 200px;
-        left: 15%;
-    }
-
-    .equipe .container-equipe .equipe-txt h2{
-        font-size: 18px;
+    
+    .equipe .container-equipe{
+        top: 20%;
     }
 
     .aba-isa .container-isa .center-isa h2{
-        bottom: 10px;
-        width: 300px;
-        margin-left: 10%;
+        left: -30%;
         position: relative;
         text-align: center;
     }
 
     .aba-isa .container-isa .center-isa h1{
-        bottom: 10px;
+        margin-left: -5%;
         width: 200px;
-        margin-left: -10%;
-        position: relative;
-        text-align: center;
-    }
-
-    .aba-isa .center-isa #img-top-isa{
-        margin-left: -10px;
     }
 
     .aba-isa .center-isa a{
-        margin-left: -2px;
-        font-size: 9px;
+        left: 25%;
     }
 
 }
 
-@media (max-width:414px) {
+
+@media only screen and (min-width: 414px) {
     
     .equipe .container-equipe h2{
         font-size: 25px;
@@ -696,6 +678,51 @@ header .menu{
     .rodape .txt-footer .relogio img, .email img, .whatsapp img, .insta img{
         width: 12px;
         margin-bottom: -10px;
+    }
+
+}
+
+
+@media only screen and (min-width: 430px) {
+
+    .equipe .container-equipe .equipe-txt h1{
+        font-size: 23px;
+        width: 200px;
+        margin-left: 18%;
+    }
+
+    .equipe .container-equipe .equipe-txt h2{
+        font-size: 18px;
+        margin-left: 8%;
+    }
+
+    .equipe .container-equipe{
+        top: 22%;
+    }
+
+    .aba-isa .container-isa .center-isa h2{
+        bottom: 10px;
+        width: 300px;
+        margin-left: 15%;
+        position: relative;
+    }
+
+    .aba-isa .container-isa .center-isa h1{
+        bottom: 10px;
+        width: 200px;
+        margin-left: -1%;
+        position: relative;
+        text-align: center;
+    }
+
+    .aba-isa .center-isa #img-top-isa{
+        margin-left: 10%;
+    }
+
+    .aba-isa .center-isa a{
+        margin-left: 15%;
+        font-size: 10px;
+        top: -5px;
     }
 
 }
