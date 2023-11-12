@@ -67,7 +67,7 @@
   margin-left: -70px;
   position: absolute;
   float: left;
-  overflow: hidden;
+  /*overflow: hidden;*/
   max-height: 0;
   transition: max-height 0.5s ease-in-out;
   z-index: 10000;
@@ -76,6 +76,32 @@
 .burger-check:checked ~ .navigation {
   max-height: 500px;
   transition: max-height 0.5s ease-in-out;
+}
+
+.navigation .conteudo .port-h1{
+  font-family: "Visby CF Bold";
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  height: 25px;
+}
+
+.navigation .conteudo a:not(:first-child){
+  display: none;
+  background-color: white;
+  padding-top: 10px;
+  top: 5px;
+  position: relative;
+  color: orange;
+  height: 30px;
+  width: 150px;
+}
+
+.navigation .conteudo:hover a{
+  display: block;
+  z-index: 1000;
 }
 
 .menu-right{

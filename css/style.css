@@ -51,9 +51,38 @@ header .menu a:hover{
 header .menu{
     float: right;
     right: 5%;
-    top: -60px;
+    top: -55px;
     position: relative;
     padding: 20px;
+}
+
+.menu .conteudo .port-h1{
+    margin-left: 20px;
+    font-family: "Visby Light";
+    color: #F99F42;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    left: -110px;
+    height: 25px;
+}
+
+.menu .conteudo a:not(:first-child){
+    display: none;
+    position: relative;
+    background-color: white;
+    top: 28px;
+    left: -200px;
+    height: 30px;
+    width: 220px;
+    padding: 10px;
+}
+
+.menu .conteudo:hover a{
+    display: block;
+    z-index: 1000;
 }
 
 .scav{
