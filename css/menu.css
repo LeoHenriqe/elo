@@ -119,6 +119,29 @@ a {
   text-align: center;
 }
 
+.navi details summary{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: "Visby CF Bold";
+  padding: 10px;
+  list-style-type: '';
+  text-align: center;
+}
+
+.navi details li{
+  background-color: white;
+  text-align: left;
+}
+
+
+.navi details li a{ 
+  font-size: 17px;
+  color: orange;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
 .navi {
   background-color: orange;
   margin: 0;

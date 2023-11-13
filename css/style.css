@@ -237,7 +237,7 @@ header .menu{
     background-position: center center;
     background-attachment: fixed;
     background-size: 100%;
-    min-height: 800px;
+    min-height: 900px;
     background-image: url(/imagens/DSC00625-Aprimorado-NR.jpg);
 }
 
@@ -308,19 +308,29 @@ header .menu{
     top: 20px;
 }
 
+footer{
+    position: absolute;
+    height: 320px;
+    top: 459%;
+}
+
 .rodape{
     width: 80%;
     position: relative;
-    top: 26%;
     left: 10%;
     display: flex;
     align-self: center;
+}
+
+.rodape .txt-footer{
+    margin-top: 30px;
 }
 
 .rodape .roda-fora{
     width: 15%;
     height: 15%;
     margin-right: 80px;
+    margin-top: 70px;
 }
 
 .rodape .txt-footer .relogio, .email, .insta, .whatsapp{
@@ -445,6 +455,7 @@ header .menu{
     }
 
     .paralax{
+        margin-top: -200px;
         position: relative;
         width: 100%;
         background-repeat: no-repeat;
@@ -504,15 +515,15 @@ header .menu{
         font-size: 13px;
     }
 
-    .rodape{
-        position: relative;
-        top: 10%;
+    footer{
+        height: 150px;
+        top: 433%;
+        position: absolute;
     }
 
     .rodape .roda-fora{
-        width: 25%;
-        top: 40px;
-        right: 20px;
+        width: 30%;
+        right: 25px;
         position: relative;
     }
 
