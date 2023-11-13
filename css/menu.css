@@ -67,7 +67,7 @@
   margin-left: -70px;
   position: absolute;
   float: left;
-  /*overflow: hidden;*/
+  overflow: hidden;
   max-height: 0;
   transition: max-height 0.5s ease-in-out;
   z-index: 10000;
