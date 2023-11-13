@@ -83,6 +83,7 @@ footer{
     background-color: rgb(255, 255, 255);
     width: 100%;
     position: relative;
+    height: 332px;
 }
 
 footer .rodape .txt-footer{
@@ -92,6 +93,13 @@ footer .rodape .txt-footer{
 .rodape .roda-fora{
     position: relative;
     top: -20px;
+}
+
+.img-rod-2{
+    position: relative;
+    float: right;
+    top: -430px;
+    width: 25%;
 }
 
 @media (max-width:600px){
@@ -129,6 +137,23 @@ footer .rodape .txt-footer{
     #btn-voltar-sec .btn-voltar{
         position: relative;
         left: 33%;
+    }
+
+    footer{
+        height: 205px;
+    }
+
+    footer .rodape .txt-footer{
+        margin-top: 20px;
+    }
+    
+    .rodape .roda-fora{
+        top: -10px;
+    }
+
+    .img-rod-2{
+        top: -150px;
+        width: 50%;
     }
 
 } 
