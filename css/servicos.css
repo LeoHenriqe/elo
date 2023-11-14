@@ -73,7 +73,7 @@ footer{
     left: 40px;
 }
 
-.img-fundo-roda{
+.rodape .img-fundo-roda{
     position: relative;
     left: 500px;
     z-index: -10;
