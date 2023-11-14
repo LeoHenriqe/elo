@@ -642,12 +642,28 @@ footer {
 }
 
 @media only screen and (max-width: 393px) {
-    footer {
-        top: 440%;
+
+    .aba-isa h2{
+        margin-left: -30px;
+        position: relative;
     }
 
     .servicos {
         top: -90px;
+    }
+    
+    footer {
+        top: 440%;
+    }
+
+    footer .txt-footer h1{
+        font-size: 12px;
+        left: -20px;
+        width: 180px;
+    }
+
+    footer .txt-footer .relogio #h1-relo{
+        font-size: 12px;
     }
 }
 
