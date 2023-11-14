@@ -357,7 +357,32 @@ footer{
     display: none;
 }
 
-@media only screen and (max-width: 428px) {
+@media only screen and (max-width: 1024px) {
+    header .menu a{
+        font-size: 20px;
+    }
+
+    header .menu .conteudo .port-h1{
+        font-size: 20px;
+        right: 340px;
+    }
+    
+    footer{
+        position: relative;
+        top: -260px;
+    }
+
+    .menu{
+        margin-top: 10px;
+        position: relative;
+    }
+
+    header .logo a img{
+        width: 13%;
+    }
+}
+
+@media only screen and (max-width: 430px) {
     .menu{
        display: none;
     }
@@ -517,7 +542,7 @@ footer{
 
     footer{
         height: 150px;
-        top: 410%;
+        top: 390%;
         position: absolute;
     }
 
@@ -549,18 +574,37 @@ footer{
 
 }   
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 414px) {
+
+    .aba-isa .center-isa a{
+        font-size: 10px;
+    }
+
+    footer{
+        top: 408%;
+    }
+
     .servicos{
         position: relative;
         top: -30px;
     }
 
+}
+
+@media only screen and (max-width: 390px) {
+    .servicos{
+        position: relative;
+        top: -50px;
+    }
+
     .aba-isa .center-isa a{
-        font-size: 12px;
+        font-size: 11px;
     }
 
     footer{
-        top: 450%;
+        top: 435%;
     }
 
 }
+
+
