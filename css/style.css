@@ -679,6 +679,7 @@ footer {
 
     footer {
         top: 500%;
+        background-color: red;
     }
 
     header .menu a {
