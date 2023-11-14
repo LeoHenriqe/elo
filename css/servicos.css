@@ -9,6 +9,36 @@ footer{
     top: 940px;
 }
 
+.prin .email h1{
+    font-size: 27px;
+}
+
+.secon .whatsapp h1, .insta h1{
+    font-size: 27px;
+}
+
+.prin .relogio #h1-relo{
+    width: 500px;
+    font-size: 27px;
+}
+
+.prin{
+    top: 70px;
+    position: relative;
+}
+
+.secon{
+    position: relative;
+    left: 550px;
+    top: -30px;
+}
+
+.img-fundo-roda{
+    position: relative;
+    left: 600px;
+    z-index: -10;
+}
+
 @media (max-width:600px){
     .servicos{
         top: 328px;
