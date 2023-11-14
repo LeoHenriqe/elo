@@ -3,21 +3,21 @@
 @import url(https://db.onlinewebfonts.com/c/b9391bb2feac4ed6fb895074dfe3bb9d?family=Visby+Light);
 @import url(https://db.onlinewebfonts.com/c/183f7076688b0fedd6643362cf90339b?family=Visby+CF+Thin);
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
 }
 
-header .menu-right{
+header .menu-right {
     display: none;
 }
 
-header{
+header {
     background-color: #131B26;
     display: flex;
     height: 12vb;
@@ -25,7 +25,7 @@ header{
     justify-content: space-around;
 }
 
-header .logo img{
+header .logo img {
     padding-top: 24px;
     position: relative;
     left: 5%;
@@ -33,7 +33,7 @@ header .logo img{
     width: 10%;
 }
 
-header .menu a{
+header .menu a {
     margin-left: 20px;
     font-family: "Visby Light";
     color: #F99F42;
@@ -42,13 +42,13 @@ header .menu a{
     text-decoration: none;
 }
 
-header .menu a:hover{
+header .menu a:hover {
     color: rgb(164, 107, 0);
     border-bottom: 3px solid #F99F42;
     border-radius: 2px;
 }
 
-header .menu{
+header .menu {
     float: right;
     right: 5%;
     top: -55px;
@@ -57,11 +57,11 @@ header .menu{
     z-index: 100000;
 }
 
-.sum-menu:hover{
+.sum-menu:hover {
     border-bottom: 3px solid #F99F42;
 }
 
-.menu .sum-menu{
+.menu .sum-menu {
     margin-left: 20px;
     font-family: "Visby Light";
     color: #F99F42;
@@ -75,7 +75,7 @@ header .menu{
     list-style: none;
 }
 
-.menu details li{
+.menu details li {
     list-style: none;
     position: relative;
     left: -200px;
@@ -85,7 +85,7 @@ header .menu{
     width: 180px;
 }
 
-.menu details li a{
+.menu details li a {
     padding: 15px;
     z-index: 100000;
     background-color: white;
@@ -95,7 +95,7 @@ header .menu{
     font-size: 20px;
 }
 
-.scav{
+.scav {
     right: 0;
     bottom: 0;
     height: 1080px;
@@ -105,13 +105,13 @@ header .menu{
     z-index: 100;
 }
 
-.scav video{
+.scav video {
     width: 100%;
     height: 750px;
     object-fit: cover;
 }
 
-.equipe{
+.equipe {
     width: 100%;
     height: 100vh;
     background-color: #131B26;
@@ -119,38 +119,38 @@ header .menu{
     position: relative;
 }
 
-.container-equipe{
+.container-equipe {
     height: 70%;
     width: 100%;
     position: relative;
     top: 80px;
 }
 
-.equipe .equipe-img{
+.equipe .equipe-img {
     position: absolute;
     top: 15%;
     left: 10%;
     width: 28%;
 }
 
-.equipe .simbolo-1{
+.equipe .simbolo-1 {
     width: 13%;
 }
 
-.equipe .equipe-txt{
+.equipe .equipe-txt {
     position: absolute;
     top: 20%;
     left: 50%;
     width: 40%;
 }
 
-.equipe h1{
+.equipe h1 {
     font-family: "Visby CF bold";
     color: #F99F42;
     font-size: 4rem;
 }
 
-.equipe h2{
+.equipe h2 {
     font-family: "Visby CF Thin";
     font-weight: 100;
     margin-top: 40px;
@@ -160,7 +160,7 @@ header .menu{
     font-size: 2rem;
 }
 
-.equipe-txt a{
+.equipe-txt a {
     font-family: "Visby CF bold";
     text-decoration: none;
     font-size: 2rem;
@@ -170,7 +170,7 @@ header .menu{
     padding: 5px;
 }
 
-.servicos{
+.servicos {
     z-index: 1000;
     background-repeat: no-repeat;
     background-size: cover;
@@ -182,7 +182,7 @@ header .menu{
     background-image: url(/imagens/FUNDO-SERVIÇOS.png);
 }
 
-.servicos a{
+.servicos a {
     position: absolute;
     top: 80%;
     left: 45%;
@@ -195,7 +195,7 @@ header .menu{
     text-decoration: none;
 }
 
-.servicos .top-servicos{
+.servicos .top-servicos {
     position: absolute;
     top: 15%;
     left: 13%;
@@ -204,18 +204,18 @@ header .menu{
     text-align: center;
 }
 
-.servicos .simbolo-2{
+.servicos .simbolo-2 {
     width: 7%;
 }
 
-.servicos .top-servicos h1{
+.servicos .top-servicos h1 {
     font-size: 1.8rem;
     font-family: "Visby CF bold";
     color: white;
     margin-top: 30px;
 }
 
-.center-servicos{
+.center-servicos {
     justify-content: space-around;
     text-align: left;
     width: 95%;
@@ -225,25 +225,25 @@ header .menu{
     left: 2%;
 }
 
-.center-servicos h1{
+.center-servicos h1 {
     font-size: 1.5rem;
     color: white;
     font-family: "Visby CF Thin";
     line-height: 30px;
 }
 
-.center-servicos img{
+.center-servicos img {
     width: 80%;
 }
 
-.rellax{
+.rellax {
     margin-top: -610px;
     margin-bottom: 200px;
     position: relative;
     z-index: -100;
 }
 
-.paralax{
+.paralax {
     background-position: center center;
     background-attachment: fixed;
     background-size: 100%;
@@ -251,7 +251,7 @@ header .menu{
     background-image: url(/imagens/DSC00625-Aprimorado-NR.jpg);
 }
 
-.aba-isa{
+.aba-isa {
     background-image: url(/imagens/fundo-isa-e-rodape\ 2.png);
     width: 100%;
     height: 1100px;
@@ -260,51 +260,51 @@ header .menu{
     background-repeat: no-repeat;
 }
 
-.aba-isa .container-isa{
+.aba-isa .container-isa {
     position: relative;
     top: 11%;
     display: flex;
 }
 
-.aba-isa .container-isa #img-top-isa{
+.aba-isa .container-isa #img-top-isa {
     width: 10%;
     margin-top: 10px;
     margin-bottom: 10px;
-} 
+}
 
-.aba-isa .container-isa .isa-img{
+.aba-isa .container-isa .isa-img {
     width: 28%;
     left: 10%;
     position: relative;
 }
 
-.aba-isa .center-isa a img{
+.aba-isa .center-isa a img {
     width: 5%;
     margin-bottom: -1%;
     margin-right: 1%;
 }
 
-.aba-isa .center-isa{
+.aba-isa .center-isa {
     margin-top: 2%;
     left: 45%;
     position: absolute;
     width: 40%;
 }
 
-.aba-isa .center-isa h1{
+.aba-isa .center-isa h1 {
     font-family: "Visby CF Bold";
     font-size: 2.8rem;
     color: #F99F42;
     margin-bottom: 40px;
 }
 
-.aba-isa .center-isa h2{
+.aba-isa .center-isa h2 {
     font-family: "Visby CF Thin";
     font-size: 1.6rem;
     color: rgb(255, 255, 255);
 }
 
-.aba-isa a{
+.aba-isa a {
     font-family: "Visby CF Bold";
     font-size: 1.4rem;
     text-decoration: none;
@@ -318,13 +318,13 @@ header .menu{
     top: 20px;
 }
 
-footer{
+footer {
     position: absolute;
     height: 320px;
     top: 459%;
 }
 
-.rodape{
+.rodape {
     width: 80%;
     position: relative;
     left: 10%;
@@ -332,30 +332,39 @@ footer{
     align-self: center;
 }
 
-.rodape .txt-footer{
+.rodape .txt-footer {
     margin-top: 30px;
 }
 
-.rodape .roda-fora{
+.rodape .roda-fora {
     width: 15%;
     height: 15%;
     margin-right: 80px;
     margin-top: 70px;
 }
 
-.rodape .txt-footer .relogio, .email, .insta, .whatsapp{
+.rodape .txt-footer .relogio,
+.email,
+.insta,
+.whatsapp {
     width: 60%;
     display: flex;
     align-items: center;
     margin-top: 20px;
 }
 
-.rodape .txt-footer .relogio img, .email img, .insta img, .whatsapp img{
+.rodape .txt-footer .relogio img,
+.email img,
+.insta img,
+.whatsapp img {
     width: 20%;
     text-align: center;
 }
 
-.rodape .txt-footer .relogio h1, .email h1, .insta h1, .whatsapp h1{
+.rodape .txt-footer .relogio h1,
+.email h1,
+.insta h1,
+.whatsapp h1 {
     margin-left: 40px;
     font-size: 1.5rem;
     font-family: "Visby CF Bold";
@@ -363,64 +372,64 @@ footer{
     position: absolute;
 }
 
-.rodape .logo-rodape{
+.rodape .logo-rodape {
     display: none;
 }
 
 @media only screen and (max-width: 1024px) {
-    header .menu a{
+    header .menu a {
         font-size: 20px;
     }
 
-    header .menu .conteudo .port-h1{
+    header .menu .conteudo .port-h1 {
         font-size: 20px;
         right: 340px;
     }
-    
-    footer{
+
+    footer {
         position: relative;
         top: -260px;
     }
 
-    .menu{
+    .menu {
         margin-top: 10px;
         position: relative;
     }
 
-    header .logo a img{
+    header .logo a img {
         width: 13%;
     }
 }
 
 @media only screen and (max-width: 430px) {
-    .menu{
-       display: none;
+    .menu {
+        display: none;
     }
 
-    header .menu-right{
+    header .menu-right {
         display: block;
         position: relative;
         top: 70px;
     }
 
-    header .logo img{
-        width: 100%;
+    header .logo a img {
+        width: 150px;
     }
 
-    header .logo{
-        width: 800px;
+    header .logo {
+        width: 100%;
         margin-left: 1%;
     }
 
-    .scav{
+    .scav {
         height: 840px;
     }
 
-    .scav video{
+    .scav video {
         height: 500px;
     }
 
-    .equipe .equipe-txt{
+    .equipe .equipe-txt {
         text-align: center;
         align-items: center;
         display: flex;
@@ -430,35 +439,35 @@ footer{
         width: 98%;
     }
 
-    .equipe .container-equipe h1{
+    .equipe .container-equipe h1 {
         font-size: 25px;
         width: 200px;
     }
 
-    .equipe .container-equipe h2{
+    .equipe .container-equipe h2 {
         font-size: 20px;
         width: 300px;
     }
 
-    .equipe .container-equipe .equipe-img{
+    .equipe .container-equipe .equipe-img {
         width: 55%;
         top: 5%;
         left: 23%;
     }
 
-    .equipe .container-equipe a{
+    .equipe .container-equipe a {
         font-size: 17px;
     }
 
-    .servicos{
+    .servicos {
         margin-top: -120%;
     }
 
-    .servicos .top-servicos img{
+    .servicos .top-servicos img {
         width: 15%;
     }
 
-    .servicos .center-servicos{
+    .servicos .center-servicos {
         width: 90%;
         left: 5%;
         display: flex;
@@ -468,166 +477,221 @@ footer{
         top: 27%;
     }
 
-    .servicos .center-servicos img{
+    .servicos .center-servicos img {
         width: 50%;
         margin-bottom: 10px;
     }
 
-    .servicos .center-servicos h1{
+    .servicos .center-servicos h1 {
         font-size: 20px;
         line-height: 17px;
         margin-bottom: 20px;
     }
 
-    .servicos a{
+    .servicos a {
         font-size: 16px;
         left: 40%;
         border: 2px solid white;
     }
 
-    .rellax{
+    .rellax {
         height: 600px;
     }
 
-    .paralax{
+    .paralax {
         margin-top: -200px;
         position: relative;
         width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
+
+
     }
 
-    .aba-isa{
+    .aba-isa {
         height: 850px;
         width: 100%;
+
+
     }
 
-    .aba-isa .container-isa{
+    .aba-isa .container-isa {
         width: 100%;
         height: 60%;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
+
+
     }
 
-    .aba-isa .center-isa{
+    .aba-isa .center-isa {
         top: 30%;
         left: 30%;
+
+
     }
 
-    .aba-isa .center-isa .wpp{
+    .aba-isa .center-isa .wpp {
         width: 10%;
         margin-top: 10px;
+
+
     }
 
-    .aba-isa .center-isa #img-top-isa{
+    .aba-isa .center-isa #img-top-isa {
         width: 25%;
+
+
     }
 
-    .aba-isa .container-isa .isa-img{
+    .aba-isa .container-isa .isa-img {
         width: 45%;
         left: 1%;
         top: -8%;
+
+
     }
 
-    .aba-isa .container-isa h1{
+    .aba-isa .container-isa h1 {
         font-size: 20px;
         text-align: center;
+
+
+
     }
 
-    .aba-isa .container-isa h2{
+    .aba-isa .container-isa h2 {
         font-size: 17px;
         text-align: center;
         width: 320px;
         left: -44%;
         margin-bottom: 20px;
         position: relative;
+
+
+
     }
 
-    .aba-isa .container-isa a{
+    .aba-isa .container-isa a {
         font-size: 13px;
     }
 
-    footer{
+    footer {
         height: 150px;
-        top: 410%;
+        top: 395%;
         position: absolute;
     }
 
-    .rodape .roda-fora{
+    .rodape .roda-fora {
         width: 30%;
         right: 25px;
         position: relative;
+
+
     }
 
-    .rodape .txt-footer{
+    .rodape .txt-footer {
         position: absolute;
         top: 10px;
         left: 26%;
     }
 
-    .rodape .txt-footer .relogio, .email, .whatsapp, .insta{
+    .rodape .txt-footer .relogio,
+    .email,
+    .whatsapp,
+    .insta {
         width: 250px;
     }
 
-    .rodape .txt-footer .relogio h1, .email h1, .whatsapp h1, .insta h1{
+    .rodape .txt-footer .relogio h1,
+    .email h1,
+    .whatsapp h1,
+    .insta h1 {
         font-size: 14px;
         margin-bottom: -10px;
     }
 
-    .rodape .txt-footer .relogio img, .email img, .whatsapp img, .insta img{
+    .rodape .txt-footer .relogio img,
+    .email img,
+    .whatsapp img,
+    .insta img {
         width: 18px;
         margin-bottom: -10px;
     }
 
-}   
+}
 
 @media only screen and (max-width: 414px) {
 
-    .aba-isa .center-isa a{
+    .aba-isa .center-isa a {
         font-size: 10px;
     }
 
-    footer{
+    footer {
         top: 408%;
     }
 
-    .servicos{
+    .servicos {
         position: relative;
         top: -30px;
     }
 
 }
 
+@media only screen and (max-width: 393px) {
+    footer {
+        top: 440%;
+    }
+
+    .servicos {
+        top: -90px;
+    }
+}
+
 @media only screen and (max-width: 390px) {
-    .servicos{
+    .servicos {
         position: relative;
         top: -50px;
     }
 
-    .aba-isa .center-isa a{
+    .aba-isa .center-isa a {
         font-size: 11px;
     }
 
-    footer{
-        top: 435%;
+    footer {
+        top: 430%;
     }
 
-    header .menu a{
+    header .menu a {
         font-size: 20px;
     }
 
-    header .menu .conteudo .port-h1{
+    header .menu .conteudo .port-h1 {
         font-size: 20px;
         right: 340px;
     }
 
-    header .logo a img{
-        width: 90%;
+    header .logo a img {
+        width: 30%;
     }
 
 }
 
 
+@media only screen and (max-width: 360px) {
+    footer {
+        top: 465%;
+    }
+
+    .aba-isa .center-isa a {
+        font-size: 10px;
+    }
+
+    .servicos {
+        top: -90px;
+    }
+
+}
