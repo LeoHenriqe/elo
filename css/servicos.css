@@ -30,7 +30,46 @@ footer{
 .secon{
     position: relative;
     left: 550px;
-    top: -30px;
+    top: -20px;
+    height: 100px;
+}
+
+.secon .whatsapp img{
+    margin-top: -90px;
+}
+
+.secon .insta h1{
+    margin-bottom: -60px;
+}
+
+.secon img{
+    margin-top: 10px;
+    position: relative;
+    left: 40px;
+}
+
+.secon h1{
+    margin-bottom: 30px;
+}
+
+.prin .relogio img{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.prin .relogio h1{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.prin h1{   
+    margin-top: 20px;
+}
+
+.prin img{
+    position: relative;
+    top: -15px;
+    left: 40px;
 }
 
 .img-fundo-roda{
