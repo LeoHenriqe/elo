@@ -23,13 +23,14 @@ footer{
 }
 
 .prin{
+    left: -100px;
     top: 70px;
     position: relative;
 }
 
 .secon{
     position: relative;
-    left: 550px;
+    left: 400px;
     top: -20px;
     height: 100px;
 }
@@ -74,7 +75,7 @@ footer{
 
 .img-fundo-roda{
     position: relative;
-    left: 600px;
+    left: 500px;
     z-index: -10;
 }
 
