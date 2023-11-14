@@ -6,6 +6,16 @@ body {
     background-color: #131B26;
 }
 
+summary:hover{
+    border-bottom: 3px solid #F99F42;
+}
+
+.menu{
+    left: -50px;
+    margin-top: 13px;
+    position: relative;
+}
+
 #terra {
     top: -100px;
     z-index: -10;
