@@ -517,7 +517,7 @@ footer{
 
     footer{
         height: 150px;
-        top: 433%;
+        top: 410%;
         position: absolute;
     }
 
@@ -557,6 +557,10 @@ footer{
 
     .aba-isa .center-isa a{
         font-size: 12px;
+    }
+
+    footer{
+        top: 450%;
     }
 
 }
