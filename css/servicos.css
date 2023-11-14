@@ -8,3 +8,15 @@
 footer{
     top: 940px;
 }
+
+@media (max-width:600px){
+    .servicos{
+        top: 328px;
+        height: 1200px;
+    }
+
+    footer{
+        top: 980px;
+        left: 30px;
+    }
+}
