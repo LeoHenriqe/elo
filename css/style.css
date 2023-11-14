@@ -605,6 +605,19 @@ footer{
         top: 435%;
     }
 
+    header .menu a{
+        font-size: 20px;
+    }
+
+    header .menu .conteudo .port-h1{
+        font-size: 20px;
+        right: 340px;
+    }
+
+    header .logo a img{
+        width: 90%;
+    }
+
 }
 
 
