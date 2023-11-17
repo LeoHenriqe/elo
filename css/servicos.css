@@ -88,7 +88,7 @@ footer{
 
     footer{
         width: 100%;
-        top: 983px;
+        top: 990px;
     }
 
     .rodape .img-fundo-roda{
@@ -118,6 +118,7 @@ footer{
 
     footer .secon .insta{
         top: -40px;
+        width: 100px;
         position: relative;
     }
 
@@ -143,7 +144,18 @@ footer{
     }
 
     .txt-footer .prin .relogio #h1-relo {
-        width: 240px;
+        width: 200px;
         font-size: 11px;
     }
+
+    .roda-fora{
+        top: -13px;
+        left: 5px;
+    }
+
+    footer .rodape .txt-footer{
+        left: -63px;
+        position: relative;
+    }
+
 }
