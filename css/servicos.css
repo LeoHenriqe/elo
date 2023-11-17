@@ -79,14 +79,74 @@ footer{
     z-index: -10;
 }
 
-@media (max-width:600px){
+@media ( max-width: 600px){
+
     .servicos{
         top: 328px;
         height: 1200px;
     }
 
     footer{
-        top: 980px;
-        left: 30px;
+        width: 100%;
+        top: 983px;
+    }
+
+    .rodape .img-fundo-roda{
+        display: none;
+    }
+
+    footer .txt-footer .prin h1{
+        font-size: 13px;
+        margin-top: -10px;
+    }
+
+    footer .txt-footer .secon h1{
+        font-size: 13px;
+        margin-top: -17px;
+    }
+
+    footer .prin img{
+        left: 20px;
+    }
+
+    footer .secon img{
+        left: 20px;
+    }
+
+    footer .prin{
+        position: relative;
+        top: 63px;
+        left: -10px;
+        width: 100px;
+    }
+
+    footer .secon .insta{
+        top: -40px;
+        position: relative;
+    }
+
+    footer .secon .whatsapp img{
+        top: 3px;
+    }
+
+    footer .secon{
+        position: relative;
+        left: -10px;
+        width:100px;
+        height: 10px;
+    }
+
+    footer .txt-footer img{
+        width: 14px;
+    }
+
+    .txt-footer .prin .relogio img{
+        width: 13px;
+        position: relative;
+        top: -16px;
+    }
+
+    .txt-footer .prin #h1-relo {
+        width: 240px;
     }
 }
