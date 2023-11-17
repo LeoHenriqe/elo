@@ -96,20 +96,16 @@ footer{
     }
 
     footer .txt-footer .prin h1{
-        font-size: 13px;
+        font-size: 11px;
         margin-top: -10px;
     }
 
     footer .txt-footer .secon h1{
-        font-size: 13px;
-        margin-top: -17px;
+        font-size: 11px;
+        margin-top: -16px;
     }
 
-    footer .prin img{
-        left: 20px;
-    }
-
-    footer .secon img{
+    footer .prin img, .secon img{
         left: 20px;
     }
 
@@ -146,7 +142,8 @@ footer{
         top: -16px;
     }
 
-    .txt-footer .prin #h1-relo {
+    .txt-footer .prin .relogio #h1-relo {
         width: 240px;
+        font-size: 11px;
     }
 }
