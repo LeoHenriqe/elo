@@ -356,6 +356,57 @@ header .menu {
     display: none;
 }
 
+@media only screen and (max-width: 1370px) {
+    header{
+        height: 100px;
+    }
+    
+    .container-equipe h1{
+        font-size: 45px;
+    }
+
+    .container-equipe h2{
+        font-size: 30px;
+        width: 600px;
+    }
+
+    .servicos{
+        margin-top: -500px;
+        height: 950px;
+    }
+
+    .center-servicos img{
+        width: 65%;
+    }
+
+    .center-servicos h1{
+        font-size: 20px;
+    }
+
+    .container-isa .isa-img{
+        width: 400px;
+        top: 130px;
+    }
+
+    .center-isa{
+        top: 100px;
+    }
+
+    .aba-isa a{
+        top: 20px;
+    }
+
+    footer{
+        position: absolute;
+        top: 530%;
+    }
+
+    .roda-fora{
+        top: 40px;
+        position: relative;
+    }
+}
+
 @media only screen and (max-width: 428px) {
     .menu {
         display: none;
