@@ -30,11 +30,11 @@
                 class="burger"></label>
             <nav id="navigation1" class="navigation">
                 <ul class="navi">
-                    <ol class="conteudo">
-                        <li><a class="port-h1">Portifólio</a>
+                    <ul class="conteudo">
+                        <li><a>Portifólio</a>
                         <li><a href="cacambas.html">Caçambas</a></li>
                         <li><a href="portifolio.html">Terraplanagem</a></li>
-                    </ol>
+                    </ul>
                     <li><a href="#">Serviços</a></li>
                     <li><a href="#">Nossa Equipe</a></li>
                     <li style="border: none;"><a href="#">Contatos</a></li>
@@ -87,6 +87,14 @@
         </footer>
     </body>
     <script src="/script.js"></script>
+    <script>
+    $(".menu-toggle").on('click', function () {
+        $(this).toggleClass("on");
+        $('.menu-section').toggleClass("on");
+        $("nav ul .conteudo").toggleClass('hidden');
+    });</script>
+        
+
 </body>
 
 </html>

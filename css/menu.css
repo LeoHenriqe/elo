@@ -42,20 +42,20 @@
   display: none;
 }
 
-.burger-check:checked ~ .burger {
+.burger-check:checked~.burger {
   border-bottom: 4px solid transparent;
   transition: border-bottom 0.8s ease-in-out;
   -webkit-transition: border-bottom 0.8s ease-in-out;
 }
 
-.burger-check:checked ~ .burger:before {
+.burger-check:checked~.burger:before {
   transform: rotate(-405deg) translateY(1px) translateX(-3px);
   -webkit-transform: rotate(-405deg) translateY(1px) translateX(-3px);
   transition: transform 0.5s ease-in-out;
   -webkit-transition: -webkit-transform 0.5s ease-in-out;
 }
 
-.burger-check:checked ~ .burger:after {
+.burger-check:checked~.burger:after {
   transform: rotate(405deg) translateY(-4px) translateX(-5px);
   -webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);
   transition: transform 0.5s ease-in-out;
@@ -67,18 +67,18 @@
   margin-left: -70px;
   position: absolute;
   float: left;
-  /*overflow: hidden;*/
+  overflow: hidden;
   max-height: 0;
   transition: max-height 0.5s ease-in-out;
   z-index: 10000;
 }
 
-.burger-check:checked ~ .navigation {
+.burger-check:checked~.navigation {
   max-height: 500px;
   transition: max-height 0.5s ease-in-out;
 }
 
-.navigation .conteudo .port-h1{
+.navigation .conteudo .port-h1 {
   font-family: "Visby CF Bold";
   color: white;
   font-size: 1.1rem;
@@ -88,7 +88,7 @@
   height: 25px;
 }
 
-.navigation .conteudo a:not(:first-child){
+.navigation .conteudo a:not(:first-child) {
   display: none;
   background-color: white;
   padding-top: 10px;
@@ -99,12 +99,8 @@
   width: 150px;
 }
 
-.navigation .conteudo:hover a{
-  display: block;
-  z-index: 1000;
-}
 
-.menu-right{
+.menu-right {
   float: right;
   margin-top: -100px;
   margin-right: 50px;
