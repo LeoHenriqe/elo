@@ -1,0 +1,161 @@
+.servicos{
+    z-index: -1000;
+    overflow: hidden;
+    top: 489px;
+    height: 818px;
+}
+
+footer{
+    top: 940px;
+}
+
+.prin .email h1{
+    font-size: 27px;
+}
+
+.secon .whatsapp h1, .insta h1{
+    font-size: 27px;
+}
+
+.prin .relogio #h1-relo{
+    width: 500px;
+    font-size: 27px;
+}
+
+.prin{
+    left: -100px;
+    top: 70px;
+    position: relative;
+}
+
+.secon{
+    position: relative;
+    left: 400px;
+    top: -20px;
+    height: 100px;
+}
+
+.secon .whatsapp img{
+    margin-top: -90px;
+}
+
+.secon .insta h1{
+    margin-bottom: -60px;
+}
+
+.secon img{
+    margin-top: 10px;
+    position: relative;
+    left: 40px;
+}
+
+.secon h1{
+    margin-bottom: 30px;
+}
+
+.prin .relogio img{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.prin .relogio h1{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.prin h1{   
+    margin-top: 20px;
+}
+
+.prin img{
+    position: relative;
+    top: -15px;
+    left: 40px;
+}
+
+.rodape .img-fundo-roda{
+    position: relative;
+    left: 500px;
+    z-index: -10;
+}
+
+@media ( max-width: 600px){
+
+    .servicos{
+        top: 328px;
+        height: 1200px;
+    }
+
+    footer{
+        width: 100%;
+        top: 990px;
+    }
+
+    .rodape .img-fundo-roda{
+        display: none;
+    }
+
+    footer .txt-footer .prin h1{
+        font-size: 11px;
+        margin-top: -10px;
+    }
+
+    footer .txt-footer .secon h1{
+        font-size: 11px;
+        margin-top: -16px;
+    }
+
+    footer .prin img, .secon img{
+        left: 20px;
+    }
+
+    footer .prin{
+        position: relative;
+        top: 63px;
+        left: -10px;
+        width: 100px;
+    }
+
+    footer .secon .insta{
+        top: -40px;
+        width: 100px;
+        position: relative;
+    }
+
+    footer .secon .whatsapp img{
+        top: 3px;
+    }
+
+    footer .secon{
+        position: relative;
+        left: -10px;
+        width:100px;
+        height: 10px;
+    }
+
+    footer .txt-footer img{
+        width: 14px;
+    }
+
+    .txt-footer .prin .relogio img{
+        width: 13px;
+        position: relative;
+        top: -16px;
+    }
+
+    .txt-footer .prin .relogio #h1-relo {
+        width: 200px;
+        font-size: 11px;
+    }
+
+    .roda-fora{
+        top: -13px;
+        left: 5px;
+    }
+
+    footer .rodape .txt-footer{
+        left: -63px;
+        position: relative;
+    }
+
+}

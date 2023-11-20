@@ -1,0 +1,169 @@
+header {
+    height: 100px;
+}
+
+body {
+    background-color: #131B26;
+}
+
+summary:hover{
+    border-bottom: 3px solid #F99F42;
+}
+
+.menu{
+    left: -50px;
+    margin-top: 13px;
+    position: relative;
+}
+
+#terra {
+    top: -100px;
+    z-index: -10;
+    position: relative;
+    background-image: url(/cacambas/FUNDO.png);
+}
+
+#terra .dentro-terra {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#terra .img-fundo {
+    width: 130px;
+    height: 80px;
+    margin-top: 15%;
+}
+
+#terra .dentro-terra p {
+    font-family: "Visby CF Medium";
+    color: white;
+    font-size: 1.9rem;
+    width: 600px;
+}
+
+#terra .dentro-terra h1 {
+    font-family: "Visby CF bold";
+    color: #131B26;
+    font-size: 4rem;
+    margin: 50px;
+}
+
+#portifolio-img {
+    margin-top: -85px;
+    width: 100%;
+}
+
+#portifolio-img .imgs-port img {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 1000px;
+}
+
+#select {
+    color: white;
+    border-bottom: solid 2px white;
+}
+
+#btn-voltar-sec {
+    height: 150px;
+    background-color: #131B26;
+    margin-top: -15px;
+}
+
+#btn-voltar-sec .btn-voltar {
+    position: relative;
+    left: 48%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 2.5rem;
+    z-index: 10;
+    border: 2px solid #F99F42;
+    color: #F99F42;
+    text-decoration: none;
+    border-radius: 8px;
+    top: 40%;
+    font-family: "Visby CF bold";
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: relative;
+    height: 332px;
+}
+
+footer .rodape .txt-footer {
+    margin-top: 40px;
+}
+
+.rodape .roda-fora {
+    position: relative;
+    top: -20px;
+}
+
+.img-rod-2 {
+    position: relative;
+    float: right;
+    top: -430px;
+    width: 25%;
+}
+
+@media (max-width:600px) {
+
+    header {
+        height: 12vb;
+    }
+
+    #terra .dentro-terra h1 {
+        font-size: 40px;
+    }
+
+    #terra .dentro-terra p {
+        font-size: 18px;
+        width: 350px;
+    }
+
+    #terra .img-fundo {
+        width: 100px;
+        height: 60px;
+        margin-top: 50%;
+    }
+
+    #terra {
+        background-position: center;
+        height: 600px;
+        width: 100%;
+    }
+
+    #portifolio-img .imgs-port img {
+        width: 100%;
+        height: 300px;
+    }
+
+    #btn-voltar-sec .btn-voltar {
+        position: relative;
+        left: 33%;
+    }
+
+    footer {
+        height: 205px;
+    }
+
+    footer .rodape .txt-footer {
+        margin-top: 20px;
+    }
+
+    .rodape .roda-fora {
+        top: -10px;
+    }
+
+    .img-rod-2 {
+        top: -177px;
+        width: 50%;
+    }
+
+}
