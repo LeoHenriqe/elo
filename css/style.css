@@ -56,33 +56,41 @@ header .menu {
     padding: 20px;
 }
 
-.menu .conteudo .port-h1 {
-    margin-left: 20px;
-    font-family: "Visby Light";
+details{
     color: #F99F42;
-    font-size: 1.5rem;
-    cursor: pointer;
-    text-decoration: none;
-    position: absolute;
-    top: 20px;
-    left: -110px;
-    height: 25px;
-}
-
-.menu .conteudo a:not(:first-child) {
-    display: none;
     position: relative;
-    background-color: white;
-    top: 28px;
-    left: -200px;
-    height: 30px;
-    width: 220px;
-    padding: 10px;
+    right: 90px;
+    bottom: 23px;
+    width: 90px;
+    cursor: pointer;
 }
 
-.menu .conteudo:hover a {
-    display: block;
-    z-index: 1000;
+details li a{
+    position: relative;
+    right: 7px;
+    padding: 4px;
+}
+
+details li{
+    text-align: center;
+    align-items: center;
+    top: 10px;
+    height: 70px;
+    border-radius: 10px;
+    position: relative;
+    width: 230px;
+    right: 80px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    z-index: 100;
+}
+
+.sum-menu{
+    font-family: "Visby Light";
+    font-size: 23px;
+    list-style: none;
 }
 
 .scav {
@@ -92,7 +100,7 @@ header .menu {
     width: 100%;
     position: relative;
     top: -10px;
-    z-index: 100;
+    z-index: -100;
 }
 
 .scav video {
@@ -398,7 +406,7 @@ header .menu {
 
     footer{
         position: absolute;
-        top: 535%;
+        top: 455%;
     }
 
     .roda-fora{
@@ -425,6 +433,29 @@ header .menu {
     header .logo {
         width: 150px;
         margin-left: 5%;
+    }
+
+    #navigation1 details{
+        left: 25px;
+        top: 0px;
+        border: none;
+    }
+
+    #navigation1 details a{
+        left: 10px;
+        top: 2px;
+    }
+
+    #navigation1 details li{
+        height: 30px;
+        top: -2px;
+    }
+
+    #navigation1 summary{
+        border-bottom: 1px solid rgb(255, 139, 85);
+        width: 130px;
+        right: 25px;
+        position: relative;
     }
 
     .scav {
