@@ -17,13 +17,13 @@ footer {
     height: 400px;
     font-family: "Visby CF Medium";
     margin-top: 90px;
-    right: 400px;
+    right: 380px;
     position: relative;
 }
 
 #form-cont .txt-contact {
     position: relative;
-    left: 20%;
+    left: 19%;
     top: -50px;
 }
 
@@ -87,12 +87,41 @@ footer {
     font-family: "Visby CF Medium";
 }
 
-#h1-relo {
+.contato-left p{
+    color: #F99F42;
+    font-size: 32px;
+    font-family: "Visby CF Medium";
+    position: relative;
+    top: 10px;
+    width: 500px;
+}
+
+.contato-left .email, .insta, .whatsapp {
+    display: block;
+    flex-direction: column;
+    height: 90px;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: -15px;
+}
+
+
+.contato-left{
+    width: 40%;
+    position: absolute;
+    left: 55%;
+    margin-top: -19%;
 }
 
 .contato-left h1 {
+    position: relative;
+    right: 40px;
     color: white;
-    font-size: 25px;
+    font-size: 23px;
+}
+
+.contato-left img{
+    width: 30px;
 }
 
 form {
