@@ -97,7 +97,7 @@ footer {
 }
 
 footer .rodape .txt-footer {
-    margin-top: 40px;
+    margin-top: -30px;
 }
 
 .rodape .roda-fora {
@@ -108,7 +108,7 @@ footer .rodape .txt-footer {
 .img-rod-2 {
     position: relative;
     float: right;
-    top: -430px;
+    top: -360px;
     width: 25%;
 }
 
