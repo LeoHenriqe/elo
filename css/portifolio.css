@@ -81,8 +81,13 @@ header {
     font-family: "Visby CF bold";
 }
 
+footer{
+    background-color: red;
+    height: 300px;
+}
+
 .rodape {
-    top: -20%;
+    top: 10%;
 }
 
 
