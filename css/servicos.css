@@ -1,3 +1,8 @@
+.logo{
+    top: 10px;
+    position: relative;
+}
+
 .servicos{
     z-index: -1000;
     overflow: hidden;

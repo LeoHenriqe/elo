@@ -25,6 +25,11 @@ header {
     justify-content: space-around;
 }
 
+.logo{
+    top: 10px;
+    position: relative;
+}
+
 header .logo img {
     padding-top: 24px;
     position: relative;
@@ -54,6 +59,12 @@ header .menu {
     top: -55px;
     position: relative;
     padding: 20px;
+}
+
+summary:hover{
+    color: rgb(164, 107, 0);
+    border-bottom: 3px solid #F99F42;
+    border-radius: 2px;
 }
 
 details{

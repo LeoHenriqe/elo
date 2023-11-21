@@ -10,6 +10,11 @@ summary:hover{
     border-bottom: 3px solid #F99F42;
 }
 
+.logo{
+    top: 10px;
+    position: relative;
+}
+
 .menu{
     left: -50px;
     position: relative;
