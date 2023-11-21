@@ -597,9 +597,10 @@ details li{
         font-size: 13px;
     }
 
-    .rodape {
+    footer{
+        height: 10px;
         position: relative;
-        top: 10%;
+        top: -220px;
     }
 
     .rodape .roda-fora {
