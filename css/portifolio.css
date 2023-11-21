@@ -1,5 +1,10 @@
 header {
-    height: 100px;
+    height: 12vb;
+}
+
+.menu{
+    left: -50px;
+    position: relative;
 }
 
 #terra {

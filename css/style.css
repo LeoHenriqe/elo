@@ -50,7 +50,7 @@ header .menu a:hover {
 
 header .menu {
     float: right;
-    right: 5%;
+        left: -50px;
     top: -55px;
     position: relative;
     padding: 20px;

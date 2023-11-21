@@ -1,5 +1,5 @@
 header {
-    height: 100px;
+    height: 12vb;
 }
 
 body {
@@ -12,7 +12,6 @@ summary:hover{
 
 .menu{
     left: -50px;
-    margin-top: 13px;
     position: relative;
 }
 
