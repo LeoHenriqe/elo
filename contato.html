@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/contato.css">
+    <script src="form.js"></script>
     <title>Elo Empreendimentos</title>
     <link rel="icon" href="/imagens/logo-2.png">
 </head>
@@ -57,15 +58,15 @@
                     <h2 class="contact-cont">CONTATOS
                     </h2>
                 </div>
-                <form action="https://api.staticforms.xyz/submit" method="post">
+                <form action="" method="POST" data-form>
                     <label></label>
-                    <input type="text" name="name" placeholder="Nome" autocomplete="off">
+                    <input type="text" name="name" placeholder="Nome" autocomplete="off" required>
                     <label></label>
-                    <input type="email" name="email" placeholder="E-mail" autocomplete="off">
+                    <input type="email" name="email" placeholder="E-mail" autocomplete="off" required>
                     <label></label>
                     <textarea style="resize: none;" name="menssage" id="" cols="30" rows="10"
-                        placeholder="Escreva sua mensagem!"></textarea>
-                    <button type="submit">ENVIAR MENSAGEM!</button>
+                        placeholder="Escreva sua mensagem!" required></textarea>
+                    <button type="submit"  data-button>ENVIAR!</button>
 
                     <input type="hidden" name="accessKey" value="cfc02de6-ef97-443d-9f46-89a282ab31c9">
                     <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/contato.html">
