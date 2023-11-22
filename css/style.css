@@ -426,7 +426,7 @@ details li{
     }
 }
 
-@media only screen and (max-width: 428px) {
+@media only screen and (max-width: 430px) {
     .menu {
         display: none;
     }
@@ -434,7 +434,7 @@ details li{
     header .menu-right {
         display: block;
         position: relative;
-        top: 60px;
+        top: 70px;
     }
 
     header .logo img {

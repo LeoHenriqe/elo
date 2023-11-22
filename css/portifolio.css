@@ -107,7 +107,7 @@ footer{
 @media (max-width:600px) {
 
     header {
-        height: 12vb;
+        height: 100px;
     }
 
     #terra .dentro-terra h1 {
