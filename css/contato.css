@@ -22,9 +22,9 @@ footer {
 }
 
 #form-cont .txt-contact {
-    position: relative;
-    left: 19%;
-    top: -50px;
+    position: absolute;
+    left: 60%;
+    top: -100px;
 }
 
 #form-cont .contact-cont {
@@ -39,8 +39,6 @@ footer {
 }
 
 #form-cont input {
-    border: none;
-    border: #F99F42 2px solid;
     background-color: #cecece;
     display: flex;
     align-items: center;
@@ -51,26 +49,33 @@ footer {
     margin-bottom: 10px;
     margin-top: 20px;
     padding: 10px;
+    border-radius: 7px;
 }
 
-#form-cont button {
+button {
     cursor: pointer;
-    background-color: #F99F42;
     width: 250px;
     height: 35px;
     color: white;
     font-family: "Visby CF Bold";
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     border: none;
     margin-left: 180px;
     margin-top: 20px;
+    border-radius: 7px;
+    transition: 0.3s;
+    background: #F99F42;
+}
+
+button:hover,
+button:focus {
+  outline: none;
+  background: #c77421;
 }
 
 #form-cont textarea {
     font-family: "Visby CF Medium";
     background-color: #cecece;
-    border: none;
-    border: #F99F42 2px solid;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,6 +85,7 @@ footer {
     margin-top: 40px;
     margin-bottom: 10px;
     padding: 10px;
+    border-radius: 7px;
 }
 
 #form-cont ::placeholder {
@@ -87,7 +93,7 @@ footer {
     font-family: "Visby CF Medium";
 }
 
-.contato-left p{
+.contato-left p {
     color: #F99F42;
     font-size: 32px;
     font-family: "Visby CF Medium";
@@ -96,7 +102,9 @@ footer {
     width: 500px;
 }
 
-.contato-left .email, .insta, .whatsapp {
+.contato-left .email,
+.insta,
+.whatsapp {
     display: block;
     flex-direction: column;
     height: 90px;
@@ -106,7 +114,7 @@ footer {
 }
 
 
-.contato-left{
+.contato-left {
     width: 40%;
     position: absolute;
     left: 55%;
@@ -120,11 +128,35 @@ footer {
     font-size: 23px;
 }
 
-.contato-left img{
+.contato-left img {
     width: 30px;
 }
 
 form {
     margin-left: 10px;
     position: relative;
+    top: 40px;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+    outline: none;
+    border-color: #F99F42;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    background: #2c2f35;
+    color: #F99F42;
+}
+
+.success {
+    color: #F99F42;
+    font-size: 25px;
+}
+
+.error {
+    color: red;
 }
