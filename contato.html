@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/contato.css">
-    <script src="form.js"></script>
     <title>Elo Empreendimentos</title>
     <link rel="icon" href="/imagens/logo-2.png">
 </head>
@@ -58,18 +57,14 @@
                     <h2 class="contact-cont">CONTATOS
                     </h2>
                 </div>
-                <form action="" method="POST" data-form>
-                    <label></label>
-                    <input type="text" name="name" placeholder="Nome" autocomplete="off" required>
-                    <label></label>
-                    <input type="email" name="email" placeholder="E-mail" autocomplete="off" required>
-                    <label></label>
-                    <textarea style="resize: none;" name="menssage" id="" cols="30" rows="10"
-                        placeholder="Escreva sua mensagem!" required></textarea>
-                    <button type="submit"  data-button>ENVIAR!</button>
-
-                    <input type="hidden" name="accessKey" value="cfc02de6-ef97-443d-9f46-89a282ab31c9">
-                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/contato.html">
+                <form action="https://formsubmit.co/ajax/nickolas@tigercodes.com.br" method="POST" data-form>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" required />
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" required />
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" required></textarea>
+                    <button type="submit" data-button>Enviar</button>
                 </form>
             </section>
             <section>
@@ -94,6 +89,7 @@
                 var rellax = new Rellax('.rellax');
             </script>
             <script src="/script.js"></script>
+            <script defer src="/form.js"></script>
     </body>
 
 </html>
