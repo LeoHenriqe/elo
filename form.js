@@ -63,12 +63,3 @@ const formSubmit = new FormSubmit({
     error: "<h1 class='error'>Não foi possível enviar sua mensagem.</h1>",
 });
 formSubmit.init();
-
-    
-function IsEmpty() {
-    if (document.forms['form'].email.value === "") {
-        alert("empty");
-        return false;
-    }
-    return true;
-}
