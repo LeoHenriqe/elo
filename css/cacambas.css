@@ -163,14 +163,7 @@ footer .rodape .txt-footer {
     }
 
     .img-rod-2 {
-        top: -132px;
-        width: 60%;
+        display: none;
     }
 
-}
-
-@media (max-width:390px) {
-    .img-rod-2 {
-        top: -102px;
-    }
 }
