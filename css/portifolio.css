@@ -141,4 +141,9 @@ footer{
         left: 33%;
     }
 
+    footer{
+        height: 140px;
+        top: 10px;
+    }
+
 }
