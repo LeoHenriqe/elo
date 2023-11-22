@@ -228,6 +228,11 @@ button:disabled {
     .contato-left .insta h1{
         left: -3%;
     } 
+
+    .success {
+        position: relative;
+        top: 150px;
+    }
 }
 
 @media (max-width:390px) {
@@ -235,4 +240,6 @@ button:disabled {
     form{
         left: 95%;
     }
+
+
 }
