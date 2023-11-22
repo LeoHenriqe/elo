@@ -241,5 +241,12 @@ button:disabled {
         left: 95%;
     }
 
+}
+
+@media (max-width:360px) {
+    
+    form{
+        left: 103%;
+    }
 
 }
