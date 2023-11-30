@@ -116,6 +116,24 @@ footer .rodape .txt-footer {
     width: 25%;
 }
 
+@media (max-width: 1024px) {
+    .img-rod-2{
+        top: -257px;
+        width: 40%;
+    }
+
+    footer .rodape .txt-footer {
+        z-index: 1;
+        right: 40px;
+        position: relative;
+    }
+
+    .rodape .roda-fora {
+        width: 24%;
+        right: 30px;
+    }
+}
+
 @media (max-width:600px) {
 
     header {
@@ -156,6 +174,10 @@ footer .rodape .txt-footer {
     footer {
         height: 205px;
         top: 20px;
+    }
+
+    footer .rodape .txt-footer {
+        left: -80px;
     }
 
     .rodape .roda-fora {

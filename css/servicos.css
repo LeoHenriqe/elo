@@ -43,7 +43,26 @@ footer{
     height: 335px;
 }
 
-@media ( max-width: 600px){
+@media only screen and  (max-width: 1024px) {
+    .servicos{
+        top: 400px;
+    }
+
+    footer .rodape .txt-footer {
+       left: -80px;
+    }
+
+    .rodape .img-fundo-roda {
+        left: 80px;
+        top: -5px;
+    }
+
+    footer .roda-fora{
+        right: 40px;
+    }
+}
+
+@media only screen and  ( max-width: 600px){
 
     header{
         height: 100px;
@@ -56,6 +75,7 @@ footer{
 
     .servicos .top-servicos{
         top: 220px;
+        left: 60px;
         position: relative;
     }
 
@@ -84,6 +104,8 @@ footer{
 
     footer .txt-footer{
         width: 250px;
+        margin-left: 135px;
+        position: relative;
     }
 
     footer .rodape .roda-fora{

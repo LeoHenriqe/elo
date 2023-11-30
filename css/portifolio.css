@@ -104,6 +104,13 @@ footer{
     margin-top: -5px;
 }
 
+@media (max-width: 1024px) {
+    footer{
+        position: relative;
+    }
+}
+
+
 @media (max-width:600px) {
 
     header {
@@ -144,6 +151,20 @@ footer{
     footer{
         height: 170px;
         top: 5px;
+    }
+
+    footer .rodape .txt-footer {
+        width: 288px;
+        left: 60px;
+    }
+
+    .rodape .txt-footer .relogio img,
+    .email img,
+    .whatsapp img,
+    .insta img {
+        width: 15px;
+        margin-bottom: -10px;
+        margin-left: 20px;
     }
 
 }

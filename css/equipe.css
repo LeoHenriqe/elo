@@ -1,0 +1,31 @@
+@media only screen and (max-width: 1024px) {
+    #portifolio-img .imgs-port img{
+        height: 600px;
+        width: 100%;
+    }
+
+    #terra{
+        height: 700px;
+    }
+
+    #terra .dentro-terra{
+        top: 100px;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #portifolio-img .imgs-port img{
+        height: 300px;
+        width: 100%;
+    }
+
+    #terra{
+        height: 600px;
+    }
+
+    #terra .dentro-terra{
+        top: 50px;
+        position: relative;
+    }
+}

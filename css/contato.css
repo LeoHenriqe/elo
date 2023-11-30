@@ -68,8 +68,8 @@ button {
 
 button:hover,
 button:focus {
-  outline: none;
-  background: #c77421;
+    outline: none;
+    background: #c77421;
 }
 
 #form-cont textarea {
@@ -166,68 +166,137 @@ button:disabled {
     color: red;
 }
 
-@media (max-width:430px) {
-    
-    form{
-        position: absolute;
-        left: 88%;
-        top: -50px;
-        width: 100%;
-        text-align: center;
-        align-items: center;
+@media (max-width:1024px) {
+    #form-cont .txt-contact {
+        left: 75%;
     }
 
-    #form-cont .contact-cont{
-        font-size: 30px;
+    #form-cont .txt-contact h2 {
+        font-size: 40px;
+    }
+
+    #form-cont form {
         position: relative;
-        left: 60%;
+        left: 40%;
     }
 
-    #form-sec input{
-        width: 300px;
-
-    }
-
-    #form-sec textarea{
-        width: 300px;
-        height: 60px;
-    }
-
-    .contato-left{
+    .contato-left {
         position: relative;
-        width: 100%;
+        width: 99%;
         left: 5px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
+        top: 300px;
     }
 
-    .contato-left p{
-        font-size: 25px;
-        width: 320px;
-        margin-top: 20px;
+    .contato-left p {
+        font-size: 30px;
+        width: 400px;
+        margin-top: 15px;
+        left: 20px;
     }
-    
-    .contato-left h1{
-        font-size: 15px;
+
+    .contato-left h1 {
+        font-size: 18px;
         margin-top: 10px;
     }
 
-    .contato-left img{
+    .contato-left img {
         width: 27px;
+        position: relative;
+        left: 50%;
+    }
+
+    .contato-left .whatsapp h1 {
+        left: 35%;
+        width: 150px;
+    }
+
+    .contato-left .insta h1 {
+        left: 32%;
+        width: 150px;
+    }
+
+    .contato-left .email h1 {
+        left: 23%;
+        width: 150px;
+    }
+
+    .success {
+        position: relative;
+        top: 150px;
+    }
+}
+
+@media (max-width:430px) {
+
+    form {
+        position: relative;
+        margin-left: 115%;
+        top: -40px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    #form-cont .contact-cont {
+        font-size: 30px;
         position: relative;
         left: 40%;
     }
 
-    .contato-left .whatsapp h1{
-        left: 8%;
+    #form-sec input {
+        width: 300px;
     }
 
-    .contato-left .insta h1{
-        left: -3%;
-    } 
+    #form-sec textarea {
+        width: 300px;
+        height: 60px;
+    }
+
+    .contato-left {
+        position: relative;
+        width: 100%;
+        left: -15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        top: 30px;
+    }
+
+    .contato-left p {
+        font-size: 25px;
+        width: 320px;
+        margin-top: 20px;
+    }
+
+    .contato-left h1 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .contato-left img {
+        width: 27px;
+        position: relative;
+        left: 50%;
+    }
+
+    .contato-left .email h1 {
+        left: -5%;
+    }
+
+    .contato-left .whatsapp h1 {
+        left: 18%;
+    }
+
+    .contato-left .insta h1 {
+        left: 10%;
+    }
 
     .success {
         position: relative;
@@ -236,16 +305,16 @@ button:disabled {
 }
 
 @media (max-width:393px) {
-    
-    form{
+
+    form {
         left: 95%;
     }
 
 }
 
 @media (max-width:360px) {
-    
-    form{
+
+    form {
         left: 103%;
     }
 

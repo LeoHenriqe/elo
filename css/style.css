@@ -426,6 +426,36 @@ details li{
     }
 }
 
+@media only screen and (max-width: 1024px) {
+    header .menu{
+        top: -40px;
+    }
+
+    .equipe h2{
+        width: 500px;
+    }
+
+    .servicos .center-servicos {
+        left: 30px;
+        top: 350px;
+        text-align: center;
+    }
+
+    .servicos .center-servicos h1{
+        width: 330px;
+    }
+
+    .servicos .center-servicos img{
+        width: 180px;
+    }  
+
+    .servicos .center-servicos h1 {
+        line-height: 15px;
+        font-size: 17px;
+        text-align: center;
+    }
+}
+
 @media only screen and (max-width: 430px) {
     .menu {
         display: none;
@@ -509,7 +539,7 @@ details li{
 
     .servicos {
         margin-top: -120%;
-        height: 1200px;
+        height: 1300px;
     }
 
     .servicos .top-servicos img {
@@ -523,7 +553,7 @@ details li{
         flex-direction: column;
         align-items: center;
         text-align: center;
-        top: 27%;
+        top: 30%;
     }
 
     .servicos .center-servicos img {
@@ -535,10 +565,14 @@ details li{
         font-size: 20px;
         line-height: 17px;
         margin-bottom: 20px;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        top: 10px;
     }
 
     .servicos a {
-        top: 1010px;
+        top: 1090px;
         font-size: 16px;
         left: 40%;
         border: 2px solid white;
