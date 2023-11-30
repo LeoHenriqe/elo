@@ -1,6 +1,6 @@
-@import url(https://db.onlinewebfonts.com/c/cfdc7772d1426068d6cc35816bdb06f8?family=Visby+CF+Bold);
+@import url(https://db.onlinewebfonts.com/c/cfdc7772d1426068d6cc35816bdb06f8?family=Visby+Bold);
 @import url(https://db.onlinewebfonts.com/c/79927a8d010a79419f5c30e4d87409d5?family=Visby+CF+Medium);
-@import url(https://db.onlinewebfonts.com/c/b9391bb2feac4ed6fb895074dfe3bb9d?family=Visby+Light);
+@import url(https://db.onlinewebfonts.com/c/2f0226da53fc7e6bfb08852b4484d5c6?family=Visby+Light);
 @import url(https://db.onlinewebfonts.com/c/183f7076688b0fedd6643362cf90339b?family=Visby+CF+Thin);
 
 * {
@@ -553,7 +553,7 @@ details li{
         flex-direction: column;
         align-items: center;
         text-align: center;
-        top: 30%;
+        top: 27%;
     }
 
     .servicos .center-servicos img {
