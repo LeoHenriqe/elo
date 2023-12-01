@@ -79,7 +79,8 @@
 }
 
 .navigation .conteudo .port-h1 {
-  font-family: "Visby CF Bold";
+  font-family: 'Visby', sans-serif;
+  font-weight: bold;
   color: white;
   font-size: 1.1rem;
   cursor: pointer;
@@ -108,30 +109,32 @@
 }
 
 a {
-  font-family: "Visby CF Bold";
+  font-family: 'Visby', sans-serif;
+  font-weight: bold;
   font-size: 1.1rem;
   color: white;
   margin: 0;
   text-align: center;
 }
 
-.navi details summary{
+.navi details summary {
   text-decoration: none;
   color: white;
   font-size: 18px;
-  font-family: "Visby CF Bold";
+  font-family: 'Visby', sans-serif;
+  font-weight: bold;
   padding: 10px;
   list-style-type: '';
   text-align: center;
 }
 
-.navi details li{
+.navi details li {
   background-color: white;
   text-align: left;
 }
 
 
-.navi details li a{ 
+.navi details li a {
   font-size: 17px;
   color: orange;
   text-decoration: none;

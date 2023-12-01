@@ -39,14 +39,15 @@ header {
 }
 
 #terra .dentro-terra p {
-    font-family: "Visby CF Medium";
+    font-family: 'Visby', sans-serif;
     color: white;
     font-size: 1.9rem;
     width: 600px;
 }
 
 #terra .dentro-terra h1 {
-    font-family: "Visby CF bold";
+    font-weight: 600;
+    font-family: 'Visby', sans-serif;
     color: #131B26;
     font-size: 4rem;
     margin: 50px;
@@ -64,6 +65,7 @@ header {
 }
 
 #select {
+    background-color: red;
     color: white;
     border-bottom: solid 2px white;
 }
@@ -87,18 +89,28 @@ header {
     text-decoration: none;
     border-radius: 8px;
     top: 40%;
-    font-family: "Visby CF bold";
+    font-family: 'Visby', sans-serif;
 }
 
 footer{
-    height: 300px;
+    width: 100%;
+    height: 350px;
     background-color: white;
+    top: 5px;
+    position: relative;
 }
 
 .rodape {
     top: 10%;
+    width: 80%;
 }
 
+.img-rod-2 {
+    position: relative;
+    float: right;
+    top: -347px;
+    width: 25%;
+}
 
 .txt-footer {
     margin-top: -5px;
@@ -107,6 +119,10 @@ footer{
 @media (max-width: 1024px) {
     footer{
         position: relative;
+    }
+
+    .img-rod-2{
+        display: none;
     }
 }
 
@@ -140,7 +156,7 @@ footer{
 
     #portifolio-img .imgs-port img {
         width: 100%;
-        height: 300px;
+        height: 250px;
     }
 
     #btn-voltar-sec .btn-voltar {
