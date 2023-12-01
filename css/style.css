@@ -1,8 +1,3 @@
-@import url(https://db.onlinewebfonts.com/c/cfdc7772d1426068d6cc35816bdb06f8?family=Visby+Bold);
-@import url(https://db.onlinewebfonts.com/c/79927a8d010a79419f5c30e4d87409d5?family=Visby+CF+Medium);
-@import url(https://db.onlinewebfonts.com/c/2f0226da53fc7e6bfb08852b4484d5c6?family=Visby+Light);
-@import url(https://db.onlinewebfonts.com/c/183f7076688b0fedd6643362cf90339b?family=Visby+CF+Thin);
-
 * {
     margin: 0;
     padding: 0;
@@ -25,7 +20,7 @@ header {
     justify-content: space-around;
 }
 
-.logo{
+.logo {
     top: 10px;
     position: relative;
 }
@@ -40,7 +35,8 @@ header .logo img {
 
 header .menu a {
     margin-left: 20px;
-    font-family: "Visby Light";
+    font-family: 'Visby', sans-serif;
+    font-weight: bolder;
     color: #F99F42;
     font-size: 1.5rem;
     cursor: pointer;
@@ -55,19 +51,19 @@ header .menu a:hover {
 
 header .menu {
     float: right;
-        left: -50px;
+    left: -50px;
     top: -55px;
     position: relative;
     padding: 20px;
 }
 
-summary:hover{
+summary:hover {
     color: rgb(164, 107, 0);
     border-bottom: 3px solid #F99F42;
     border-radius: 2px;
 }
 
-details{
+details {
     color: #F99F42;
     position: relative;
     right: 90px;
@@ -76,13 +72,13 @@ details{
     cursor: pointer;
 }
 
-details li a{
+details li a {
     position: relative;
     right: 7px;
     padding: 4px;
 }
 
-details li{
+details li {
     text-align: center;
     align-items: center;
     top: 10px;
@@ -98,8 +94,9 @@ details li{
     z-index: 100;
 }
 
-.sum-menu{
-    font-family: "Visby Light";
+.sum-menu {
+    font-family: 'Visby', sans-serif;
+    font-weight: 900;
     font-size: 23px;
     list-style: none;
 }
@@ -154,13 +151,15 @@ details li{
 }
 
 .equipe h1 {
-    font-family: "Visby CF bold";
+    font-family: 'Visby', sans-serif;
+    font-weight: bolder;
     color: #F99F42;
     font-size: 4rem;
 }
 
 .equipe h2 {
-    font-family: "Visby CF Thin";
+    font-family: 'Visby', sans-serif;
+    font-weight: 400;
     font-weight: 100;
     margin-top: 40px;
     width: 850px;
@@ -170,7 +169,8 @@ details li{
 }
 
 .equipe-txt a {
-    font-family: "Visby CF bold";
+    font-family: 'Visby', sans-serif;
+    font-weight: bolder;
     text-decoration: none;
     font-size: 2rem;
     color: #F99F42;
@@ -199,7 +199,8 @@ details li{
     color: white;
     border: 4px solid white;
     border-radius: 10px;
-    font-family: "Visby CF bold";
+    font-family: 'Visby', sans-serif;
+    font-weight: bolder;
     padding: 5px;
     text-decoration: none;
 }
@@ -218,8 +219,9 @@ details li{
 }
 
 .servicos .top-servicos h1 {
-    font-size: 1.8rem;
-    font-family: "Visby CF bold";
+    font-weight: bolder;
+    font-size: 2.5rem;
+    font-family: 'Visby', sans-serif;
     color: white;
     margin-top: 30px;
 }
@@ -235,9 +237,9 @@ details li{
 }
 
 .center-servicos h1 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: white;
-    font-family: "Visby CF Thin";
+    font-family: 'Visby', sans-serif;
     line-height: 30px;
 }
 
@@ -301,20 +303,23 @@ details li{
 }
 
 .aba-isa .center-isa h1 {
-    font-family: "Visby CF Bold";
+    font-weight: bolder;
+    font-family: 'Visby', sans-serif;
     font-size: 2.8rem;
     color: #F99F42;
     margin-bottom: 40px;
 }
 
 .aba-isa .center-isa h2 {
-    font-family: "Visby CF Thin";
+    font-family: 'Visby', sans-serif;
+    font-weight: 400;
     font-size: 1.6rem;
     color: rgb(255, 255, 255);
 }
 
 .aba-isa a {
-    font-family: "Visby CF Bold";
+    font-family: 'Visby', sans-serif;
+    font-weight: bolder;
     font-size: 1.4rem;
     text-decoration: none;
     color: #F99F42;
@@ -327,10 +332,14 @@ details li{
     top: 20px;
 }
 
+footer{
+    position: absolute;
+    top: 452%;
+}
+
 .rodape {
-    width: 80%;
+    width: 100%;
     position: relative;
-    top: 26%;
     left: 10%;
     display: flex;
     align-self: center;
@@ -340,6 +349,8 @@ details li{
     width: 15%;
     height: 15%;
     margin-right: 80px;
+    top: 20px;
+    position: relative;
 }
 
 .rodape .txt-footer .relogio,
@@ -365,8 +376,9 @@ details li{
 .insta h1,
 .whatsapp h1 {
     margin-left: 40px;
-    font-size: 1.5rem;
-    font-family: "Visby CF Bold";
+    font-size: 1.4rem;
+    font-family: 'Visby', sans-serif;
+    font-weight: 600;
     color: #131B26;
     position: absolute;
 }
@@ -376,62 +388,62 @@ details li{
 }
 
 @media only screen and (max-width: 1370px) {
-    header{
+    header {
         height: 100px;
     }
-    
-    .container-equipe h1{
+
+    .container-equipe h1 {
         font-size: 45px;
     }
 
-    .container-equipe h2{
+    .container-equipe h2 {
         font-size: 30px;
         width: 600px;
     }
 
-    .servicos{
+    .servicos {
         margin-top: -500px;
         height: 950px;
     }
 
-    .center-servicos img{
+    .center-servicos img {
         width: 65%;
     }
 
-    .center-servicos h1{
+    .center-servicos h1 {
         font-size: 20px;
     }
 
-    .container-isa .isa-img{
+    .container-isa .isa-img {
         width: 400px;
         top: 130px;
     }
 
-    .center-isa{
+    .center-isa {
         top: 100px;
     }
 
-    .aba-isa a{
+    .aba-isa a {
         top: 20px;
     }
 
-    footer{
+    footer {
         position: absolute;
         top: 455%;
     }
 
-    .roda-fora{
+    .roda-fora {
         top: 40px;
         position: relative;
     }
 }
 
 @media only screen and (max-width: 1024px) {
-    header .menu{
+    header .menu {
         top: -40px;
     }
 
-    .equipe h2{
+    .equipe h2 {
         width: 500px;
     }
 
@@ -441,13 +453,13 @@ details li{
         text-align: center;
     }
 
-    .servicos .center-servicos h1{
+    .servicos .center-servicos h1 {
         width: 330px;
     }
 
-    .servicos .center-servicos img{
+    .servicos .center-servicos img {
         width: 180px;
-    }  
+    }
 
     .servicos .center-servicos h1 {
         line-height: 15px;
@@ -476,23 +488,23 @@ details li{
         margin-left: 5%;
     }
 
-    #navigation1 details{
+    #navigation1 details {
         left: 25px;
         top: 0px;
         border: none;
     }
 
-    #navigation1 details a{
+    #navigation1 details a {
         left: 10px;
         top: 2px;
     }
 
-    #navigation1 details li{
+    #navigation1 details li {
         height: 30px;
         top: -2px;
     }
 
-    #navigation1 summary{
+    #navigation1 summary {
         border-bottom: 1px solid rgb(255, 139, 85);
         width: 130px;
         right: 25px;
@@ -642,7 +654,7 @@ details li{
         font-size: 13px;
     }
 
-    footer{
+    footer {
         height: 10px;
         position: relative;
         top: -220px;
