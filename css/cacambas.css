@@ -125,6 +125,16 @@ footer .rodape .txt-footer {
 }
 
 @media (max-width: 1024px) {
+    #terra .dentro-terra{
+        position: relative;
+        top: 80px;
+        height: 700px;
+    }
+
+    #portifolio-img .imgs-port img{
+        height: 600px;
+    }
+    
     .img-rod-2{
         top: -257px;
         width: 40%;
