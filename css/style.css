@@ -660,6 +660,10 @@ footer{
         top: -220px;
     }
 
+    .rodape{
+        width: 80%;
+       }
+
     .rodape .roda-fora {
         width: 25%;
         top: 40px;
