@@ -55,40 +55,34 @@
         <section id="form-sec">
             <section id="form-cont">
                 <div class="txt-contact">
-                    <h2 class="contact-cont">CONTATOS
-                    </h2>
+                    <h2 class="contact-cont">CONTATOS</h2>
                 </div>
-                <form name="form" action="https://formsubmit.co/ajax/leo.ab13@hotmail.com" method="POST" data-form>
-                    <label for="nome"></label>
-                    <input type="text" name="nome" placeholder="Nome" required />
-                    <label for="email"></label>
-                    <input type="email" name="email" placeholder="E-mail" required />
-                    <label for="mensagem"></label>
-                    <textarea name="mensagem" id="mensagem" placeholder="Escreva sua mensagem..." required></textarea>
-                    <button type="submit" data-button>Enviar!</button>
+                <form action="https://formsubmit.co/leo.ab13@hotmail.com" method="POST">
+                    <input type="text" name="nome" id="nome" required />
+                    <input type="email" name="email" id="email" required />
+                    <textarea name="mensagem" id="mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
                 </form>
             </section>
         </section>
-            <section>
-                <div class="contato-left">
-                    <p>Ou entre em contato pelas nossas redes sociais!</p>
-                    <div class="email">
-                        <img src="/contato/mail-open-minus-svgrepo-com.png" alt="">
-                        <h1>eloempreendimentos@gmail.com</h1>
-                    </div>
-                    <div class="whatsapp">
-                        <img src="/contato/whatsapp-svgrepo-com.png" alt="">
-                        <h1>[62] 99420-5335</h1>
-                    </div>
-                    <div class="insta">
-                        <img src="/contato/insta-svgrepo-com.png" alt="">
-                        <h1>elo_empreendimento</h1>
-                    </div>
+        <section>
+            <div class="contato-left">
+                <p>Ou entre em contato pelas nossas redes sociais!</p>
+                <div class="email" id="email">
+                    <img src="/contato/mail-open-minus-svgrepo-com.png" alt="">
+                    <h1>eloempreendimentos@gmail.com</h1>
                 </div>
-            </section>
-            <script src="/script.js"></script>
-            <script defer src="/form.js"></script>
+                <div class="whatsapp">
+                    <img src="/contato/whatsapp-svgrepo-com.png" alt="">
+                    <h1>[62] 99420-5335</h1>
+                </div>
+                <div class="insta">
+                    <img src="/contato/insta-svgrepo-com.png" alt="">
+                    <h1>elo_empreendimento</h1>
+                </div>
+            </div>
+        </section>
+        <script src="/script.js"></script>
     </body>
 
 </html>
-

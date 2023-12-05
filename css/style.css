@@ -477,6 +477,195 @@ footer{
     }
 }
 
+@media only screen and (max-width: 890px) {
+    
+    .equipe{
+        min-height: 1000px;
+    }
+
+    .equipe .equipe-txt {
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        top: 550px;
+        left: 1%;
+        width: 98%;
+    }
+
+    .equipe .container-equipe h1 {
+        font-size: 30px;
+        width: 250px;
+    }
+
+    .equipe .container-equipe h2 {
+        font-size: 25px;
+        width: 500px;
+    }
+
+    .equipe .container-equipe .equipe-img {
+        width: 50%;
+        top: 5%;
+        left: 25%;
+    }
+
+    .equipe .container-equipe a {
+        font-size: 22px;
+    }
+
+    .servicos {
+        height: 1250px;
+    }
+
+    .servicos .top-servicos img {
+        width: 15%;
+        left: 10px;
+        position: relative;
+    }
+
+    .servicos .center-servicos {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        top: 27%;
+    }
+
+    .servicos .center-servicos img {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .servicos .center-servicos h1 {
+        font-size: 22px;
+        line-height: 17px;
+        margin-bottom: 40px;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        top: 10px;
+    }
+
+    .servicos a {
+        top: 1050px;
+        font-size: 16px;
+        border: 2px solid white;
+    }
+
+    .rellax {
+        height: 700px;
+    }
+
+    .paralax {
+        position: relative;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .aba-isa {
+        height: 1400px;
+        width: 100%;
+    }
+
+    .aba-isa .container-isa {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .aba-isa .center-isa {
+        top: 40%;
+        left: 30%;
+    }
+
+    .aba-isa .center-isa .wpp {
+        width: 5%;
+        margin-top: 10px;
+    }
+
+    .aba-isa .center-isa #img-top-isa {
+        width: 20%;
+    }
+
+    .aba-isa .container-isa .isa-img {
+        width: 45%;
+        left: 1%;
+        top: -8%;
+    }
+
+    .aba-isa .container-isa h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .aba-isa .container-isa h2 {
+        font-size: 22px;
+        text-align: center;
+        width: 500px;
+        left: -24%;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .aba-isa .container-isa a {
+        font-size: 15px;
+    }
+
+    footer {
+        height: 10px;
+        position: relative;
+        top: -330px;
+    }
+
+    .rodape{
+        width: 80%;
+       }
+
+    .rodape .roda-fora {
+        width: 20%;
+        top: 40px;
+        right: 20px;
+        position: relative;
+    }
+
+    .rodape .txt-footer {
+        position: absolute;
+        top: 10px;
+        left: 26%;
+    }
+
+    .rodape .txt-footer .relogio,
+    .email,
+    .whatsapp,
+    .insta {
+        width: 400px;
+    }
+
+    .rodape .txt-footer .relogio h1,
+    .email h1,
+    .whatsapp h1,
+    .insta h1 {
+        font-size: 20px;
+        margin-bottom: -10px;
+    }
+
+    .rodape .txt-footer .relogio img,
+    .email img,
+    .whatsapp img,
+    .insta img {
+        width: 20px;
+        margin-bottom: -10px;
+    }
+
+}
+
+
 @media only screen and (max-width: 430px) {
     .menu {
         display: none;
@@ -526,6 +715,10 @@ footer{
 
     .scav video {
         height: 500px;
+    }
+
+    .equipe{
+        min-height: 800px;
     }
 
     .equipe .equipe-txt {
@@ -715,6 +908,10 @@ footer{
     .servicos {
         position: relative;
         top: -30px;
+    }
+
+    .equipe{
+        min-height: 700px;
     }
 
     .aba-isa .center-isa a {

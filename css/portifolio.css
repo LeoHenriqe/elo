@@ -205,6 +205,13 @@ footer{
 
 }
 
-@media (max-width:390px) {
-    
+@media (max-width:840px) {
+    header{
+        height: 100px;
+    }
+
+    .img-rod-2{
+        width: 400px;
+        top: -245px;
+    }
 }

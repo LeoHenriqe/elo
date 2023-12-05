@@ -63,6 +63,10 @@ footer {
 }
 
 @media only screen and (max-width: 840px) {
+    header{
+        height: 100px;
+    }
+    
     .servicos .center-servicos{
         top: 350px;
         position: relative;
