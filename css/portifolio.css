@@ -148,8 +148,7 @@ footer{
     }
 
     .img-rod-2{
-        width: 400px;
-        top: -278px;
+        display: none;
     }
 
     footer{

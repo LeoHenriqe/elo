@@ -266,6 +266,13 @@ button:disabled {
 
 }
 
+@media only screen and (max-width: 700px) {
+    form{
+        margin-left: 130px;
+        position: relative;
+    }
+}
+
 @media (max-width:600px) {
 
     form {
@@ -347,7 +354,7 @@ button:disabled {
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 400px) {
     form {
         margin-left: 370px;
         position: relative;

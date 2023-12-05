@@ -666,7 +666,7 @@ footer{
 }
 
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 600px) {
     .menu {
         display: none;
     }
@@ -752,7 +752,7 @@ footer{
     }
 
     .servicos {
-        margin-top: -120%;
+        margin-top: -135%;
         height: 1300px;
     }
 
@@ -903,7 +903,7 @@ footer{
     }
 
 }
-
+/*
 @media only screen and (max-width: 390px) {
     .servicos {
         position: relative;
@@ -922,4 +922,4 @@ footer{
     width: 80%;
    }
 
-}
+}*/

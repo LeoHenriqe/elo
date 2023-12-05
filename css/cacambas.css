@@ -154,8 +154,7 @@ footer .rodape .txt-footer {
 
 @media only screen and (max-width: 840px) {
     .img-rod-2{
-        width: 400px;
-        top: -205px;
+        display: none;
     }
 
     footer .rodape .txt-footer {
@@ -212,7 +211,7 @@ footer .rodape .txt-footer {
     }
 
     footer .rodape .txt-footer {
-        left: -80px;
+        left: 160px;
     }
 
     footer .rodape .txt-footer h1{
