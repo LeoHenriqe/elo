@@ -158,6 +158,12 @@ footer .rodape .txt-footer {
         top: -205px;
     }
 
+    footer .rodape .txt-footer {
+        z-index: 1;
+        margin-left: -250px;
+        position: relative;
+    }
+
     header{
         height: 100px;
     }

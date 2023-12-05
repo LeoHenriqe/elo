@@ -68,7 +68,7 @@ footer {
     }
     
     .servicos .center-servicos{
-        top: 350px;
+        top: 310px;
         position: relative;
     }
 
@@ -77,23 +77,28 @@ footer {
     }
 
     .servicos .center-servicos h1{
-        width: 250px;
-        font-size: 12px;
+        width: 400px;
+        font-size: 20px;
     }
 
     .servicos .top-servicos{
-        top: 250px;
-        left: 140px;
+        top: 220px;
+        left: 120px;
         position: relative;
     }
 
     .servicos{
         top: 328px;
-        height: 920px;
+        height: 1200px;
+    }
+
+    footer{
+        height: 310px;
+        top: -12px;
     }
     
     footer .rodape .txt-footer {
-        left: -80px;
+        left: 230px;
         top: 20px;
     }
 
@@ -112,8 +117,7 @@ footer {
     }
 
     .rodape .img-fundo-roda {
-        left: 60px;
-        top: -5px;
+        display: none;
     }
 
     footer .roda-fora {
@@ -128,7 +132,7 @@ footer {
     }
 
     .servicos .center-servicos {
-        top: 300px;
+        top: 350px;
         position: relative;
     }
 
@@ -153,8 +157,8 @@ footer {
     }
 
     .servicos {
-        top: 328px;
-        height: 1300px;
+        top: 308px;
+        height: 1200px;
     }
 
     footer {
@@ -173,7 +177,7 @@ footer {
 
     footer .rodape .txt-footer h1,
     #h1-relo {
-        width: 400px;
+        width: 190px;
         font-size: 11px;
     }
 
@@ -181,11 +185,11 @@ footer {
         width: 17px;
     }
 
-    footer .txt-footer {
+    footer .rodape .txt-footer {
         margin-top: -20px;
-        width: 250px;
-        margin-left: 145px;
+        margin-left: -320px;
         position: relative;
+        width: 100px;
     }
 
     footer .rodape .roda-fora {
