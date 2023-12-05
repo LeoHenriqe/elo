@@ -132,9 +132,23 @@ footer {
         position: relative;
     }
 
+    .servicos .center-servicos h1 {
+        font-size: 15px;
+        width: 300px;
+    }
+
     .servicos .top-servicos {
         top: 220px;
         left: 60px;
+        position: relative;
+    }
+
+    .servicos .top-servicos h1{
+        font-size: 30px;
+    }
+
+    .servicos .top-servicos img{
+        left: 5px;
         position: relative;
     }
 
@@ -157,18 +171,25 @@ footer {
         top: 10px;
     }
 
-    footer .insta h1 {
-        font-size: 15px;
+    footer .rodape .txt-footer h1,
+    #h1-relo {
+        width: 400px;
+        font-size: 11px;
+    }
+
+    footer .rodape .txt-footer img, #imgrel{
+        width: 17px;
     }
 
     footer .txt-footer {
+        margin-top: -20px;
         width: 250px;
-        margin-left: 135px;
+        margin-left: 145px;
         position: relative;
     }
 
     footer .rodape .roda-fora {
         width: 90px;
-        height: 110px;
+        height: 100px;
     }
 }

@@ -209,6 +209,14 @@ footer .rodape .txt-footer {
         left: -80px;
     }
 
+    footer .rodape .txt-footer h1{
+        font-size: 11px;
+    }
+
+    footer .rodape .txt-footer .relogio h1{
+        font-size: 11px;
+    }
+
     .rodape{
         top: 55px;
     }

@@ -142,6 +142,17 @@ footer{
 }
 
 
+@media (max-width:840px) {
+    header{
+        height: 100px;
+    }
+
+    .img-rod-2{
+        width: 400px;
+        top: -245px;
+    }
+}
+
 @media (max-width:600px) {
 
     header {
@@ -185,13 +196,20 @@ footer{
     }
 
     .img-rod-2{
-        width: 200px;
-        top: -105px;
+        display: none;
     }
 
     footer .rodape .txt-footer {
         width: 288px;
         left: 60px;
+    }
+
+    footer .rodape .txt-footer h1{
+        font-size: 11px;
+    }
+
+    footer .rodape .txt-footer .relogio h1{
+        font-size: 11px;
     }
 
     .rodape .txt-footer .relogio img,
@@ -203,15 +221,4 @@ footer{
         margin-left: 20px;
     }
 
-}
-
-@media (max-width:840px) {
-    header{
-        height: 100px;
-    }
-
-    .img-rod-2{
-        width: 400px;
-        top: -245px;
-    }
 }
