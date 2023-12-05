@@ -876,21 +876,21 @@ footer{
     .rodape .txt-footer {
         position: absolute;
         top: 10px;
-        left: 26%;
+        left: 20%;
     }
 
     .rodape .txt-footer .relogio,
     .email,
     .whatsapp,
     .insta {
-        width: 250px;
+        width: 210px;
     }
 
     .rodape .txt-footer .relogio h1,
     .email h1,
     .whatsapp h1,
     .insta h1 {
-        font-size: 14px;
+        font-size: 12px;
         margin-bottom: -10px;
     }
 
@@ -898,8 +898,9 @@ footer{
     .email img,
     .whatsapp img,
     .insta img {
-        width: 18px;
+        width: 17px;
         margin-bottom: -10px;
+        margin-left: 12px;
     }
 
 }
