@@ -153,13 +153,21 @@ textarea:focus {
 
 button:disabled {
     cursor: not-allowed;
-    background: #2c2f35;
-    color: #F99F42;
+    background: #555b69;
+}
+
+.success,
+.error {
+    text-align: center;
 }
 
 .success {
     color: #F99F42;
     font-size: 25px;
+}
+
+.error {
+    color: tomato;
 }
 
 
@@ -229,27 +237,29 @@ button:disabled {
 }
 
 @media (max-width:840px) {
-    #form-sec #form-cont{
+    #form-sec #form-cont {
         right: 340px;
     }
 
-    #form-cont .txt-contact .contact-cont{
+    #form-cont .txt-contact .contact-cont {
         right: 20px;
         top: 80px;
         position: relative;
     }
 
-    .contato-left p{
+    .contato-left p {
         left: -10px;
         position: relative;
     }
 
-    .contato-left h1{
+    .contato-left h1 {
         margin-left: 10px;
         position: relative;
     }
 
-    .contato-left .email img, .whatsapp img, .insta img{
+    .contato-left .email img,
+    .whatsapp img,
+    .insta img {
         left: 230px;
         position: relative;
     }
@@ -267,7 +277,7 @@ button:disabled {
         align-items: center;
     }
 
-    #form-cont .txt-contact .contact-cont{
+    #form-cont .txt-contact .contact-cont {
         font-size: 30px;
         font-weight: bold;
         position: relative;
@@ -337,7 +347,7 @@ button:disabled {
 }
 
 @media (max-width: 390px) {
-    form{
+    form {
         margin-left: 370px;
         position: relative;
     }
