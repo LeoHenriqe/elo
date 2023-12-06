@@ -31,6 +31,14 @@
     top: 20px;
 }
 
+.img-rod-2 {
+    position: relative;
+    left: 725px;
+    top: -95px;
+    width: 400px;
+    height: 380px;
+}
+
 .txt-footer {
     position: relative;
     left: 250px;
