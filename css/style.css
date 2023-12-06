@@ -428,13 +428,16 @@ footer{
     }
 
     footer {
-        position: absolute;
-        top: 455%;
+        top: 535%;
     }
 
     .roda-fora {
         top: 40px;
         position: relative;
+    }
+
+    .rodape{
+        width: 85%;
     }
 }
 
