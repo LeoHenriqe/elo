@@ -169,7 +169,7 @@ button:disabled {
 .error {
     color: tomato;
 }
-@media (max-width:1340px) {
+@media (max-width:1370px) {
 
     #form-cont form {
         position: relative;
