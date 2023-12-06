@@ -169,7 +169,6 @@ button:disabled {
 .error {
     color: tomato;
 }
-
 @media (max-width:1340px) {
 
     #form-cont form {
@@ -202,8 +201,6 @@ button:disabled {
     }
 
 }
-
-
 
 @media (max-width:1024px) {
     #form-cont .txt-contact {

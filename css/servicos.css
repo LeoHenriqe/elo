@@ -51,6 +51,17 @@ footer {
     height: 335px;
 }
 
+@media only screen and (max-width: 1370px) {
+    .img-rod-2{
+        left: 234px;
+    }
+
+    .txt-footer{
+        left: 10px;
+        width: 300px;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     .servicos {
         top: 400px;
