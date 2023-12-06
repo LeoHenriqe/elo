@@ -170,10 +170,6 @@ button:disabled {
     color: tomato;
 }
 
-@media only screen and (max-width: 1370px) {
-    
-}
-
 @media (max-width:1024px) {
     #form-cont .txt-contact {
         left: 75%;
@@ -270,7 +266,7 @@ button:disabled {
 }
 
 @media only screen and (max-width: 700px) {
-    form{
+    form {
         margin-left: 130px;
         position: relative;
     }
