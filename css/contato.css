@@ -169,6 +169,30 @@ button:disabled {
 .error {
     color: tomato;
 }
+@media (max-width:1340px) {
+
+    #form-cont .txt-contact {
+        left: 75%;
+    }
+
+    #form-cont .txt-contact h2 {
+        font-size: 40px;
+        left: -20%;
+        position: relative;
+    }
+
+    #form-cont form {
+        position: relative;
+        left: 8%;
+    }
+
+    .contato-left {
+        position: relative;
+        width: 30%;
+        top: -120px;
+    }
+
+}
 
 @media (max-width:1024px) {
     #form-cont .txt-contact {
