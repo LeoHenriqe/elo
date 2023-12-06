@@ -170,6 +170,9 @@ button:disabled {
     color: tomato;
 }
 
+@media only screen and (max-width: 1370px) {
+    
+}
 
 @media (max-width:1024px) {
     #form-cont .txt-contact {

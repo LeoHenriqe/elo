@@ -124,6 +124,12 @@ footer .rodape .txt-footer {
     width: 25%;
 }
 
+@media only screen and (max-width: 1370px) {
+    .img-rod-2{
+        top: -147px;
+    }
+}
+
 @media (max-width: 1024px) {
     #terra .dentro-terra{
         position: relative;

@@ -116,6 +116,13 @@ footer{
     margin-top: -5px;
 }
 
+@media only screen and (max-width: 1370px) {
+    .img-rod-2{
+        top: -187px;
+    }
+}
+
+
 @media (max-width: 1024px) {
     footer{
         position: relative;
