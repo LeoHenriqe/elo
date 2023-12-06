@@ -170,69 +170,29 @@ button:disabled {
     color: tomato;
 }
 
-@media (max-widht:1340px) {
+@media (max-width:1340px) {
+
     #form-cont .txt-contact {
         left: 75%;
     }
 
     #form-cont .txt-contact h2 {
         font-size: 40px;
+        left: -20%;
+        position: relative;
     }
 
     #form-cont form {
         position: relative;
-        left: 40%;
+        left: 8%;
     }
 
     .contato-left {
         position: relative;
-        width: 99%;
-        left: 5px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        top: 300px;
+        width: 30%;
+        top: -120px;
     }
 
-    .contato-left p {
-        font-size: 30px;
-        width: 400px;
-        margin-top: 15px;
-        left: 20px;
-    }
-
-    .contato-left h1 {
-        font-size: 18px;
-        margin-top: 10px;
-    }
-
-    .contato-left img {
-        width: 27px;
-        position: relative;
-        left: 50%;
-    }
-
-    .contato-left .whatsapp h1 {
-        left: 35%;
-        width: 150px;
-    }
-
-    .contato-left .insta h1 {
-        left: 32%;
-        width: 150px;
-    }
-
-    .contato-left .email h1 {
-        left: 23%;
-        width: 150px;
-    }
-
-    .success {
-        position: relative;
-        top: 150px;
-    }
 }
 
 
