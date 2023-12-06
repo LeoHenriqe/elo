@@ -335,10 +335,11 @@ details li {
 footer{
     position: absolute;
     top: 445%;
+    width: 100%;
 }
 
 .rodape {
-    width: 100%;
+    width: 80%;
     position: relative;
     left: 10%;
     display: flex;
