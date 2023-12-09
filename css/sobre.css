@@ -1,0 +1,88 @@
+body{
+    font-family: 'Visby', sans-serif;
+}
+
+p{
+    font-size: 40px;
+    font-weight: bold;
+    color: #131B26;
+}
+
+h1{
+    font-size: 25px;
+    font-weight: 600;
+    color: #131B26;
+}
+
+footer{
+    top: 130%;
+    padding-bottom: 3%;
+}
+
+.traco{
+    margin-bottom: 5%;
+    width: 40%;
+    height: 2px;
+    background-color: #F99F42;
+}
+
+#traco2{
+    margin-top: 5%;
+    width: 60%;
+}
+
+#traco3{
+    margin-top: 5%;
+    width: 80%;
+}
+
+#first-sec{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#first-sec #texto-first{
+    width: 50%;
+    align-items: center;
+}
+
+#texto-first .second{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#texto-first .first{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#qualit{
+    width: 50%;
+}
+
+#qualit p{
+    margin-bottom: 2%;
+    margin-top: 2%;
+    color: #F99F42;
+}
+
+@media only screen and (max-width: 600px) {
+    p{
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 13px;
+    }
+
+    #qualit{
+        width: 90%;
+    }
+
+    #first-sec #texto-first{
+        width: 90%;
+    }
+}
