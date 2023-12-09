@@ -15,7 +15,7 @@ h1{
 }
 
 footer{
-    top: 130%;
+    top: 210%;
     padding-bottom: 3%;
 }
 
@@ -67,6 +67,11 @@ footer{
     margin-bottom: 2%;
     margin-top: 2%;
     color: #F99F42;
+}
+
+#texto-first img{
+    width: 100%;
+    border-radius: 10px;
 }
 
 @media only screen and (max-width: 600px) {
