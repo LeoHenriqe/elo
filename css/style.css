@@ -101,6 +101,10 @@ details li {
     list-style: none;
 }
 
+.scav-mobile{
+    display: none;
+}
+
 .scav {
     right: 0;
     bottom: 0;
@@ -717,13 +721,20 @@ footer{
         position: relative;
     }
 
-    .scav {
-        z-index: 1000;
-        height: 840px;
+    .scav-mobile{
+        right: 0;
+        bottom: 0;
+        height: 1080px;
+        width: 100%;
+        position: relative;
+        top: -10px;
+        z-index: -100;
     }
-
-    .scav video {
-        height: 500px;
+    
+    .scav-mobile video {
+        width: 100%;
+        height: 750px;
+        object-fit: cover;
     }
 
     .equipe{
