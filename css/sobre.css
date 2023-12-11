@@ -1,43 +1,42 @@
-body{
+body {
     font-family: 'Visby', sans-serif;
 }
 
-p{
+p {
     font-size: 40px;
     font-weight: bold;
     color: #131B26;
 }
 
-h1{
+h1 {
     font-size: 25px;
     font-weight: 600;
     color: #131B26;
-    line-height: 15px;
 }
 
-footer{
+footer {
     top: 230%;
     padding-bottom: 3%;
 }
 
-.traco{
+.traco {
     margin-bottom: 5%;
     width: 40%;
     height: 2px;
     background-color: #F99F42;
 }
 
-#traco2{
+#traco2 {
     margin-top: 5%;
     width: 60%;
 }
 
-#traco3{
+#traco3 {
     margin-top: 5%;
     width: 80%;
 }
 
-#first-sec{
+#first-sec {
     margin-top: 3%;
     display: flex;
     align-items: center;
@@ -45,56 +44,57 @@ footer{
     width: 100%;
 }
 
-#first-sec #texto-first{
+#first-sec #texto-first {
     width: 70%;
     align-items: center;
 }
 
-#texto-first .second{
+#texto-first .second {
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
-#texto-first .first{
+#texto-first .first {
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
-#qualit{
+#qualit {
     width: 70%;
 }
 
-#qualit p{
+#qualit p {
     margin-bottom: 2%;
     margin-top: 2%;
     color: #F99F42;
 }
 
-#texto-first img{
+#texto-first img {
     width: 100%;
     border-radius: 10px;
 }
 
-#texto-first #img-logo{
+#texto-first #img-logo {
     width: 40%;
     margin-left: 30%;
     margin-bottom: 5%;
 }
 
 @media only screen and (max-width: 600px) {
-    p{
+    p {
         font-size: 20px;
     }
 
-    h1{
+    h1 {
         font-size: 13px;
+        line-height: 15px;
     }
 
-    #qualit{
+    #qualit {
         width: 90%;
     }
 
-    #first-sec #texto-first{
+    #first-sec #texto-first {
         width: 90%;
     }
 }
