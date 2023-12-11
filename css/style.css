@@ -721,6 +721,10 @@ footer{
         position: relative;
     }
 
+    .scav{
+        display: none;
+    }
+
     .scav-mobile{
         right: 0;
         bottom: 0;
@@ -728,7 +732,8 @@ footer{
         width: 100%;
         position: relative;
         top: -10px;
-        z-index: -100;
+        z-index: 10;
+        display: block;
     }
     
     .scav-mobile video {
