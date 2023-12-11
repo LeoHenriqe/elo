@@ -758,6 +758,8 @@ footer{
 
     .equipe .container-equipe a {
         font-size: 17px;
+        top: -30px;
+        position: relative;
     }
 
     .servicos {
