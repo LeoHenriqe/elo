@@ -1,0 +1,76 @@
+body{
+    font-family: 'Visby', sans-serif;
+}
+
+p{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#portifolio-img .imgs-port{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#portifolio-img .imgs-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#portifolio-img .imgs-port img{
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#portifolio-img .imgs-sec img{
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+}   
+
+#portifolio-img{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#portifolio-img .imgs-port .box-1 img, p{
+    align-self: center;
+}
+
+#portifolio-img .imgs-port .box-1, .box-2, .box-3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#portifolio-img .imgs-sec .box-1, .box-2, .box-3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#portifolio-img p{
+    font-size: 25px;
+    color: white;
+    width: 250px;
+    font-weight: bold;
+}
+
+#portifolio-img h1{
+    font-size: 18px;
+    color: white;
+    width: 400px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
