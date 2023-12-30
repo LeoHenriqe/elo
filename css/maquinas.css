@@ -28,14 +28,14 @@ p{
     width: 60%;
     height: auto;
     border-radius: 10px;
-    box-shadow: rgba(53, 53, 53, 0.598) 10px 5px 50px -15px, rgb(43, 43, 43) 10px 5px 50px -5px;
+    box-shadow: rgb(0, 0, 0) 10px 5px 10px -15px, rgb(0, 0, 0) 10px 5px 50px -5px;
 }
 
 #portifolio-img .imgs-sec img{
     width: 60%;
     height: auto;
     border-radius: 10px;
-    box-shadow: rgba(53, 53, 53, 0.598) 10px 5px 50px -15px, rgb(43, 43, 43) 10px 5px 50px -5px;
+    box-shadow: rgb(0, 0, 0) 0px 1px 10px -15px, rgb(0, 0, 0) 10px 5px 50px -5px;
 }   
 
 #portifolio-img{
@@ -67,13 +67,14 @@ p{
     color: white;
     width: 250px;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 #portifolio-img h1{
     font-size: 18px;
     color: white;
     width: 400px;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
