@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    height: 15vb;
+    height: 12vb;
     z-index: 1000;
 }
 
@@ -61,7 +61,7 @@ p {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    height: 460px;
+    height: 500px;
 }
 
 #portifolio-img .imgs-sec .box-1,
@@ -71,7 +71,7 @@ p {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    height: 460px;
+    height: 500px;
 }
 
 #portifolio-img p {
@@ -91,15 +91,20 @@ p {
 }
 
 .rodape {
-    height: 10px;
+    height: 1px;
 }
 
 .rodape .roda-fora{
-    height: 100px;
+    height: 200px;
+}
+
+footer{
+    position: relative;
+    top: 100px;
 }
 
 .img-rod-2 {
-    top: 6%;
+    top: -28%;
 }
 
 @media only screen and (max-widht: 1370px) {
@@ -156,5 +161,9 @@ p {
     .box-2,
     .box-3 {
         height: 510px;
+    }
+
+    .rodape .roda-fora{
+        height: 100px;
     }
 }

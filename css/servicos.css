@@ -6,7 +6,7 @@
 .servicos {
     overflow: hidden;
     top: 489px;
-    height: 818px;
+    height: 850px;
 }
 
 .rodape .img-fundo-roda {
@@ -27,8 +27,8 @@
 
 .img-rod-2 {
     position: relative;
-    left: 725px;
-    top: -95px;
+    left: 733px;
+    top: -79px;
     width: 400px;
     height: 380px;
 }
@@ -40,8 +40,9 @@
 }
 
 footer {
+    z-index: 1000;
     position: relative;
-    margin-top: 25%;
+    margin-top: 23%;
     height: 335px;
 }
 
@@ -67,7 +68,6 @@ footer {
     }
 
     footer{
-        z-index: 1000;
         position: relative;
         top: 460px;
         height: 387px;
