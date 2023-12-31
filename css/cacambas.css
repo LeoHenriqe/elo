@@ -126,7 +126,11 @@ footer .rodape .txt-footer {
 
 @media only screen and (max-width: 1370px) {
     .img-rod-2{
-        top: -147px;
+        top: 23px;
+    }
+
+    header{
+        height: 15vb;
     }
 }
 

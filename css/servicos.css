@@ -4,15 +4,9 @@
 }
 
 .servicos {
-    z-index: -1000;
     overflow: hidden;
     top: 489px;
     height: 818px;
-}
-
-.rodape {
-    height: 100px;
-    top: 50px;
 }
 
 .rodape .img-fundo-roda {
@@ -54,11 +48,30 @@ footer {
 @media only screen and (max-width: 1370px) {
     .img-rod-2{
         left: 234px;
+        top: 1px;
+    }
+
+    .roda-fora{
+        position: relative;
     }
 
     .txt-footer{
         left: 10px;
         width: 300px;
+    }
+
+    .rodape{
+        margin: 0 0 0 0;
+        top: 10px;
+        height: 1px;
+    }
+
+    footer{
+        z-index: 1000;
+        position: relative;
+        top: 460px;
+        height: 387px;
+        margin: 0 0 0 0;
     }
 }
 

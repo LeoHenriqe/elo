@@ -344,6 +344,7 @@ footer{
 
 .rodape {
     width: 80%;
+    height: 10px;
     position: relative;
     left: 10%;
     display: flex;
@@ -395,10 +396,6 @@ footer{
 @media only screen and (max-width: 1370px) {
     header {
         height: 100px;
-    }
-
-    .scav{
-        z-index: 1000;
     }
 
     .container-equipe h1 {

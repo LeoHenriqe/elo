@@ -3,7 +3,7 @@ body{
 }
 
 header{
-    height: 12vb;
+    height: 15vb;
     z-index: 1000;
 }
 
@@ -58,6 +58,7 @@ p{
     flex-direction: column;
     text-align: center;
     align-items: center;
+    height: 460px;
 }
 
 #portifolio-img .imgs-sec .box-1, .box-2, .box-3{
@@ -65,6 +66,7 @@ p{
     flex-direction: column;
     text-align: center;
     align-items: center;
+    height: 460px;
 }
 
 #portifolio-img p{
@@ -90,6 +92,13 @@ p{
 .img-rod-2{
     top: 6%;
 }
+
+@media only screen and (max-widht: 1370px){
+    header{
+        height: 15vb;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     #portifolio-img .imgs-port{
         display: flex;
