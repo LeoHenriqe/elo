@@ -49,8 +49,12 @@ footer {
 
 @media only screen and (max-width: 1370px) {
     .img-rod-2{
-        left: 234px;
-        top: 1px;
+        left: 225px;
+        top: -5px;
+    }
+
+    .servicos{
+        top: 450px;
     }
 
     .roda-fora{
@@ -70,7 +74,7 @@ footer {
 
     footer{
         position: relative;
-        top: 460px;
+        top: 400px;
         height: 387px;
         margin: 0 0 0 0;
     }

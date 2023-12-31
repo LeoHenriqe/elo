@@ -107,9 +107,17 @@ footer{
     top: -28%;
 }
 
-@media only screen and (max-widht: 1370px) {
+@media only screen and (max-width: 1370px) {
     header {
-        height: 12vb;
+        height: 15vb;
+    }
+
+    .img-rod-2{
+        top: 33px;
+    }
+
+    .rodape .roda-fora{
+        height: 150px;
     }
 }
 
