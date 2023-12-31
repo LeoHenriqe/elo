@@ -338,6 +338,7 @@ details li {
 
 footer{
     width: 100%;
+    position: absolute;
 }
 
 .rodape {
