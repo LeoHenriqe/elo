@@ -351,8 +351,8 @@ footer{
 }
 
 .rodape .roda-fora {
-    width: 15%;
-    height: 15%;
+    width: 150px;
+    height: 150px;
     margin-right: 80px;
     top: 20px;
     position: relative;

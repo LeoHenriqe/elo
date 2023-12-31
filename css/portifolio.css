@@ -103,12 +103,13 @@ footer{
 .rodape {
     top: 10%;
     width: 80%;
+    height: 10px;
 }
 
 .img-rod-2 {
     position: relative;
     float: right;
-    top: -347px;
+    top: -47px;
     width: 25%;
 }
 
@@ -118,7 +119,7 @@ footer{
 
 @media only screen and (max-width: 1370px) {
     .img-rod-2{
-        top: -187px;
+        top: 7px;
     }
 }
 

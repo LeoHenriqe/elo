@@ -2,6 +2,11 @@ body{
     font-family: 'Visby', sans-serif;
 }
 
+header{
+    height: 12vb;
+    z-index: 1000;
+}
+
 p{
     color: white;
     font-size: 25px;
@@ -78,6 +83,13 @@ p{
     margin-bottom: 20px;
 }
 
+.rodape{
+    height: 10px;
+}
+
+.img-rod-2{
+    top: 6%;
+}
 @media only screen and (max-width: 600px) {
     #portifolio-img .imgs-port{
         display: flex;
