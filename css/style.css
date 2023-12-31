@@ -396,6 +396,12 @@ footer{
 @media only screen and (max-width: 1370px) {
     header {
         height: 100px;
+        z-index: 1000;
+    }
+
+    header .menu{
+        position: relative;
+        top: -45px;
     }
 
     .container-equipe h1 {
