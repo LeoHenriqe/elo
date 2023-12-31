@@ -435,7 +435,8 @@ footer{
     }
 
     footer {
-        top: 535%;
+        position: absolute;
+        top: 560%;
     }
 
     .roda-fora {
