@@ -112,7 +112,6 @@ details li {
     width: 100%;
     position: relative;
     top: -10px;
-    z-index: -100;
 }
 
 .scav video {
