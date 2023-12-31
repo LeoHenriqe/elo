@@ -191,11 +191,12 @@ footer {
     .servicos {
         top: 308px;
         height: 1200px;
+        z-index: -100;
     }
 
     footer {
         width: 100%;
-        top: 50px;
+        top: 150px;
         height: 180px;
     }
 

@@ -1,19 +1,19 @@
-body{
+body {
     font-family: 'Visby', sans-serif;
 }
 
-header{
+header {
     height: 15vb;
     z-index: 1000;
 }
 
-p{
+p {
     color: white;
     font-size: 25px;
     font-weight: bold;
 }
 
-#portifolio-img .imgs-port{
+#portifolio-img .imgs-port {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,38 +22,41 @@ p{
     margin-top: 50px;
 }
 
-#portifolio-img .imgs-sec{
+#portifolio-img .imgs-sec {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
-#portifolio-img .imgs-port img{
+#portifolio-img .imgs-port img {
     width: 60%;
     height: auto;
     border-radius: 10px;
     box-shadow: rgb(0, 0, 0) 10px 5px 10px -15px, rgb(0, 0, 0) 10px 5px 50px -5px;
 }
 
-#portifolio-img .imgs-sec img{
+#portifolio-img .imgs-sec img {
     width: 60%;
     height: auto;
     border-radius: 10px;
     box-shadow: rgb(0, 0, 0) 0px 1px 10px -15px, rgb(0, 0, 0) 10px 5px 50px -5px;
-}   
+}
 
-#portifolio-img{
+#portifolio-img {
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
-#portifolio-img .imgs-port .box-1 img, p{
+#portifolio-img .imgs-port .box-1 img,
+p {
     align-self: center;
 }
 
-#portifolio-img .imgs-port .box-1, .box-2, .box-3{
+#portifolio-img .imgs-port .box-1,
+.box-2,
+.box-3 {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -61,7 +64,9 @@ p{
     height: 460px;
 }
 
-#portifolio-img .imgs-sec .box-1, .box-2, .box-3{
+#portifolio-img .imgs-sec .box-1,
+.box-2,
+.box-3 {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -69,7 +74,7 @@ p{
     height: 460px;
 }
 
-#portifolio-img p{
+#portifolio-img p {
     font-size: 25px;
     color: white;
     width: 250px;
@@ -77,7 +82,7 @@ p{
     margin-top: 20px;
 }
 
-#portifolio-img h1{
+#portifolio-img h1 {
     font-size: 18px;
     color: white;
     width: 400px;
@@ -85,32 +90,36 @@ p{
     margin-bottom: 20px;
 }
 
-.rodape{
+.rodape {
     height: 10px;
 }
 
-.img-rod-2{
+.rodape .roda-fora{
+    height: 100px;
+}
+
+.img-rod-2 {
     top: 6%;
 }
 
-@media only screen and (max-widht: 1370px){
-    header{
+@media only screen and (max-widht: 1370px) {
+    header {
         height: 15vb;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    #portifolio-img .imgs-port{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    #portifolio-img .imgs-sec{
+    #portifolio-img .imgs-port {
         display: flex;
         flex-direction: column;
     }
 
-    #portifolio-img p{
+    #portifolio-img .imgs-sec {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #portifolio-img p {
         font-size: 25px;
         color: white;
         width: 250px;
@@ -118,22 +127,34 @@ p{
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    
-    #portifolio-img h1{
+
+    #portifolio-img h1 {
         width: 350px;
         margin-top: 20px;
         margin-bottom: 40px;
     }
 
-    #portifolio-img .imgs-port img{
+    #portifolio-img .imgs-port img {
         width: 80%;
         height: auto;
         border-radius: 10px;
     }
-    
-    #portifolio-img .imgs-sec img{
+
+    #portifolio-img .imgs-sec img {
         width: 80%;
         height: auto;
         border-radius: 10px;
+    }
+
+    #portifolio-img .imgs-port .box-1,
+    .box-2,
+    .box-3 {
+        height: 500px;
+    }
+
+    #portifolio-img .imgs-sec .box-1,
+    .box-2,
+    .box-3 {
+        height: 510px;
     }
 }

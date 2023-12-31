@@ -34,4 +34,9 @@
         top: 50px;
         position: relative;
     }
+
+    .rodape .roda-fora{
+        height: 100px;
+    }
+
 }

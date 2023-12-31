@@ -64,12 +64,6 @@ header {
     height: 1000px;
 }
 
-#select {
-    background-color: red;
-    color: white;
-    border-bottom: solid 2px white;
-}
-
 #btn-voltar-sec {
     height: 200px;
     background-color: #131B26;
@@ -96,7 +90,7 @@ footer{
     width: 100%;
     height: 350px;
     background-color: white;
-    top: 5px;
+    top: 45px;
     position: relative;
 }
 
@@ -109,7 +103,7 @@ footer{
 .img-rod-2 {
     position: relative;
     float: right;
-    top: -47px;
+    top: -127px;
     width: 25%;
 }
 
@@ -209,6 +203,10 @@ footer{
     footer{
         height: 170px;
         top: 5px;
+    }
+
+    .rodape .roda-fora{
+        height: 100px;
     }
 
     .img-rod-2{
