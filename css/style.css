@@ -38,7 +38,7 @@ header .menu a {
     font-family: 'Visby', sans-serif;
     font-weight: bolder;
     color: #F99F42;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     cursor: pointer;
     text-decoration: none;
 }
@@ -489,6 +489,8 @@ footer{
 
 @media only screen and (max-width: 890px) {
     
+
+
     .equipe{
         min-height: 1000px;
     }
