@@ -9,9 +9,10 @@ p {
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 600;
     color: #131B26;
+    text-align: justify;
 }
 
 footer {
@@ -47,6 +48,7 @@ footer {
 #first-sec #texto-first {
     width: 70%;
     align-items: center;
+    text-align: justify;
 }
 
 #texto-first .second {

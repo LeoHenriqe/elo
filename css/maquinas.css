@@ -7,10 +7,10 @@ header {
     z-index: 1000;
 }
 
-p {
+.dentro-terra p{
     color: white;
     font-size: 25px;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 #portifolio-img .imgs-port {
@@ -83,11 +83,12 @@ p {
 }
 
 #portifolio-img h1 {
-    font-size: 18px;
+    font-size: 17px;
     color: white;
     width: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .rodape {
