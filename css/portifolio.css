@@ -69,7 +69,7 @@ header {
 }
 
 #galeria .foto img{
-    width: 100%;
+    width: 99%;
 }
 
 #galeria .foto{
@@ -78,6 +78,7 @@ header {
     align-items: center;
     display: flex;
     flex-direction: column;
+    background-color: red;
 }
 
 .foto:target{
@@ -85,7 +86,7 @@ header {
     top: 50px;
     left: 15%;
     border: solid 1px white;
-    background-color: aqua;
+    background-color: rgb(50, 50, 50);
 }
 
 .foto:target .detalhes{
