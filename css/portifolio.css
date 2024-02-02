@@ -68,32 +68,47 @@ header {
     text-align: center;
 }
 
-#galeria .foto img{
+#galeria .foto img {
     width: 99%;
+    border-radius: 10px;
 }
 
-#galeria .foto{
+#galeria .foto {
     padding: 2px;
     width: 70%;
     align-items: center;
     display: flex;
     flex-direction: column;
-    background-color: red;
 }
 
-.foto:target{
+#galeria .foto:target {
+    z-index: 10;
+    border-radius: 10px;
     position: fixed;
     top: 50px;
     left: 15%;
     border: solid 1px white;
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(255, 255, 255);
 }
 
-.foto:target .detalhes{
+.foto:target .detalhes a {
+    font-family: 'Visby', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 900;
+    background-color: #131B26;
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
+}
+
+.foto:target .detalhes {
     display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
-.detalhes{
+.detalhes {
     display: none;
 }
 
@@ -116,6 +131,7 @@ header {
 #portifolio-img .box-video video {
     width: 340px;
     margin-top: 2px;
+    border-radius: 10px;
 }
 
 #portifolio-img img {
@@ -153,7 +169,6 @@ header {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 2.5rem;
-    z-index: 10;
     border: 2px solid #F99F42;
     color: #F99F42;
     text-decoration: none;
@@ -271,7 +286,26 @@ footer {
         align-items: center;
     }
 
-    #portifolio-img .box-video video{
+    #galeria .foto:target {
+       left: 4%;
+       width: 90%;
+    }
+    
+    .foto:target .detalhes a {
+        
+    }
+
+
+    #galeria .foto img {
+        width: 85%;
+        border-radius: 10px;
+    }
+    
+    #galeria .foto {
+        width: 100%;
+    }
+
+    #portifolio-img .box-video video {
         width: 372px;
     }
 
@@ -285,7 +319,7 @@ footer {
         display: block;
     }
 
-    #portifolio-img .box-video-mobile video{
+    #portifolio-img .box-video-mobile video {
         width: 370px;
     }
 
@@ -294,10 +328,10 @@ footer {
         align-items: center;
         justify-content: center;
         display: grid;
-        grid-template-columns: 190px 190px;
+        grid-template-columns: 200px 200px;
     }
 
-    #portifolio-img .box-txt{
+    #portifolio-img .box-txt {
         padding: 10px;
     }
 
