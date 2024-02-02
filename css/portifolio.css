@@ -1,17 +1,25 @@
-body{
+body {
     background-color: #131B26;
+}
+
+b {
+    font-weight: bold;
+}
+
+.container {
+    width: 90%;
 }
 
 header {
     height: 12vb;
 }
 
-.logo{
+.logo {
     top: 10px;
     position: relative;
 }
 
-.menu{
+.menu {
     left: -50px;
     position: relative;
 }
@@ -54,21 +62,54 @@ header {
 }
 
 #portifolio-img {
-    margin-top: -85px;
-    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
-#portifolio-img .imgs-port img {
-    margin-bottom: 10px;
+#portifolio-img .box-img {
     width: 100%;
-    height: 1000px;
+    align-items: center;
+    justify-content: end;
+    display: inline-flex;
+}
+
+#portifolio-img .box-video {
+    width: 25px;
+}
+
+#portifolio-img .box-video video {
+    width: 335px;
+}
+
+#portifolio-img img {
+    width: 20%;
+    padding: 3px;
+}
+
+#portifolio-img .box {
+    width: 100%;
+    align-items: center;
+    display: inline-flex;
+}
+
+#portifolio-img .box-txt {
+    width: 100%;
+    height: 100px;
+    font-family: 'Visby', sans-serif;
+}
+
+#portifolio-img .box-txt p {
+    color: white;
+    font-size: 30px;
 }
 
 #btn-voltar-sec {
     height: 200px;
     background-color: #131B26;
     padding: 0;
-    margin-top: -15px;
+    margin-top: 20px;
 }
 
 #btn-voltar-sec .btn-voltar {
@@ -82,11 +123,11 @@ header {
     color: #F99F42;
     text-decoration: none;
     border-radius: 8px;
-    top: 40%;
+    top: 45%;
     font-family: 'Visby', sans-serif;
 }
 
-footer{
+footer {
     width: 100%;
     height: 350px;
     background-color: white;
@@ -112,23 +153,23 @@ footer{
 }
 
 @media only screen and (max-width: 1370px) {
-    .img-rod-2{
+    .img-rod-2 {
         top: 7px;
     }
 
-    
-    header{
+
+    header {
         height: 15vb;
     }
 }
 
 
 @media (max-width: 1024px) {
-    footer{
+    footer {
         position: relative;
     }
 
-    .img-rod-2{
+    .img-rod-2 {
         width: 500px;
         top: -348px;
     }
@@ -137,33 +178,37 @@ footer{
         z-index: 1;
     }
 
-    #terra .dentro-terra{
+    #terra .dentro-terra {
         height: 700px;
         position: relative;
         top: 70px;
     }
 
-    #portifolio-img .imgs-port img{
-        height: 600px;
-    }
 }
 
 
 @media (max-width:840px) {
-    header{
+    header {
         height: 100px;
     }
 
-    .img-rod-2{
+    .img-rod-2 {
         display: none;
     }
 
-    footer{
+    footer {
         height: 250px;
     }
 }
 
 @media (max-width:600px) {
+
+    .container {
+        width: 80%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
 
     header {
         height: 100px;
@@ -184,15 +229,36 @@ footer{
         margin-top: 50%;
     }
 
-    #terra {
-        background-position: center;
-        height: 600px;
+    #portifolio-img .box {
+        display: flex;
         width: 100%;
+        flex-direction: column;
+        align-items: center;
     }
 
-    #portifolio-img .imgs-port img {
+    #portifolio-img .box-video video{
+        width: 372px;
+    }
+
+    #portifolio-img .box-video {
+        width: 380px;
+        align-items: center;
+    }
+
+    #portifolio-img .box-img {
         width: 100%;
-        height: 250px;
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 190px 190px;
+    }
+
+    #portifolio-img .box-txt{
+        padding: 10px;
+    }
+
+    #portifolio-img img {
+        width: 180px;
     }
 
     #btn-voltar-sec .btn-voltar {
@@ -200,16 +266,16 @@ footer{
         left: 33%;
     }
 
-    footer{
+    footer {
         height: 170px;
         top: 5px;
     }
 
-    .rodape .roda-fora{
+    .rodape .roda-fora {
         height: 100px;
     }
 
-    .img-rod-2{
+    .img-rod-2 {
         display: none;
     }
 
@@ -218,11 +284,11 @@ footer{
         left: 60px;
     }
 
-    footer .rodape .txt-footer h1{
+    footer .rodape .txt-footer h1 {
         font-size: 11px;
     }
 
-    footer .rodape .txt-footer .relogio h1{
+    footer .rodape .txt-footer .relogio h1 {
         font-size: 11px;
     }
 
