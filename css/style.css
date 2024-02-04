@@ -223,7 +223,7 @@ details li {
 
 .servicos .top-servicos h1 {
     font-weight: bolder;
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     font-family: 'Visby', sans-serif;
     color: white;
     margin-top: 30px;
@@ -238,7 +238,8 @@ details li {
 }
 
 .servicos .center-servicos h1 {
-    font-size: 20px;
+    margin-top: 30px;
+    font-size: 25px;
     color: white;
     font-family: 'Visby', sans-serif;
 }
@@ -345,7 +346,7 @@ details li {
 footer{
     width: 100%;
     position: absolute;
-    top: 445%;
+    top: 465%;
 }
 
 .rodape {
@@ -793,7 +794,7 @@ footer{
 
     .servicos {
         margin-top: -135%;
-        height: 1300px;
+        height: 1400px;
     }
 
     .servicos .top-servicos img {
@@ -829,7 +830,7 @@ footer{
     }
 
     .servicos a {
-        top: 1090px;
+        top: 1150px;
         font-size: 16px;
         left: 40%;
         border: 2px solid white;
@@ -907,7 +908,7 @@ footer{
 
     .rodape{
         width: 80%;
-       }
+    }
 
     .rodape .roda-fora {
         width: 25%;
