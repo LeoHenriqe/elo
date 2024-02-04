@@ -1,42 +1,75 @@
-@media only screen and (max-width: 1024px) {
-    #portifolio-img .imgs-port img{
-        height: 600px;
-        width: 100%;
-    }
-
-    #terra{
-        height: 700px;
-    }
-
-    #terra .dentro-terra{
-        top: 100px;
-        position: relative;
-    }
+.container {
+    width: 90%;
 }
 
+.box img {
+    width: 30%;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+#portifolio-img {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#galeria {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+#galeria .foto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#galeria .foto {
+    padding: 2px;
+    width: 60%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#terra .dentro-terra p {
+    width: 100%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {}
+
 @media only screen and (max-widht: 840px) {
-    header{
+    header {
         height: 100px;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    #portifolio-img .imgs-port img{
-        height: 250px;
-        width: 100%;
-    }
 
-    #terra{
+    #terra {
         height: 600px;
     }
 
-    #terra .dentro-terra{
+    #terra .dentro-terra p {
+        width: 100%;
+        text-align: center;
+    }
+
+    #terra .dentro-terra {
         top: 50px;
         position: relative;
     }
 
-    .rodape .roda-fora{
+    .rodape .roda-fora {
         height: 100px;
+    }
+
+    .box img {
+        width: 95%;
     }
 
 }

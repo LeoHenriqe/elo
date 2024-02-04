@@ -1,16 +1,63 @@
+p{
+    font-family: 'Visby', sans-serif;
+}
+
 .container{
-    width: 90%;
-    background-color: red;
-    align-items: center;
+    width: 85%;
 }
 
 .agro-top{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
 .box img{
-    width: 90%;
+    width: 40%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#galeria{
+    width: 100%;
+}
+
+#galeria .foto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#galeria .foto {
+    padding: 2px;
+    width: 60%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.cav-venda{
+    background-color: #192230;
+    border-radius: 100px;
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.cav-venda p{
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 600px) {
+    .cav-venda{
+        border-radius: 10px;
+    }
+
+    .box img{
+        width: 95%;
+        border-radius: 20px;
+    }
 }
