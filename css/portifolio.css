@@ -68,6 +68,10 @@ header {
     text-align: center;
 }
 
+#galeria{
+    width: 100%;
+}
+
 #galeria .foto img {
     width: 99%;
     border-radius: 10px;
@@ -75,31 +79,32 @@ header {
 
 #galeria .foto {
     padding: 2px;
-    width: 70%;
+    width: 60%;
     align-items: center;
     display: flex;
     flex-direction: column;
 }
 
-#galeria .foto:target {
+#galeria .foto:target{
+    width: 70%;
     z-index: 10;
     border-radius: 10px;
     position: fixed;
     top: 50px;
     left: 15%;
-    border: solid 1px white;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.423);
 }
 
 .foto:target .detalhes a {
     font-family: 'Visby', sans-serif;
-    color: rgb(255, 255, 255);
+    color: #131B26;
     font-size: 25px;
     text-decoration: none;
     font-weight: 900;
-    background-color: #131B26;
+    background-color: #F99F42;
     border-radius: 10px;
     padding: 5px 20px 5px 20px;
+    border: 2px solid #131B26;
 }
 
 .foto:target .detalhes {
@@ -127,8 +132,6 @@ header {
     padding-left: 6px;
     display: block;
 }
-
-
 
 #portifolio-img .box-video video {
     width: 340px;
