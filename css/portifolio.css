@@ -92,7 +92,7 @@ header {
     position: fixed;
     top: 50px;
     left: 15%;
-    background-color: rgba(0, 0, 0, 0.423);
+    background-color: rgba(0, 0, 0, 0.615);
 }
 
 .foto:target .detalhes a {
@@ -295,6 +295,7 @@ footer {
     #galeria .foto:target {
        left: 4%;
        width: 90%;
+       top: 200px;
     }
     
     .foto:target .detalhes a {
