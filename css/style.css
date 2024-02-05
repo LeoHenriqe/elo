@@ -794,7 +794,7 @@ footer{
 
     .servicos {
         margin-top: -135%;
-        height: 1400px;
+        height: 1500px;
     }
 
     .servicos .top-servicos img {
@@ -830,7 +830,7 @@ footer{
     }
 
     .servicos a {
-        top: 1150px;
+        top: 1250px;
         font-size: 16px;
         left: 40%;
         border: 2px solid white;

@@ -165,13 +165,13 @@ header {
 #btn-voltar-sec {
     height: 200px;
     background-color: #131B26;
-    padding: 0;
-    margin-top: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 #btn-voltar-sec .btn-voltar {
-    position: relative;
-    left: 48%;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 2.5rem;
@@ -179,7 +179,6 @@ header {
     color: #F99F42;
     text-decoration: none;
     border-radius: 8px;
-    top: 45%;
     font-family: 'Visby', sans-serif;
 }
 
@@ -340,11 +339,6 @@ footer {
 
     #portifolio-img .box-txt {
         padding: 10px;
-    }
-
-    #btn-voltar-sec .btn-voltar {
-        position: relative;
-        left: 33%;
     }
 
     footer {

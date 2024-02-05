@@ -2,31 +2,34 @@ body {
     font-family: 'Visby', sans-serif;
 }
 
+.container{
+    width: 90%;
+}
+
 header {
     height: 12vb;
     z-index: 1000;
 }
 
-.dentro-terra p{
+#portifolio-img{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.dentro-terra p {
     color: white;
     font-size: 25px;
     font-weight: normal;
 }
 
 #portifolio-img .imgs-port {
-    display: flex;
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
     align-items: center;
-    justify-content: center;
     text-align: center;
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
-
-#portifolio-img .imgs-sec {
-    display: flex;
-    align-items: center;
     justify-content: center;
-    text-align: center;
 }
 
 #portifolio-img .imgs-port img {
@@ -36,42 +39,22 @@ header {
     box-shadow: rgb(0, 0, 0) 10px 5px 10px -15px, rgb(0, 0, 0) 10px 5px 50px -5px;
 }
 
-#portifolio-img .imgs-sec img {
-    width: 60%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: rgb(0, 0, 0) 0px 1px 10px -15px, rgb(0, 0, 0) 10px 5px 50px -5px;
-}
-
 #portifolio-img {
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
-#portifolio-img .imgs-port .box-1 img,
+#portifolio-img .imgs-port .box img,
 p {
     align-self: center;
 }
 
-#portifolio-img .imgs-port .box-1,
-.box-2,
-.box-3 {
+#portifolio-img .imgs-port .box{
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    height: 500px;
-}
-
-#portifolio-img .imgs-sec .box-1,
-.box-2,
-.box-3 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    height: 500px;
 }
 
 #portifolio-img p {
@@ -95,11 +78,11 @@ p {
     height: 1px;
 }
 
-.rodape .roda-fora{
+.rodape .roda-fora {
     height: 200px;
 }
 
-footer{
+footer {
     position: relative;
     top: 100px;
 }
@@ -113,12 +96,32 @@ footer{
         height: 15vb;
     }
 
-    .img-rod-2{
+    .img-rod-2 {
         top: 33px;
     }
 
-    .rodape .roda-fora{
+    .rodape .roda-fora {
         height: 150px;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    #portifolio-img .imgs-port img {
+        width: 80%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: rgb(0, 0, 0) 10px 5px 10px -15px, rgb(0, 0, 0) 10px 5px 50px -5px;
+    }
+    
+    #portifolio-img h1 {
+        font-size: 15px;
+        width: 250px;
+        height: 200px;
+    }
+
+    #portifolio-img .imgs-port{
+        display: grid;
+        grid-template-columns: 300px 300px;
     }
 }
 
@@ -172,7 +175,7 @@ footer{
         height: 510px;
     }
 
-    .rodape .roda-fora{
+    .rodape .roda-fora {
         height: 100px;
     }
 }
