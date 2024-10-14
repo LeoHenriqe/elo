@@ -1,21 +1,26 @@
 header {
-    height: 12vb;
+    height: 12vh;
+    /* Corrigido de "vb" para "vh" */
+}
+
+.container {
+    width: 90%;
 }
 
 body {
     background-color: #131B26;
 }
 
-summary:hover{
+summary:hover {
     border-bottom: 3px solid #F99F42;
 }
 
-.logo{
+.logo {
     top: 10px;
     position: relative;
 }
 
-.menu{
+.menu {
     left: -50px;
     position: relative;
 }
@@ -61,12 +66,20 @@ summary:hover{
 #portifolio-img {
     margin-top: -85px;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-#portifolio-img .imgs-port img {
-    margin-bottom: 10px;
-    width: 100%;
-    height: 1000px;
+#portifolio-img video {
+    width: 40%;
+    border-radius: 10px;
+}
+
+#portifolio-img img {
+    width: 20%;
+    border-radius: 10px;
 }
 
 #select {
@@ -77,12 +90,13 @@ summary:hover{
 #btn-voltar-sec {
     height: 150px;
     background-color: #131B26;
-    margin-top: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 #btn-voltar-sec .btn-voltar {
-    position: relative;
-    left: 48%;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 2.5rem;
@@ -91,7 +105,6 @@ summary:hover{
     color: #F99F42;
     text-decoration: none;
     border-radius: 8px;
-    top: 40%;
     font-family: 'Visby', sans-serif;
     font-weight: bold;
 }
@@ -99,94 +112,51 @@ summary:hover{
 footer {
     background-color: rgb(255, 255, 255);
     width: 100%;
-    position: relative;
-    height: 366px;
-    top: 10px;
+    height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.rodape{
+.rodape {
     width: 90%;
     top: 90px;
 }
 
-footer .rodape .txt-footer {
-    margin-top: -30px;
-}
-
-.rodape .roda-fora {
-    position: relative;
-    top: -20px;
-}
-
-.img-rod-2 {
-    position: relative;
+footer .img-rod-2 {
     float: right;
-    top: -113px;
-    width: 25%;
+    top: -93px;
+    position: relative;
 }
 
 @media only screen and (max-width: 1370px) {
-    .img-rod-2{
-        top: 23px;
+    .img-rod-2 {
+        display: none;
     }
 
-    header{
-        height: 15vb;
-    }
-}
-
-@media (max-width: 1024px) {
-    #terra .dentro-terra{
-        position: relative;
-        top: 80px;
-        height: 700px;
-    }
-
-    #portifolio-img .imgs-port img{
-        height: 600px;
-    }
-    
-    .img-rod-2{
-        top: -257px;
-        width: 40%;
-    }
-
-    footer .rodape .txt-footer {
-        z-index: 1;
-        right: 40px;
-        position: relative;
-    }
-
-    .rodape .roda-fora {
-        width: 24%;
-        right: 30px;
+    header {
+        height: 15vh;
+        /* Corrigido de "vb" para "vh" */
     }
 }
 
 @media only screen and (max-width: 840px) {
-    .img-rod-2{
+    .img-rod-2 {
         display: none;
     }
 
-    footer .rodape .txt-footer {
-        z-index: 1;
-        margin-left: -250px;
-        position: relative;
-    }
-
-    header{
+    header {
         height: 100px;
     }
 }
 
-@media (max-width:600px) {
-
+@media (max-width: 600px) {
     header {
         height: 100px;
     }
 
     #terra .dentro-terra h1 {
-        font-size: 40px;
+        font-size: 20px;
     }
 
     #terra .dentro-terra p {
@@ -206,35 +176,58 @@ footer .rodape .txt-footer {
         width: 100%;
     }
 
-    #portifolio-img .imgs-port img {
+    #portifolio-img .box {
         width: 100%;
-        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #portifolio-img video {
+        margin: 10px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    #portifolio-img img {
+        margin: 10px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    #btn-voltar-sec {
+        width: 100%;
+        display: inline;
+        justify-content: center;
+        align-items: center;
     }
 
     #btn-voltar-sec .btn-voltar {
-        position: relative;
-        left: 33%;
+        top: 40%;
     }
 
     footer {
-        height: 205px;
-        top: 10px;
+        height: 255px;
     }
 
     footer .rodape .txt-footer {
-        left: 160px;
+        margin: 0;
     }
 
-    footer .rodape .txt-footer h1{
+    footer .rodape .txt-footer h1 {
         font-size: 11px;
     }
 
-    footer .rodape .txt-footer .relogio h1{
+    footer .rodape .txt-footer .relogio h1 {
         font-size: 11px;
     }
 
-    .rodape{
-        top: 55px;
+    .rodape {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
 
     .rodape .roda-fora {
@@ -244,5 +237,4 @@ footer .rodape .txt-footer {
     .img-rod-2 {
         display: none;
     }
-
 }

@@ -12,15 +12,11 @@ b {
 
 header {
     height: 12vb;
+    /* Considere usar 'vh' para maior compatibilidade */
 }
 
 .logo {
     top: 10px;
-    position: relative;
-}
-
-.menu {
-    left: -50px;
     position: relative;
 }
 
@@ -68,7 +64,7 @@ header {
     text-align: center;
 }
 
-#galeria{
+#galeria {
     width: 100%;
 }
 
@@ -78,27 +74,28 @@ header {
 }
 
 #galeria .foto {
+    justify-content: center;
     padding: 2px;
-    width: 60%;
+    width: 50%;
     align-items: center;
     display: flex;
     flex-direction: column;
 }
 
-#galeria video{
+#galeria video {
     width: 100%;
     border-radius: 10px;
 }
 
-#galeria .video{
-    padding-left: 4px;
-    width: 60%;
+#galeria .video {
+    padding-left: 2px;
+    width: 50%;
     align-items: center;
     display: flex;
     flex-direction: column;
 }
 
-#galeria .video:target{
+#galeria .video:target {
     width: 70%;
     z-index: 10;
     border-radius: 10px;
@@ -108,8 +105,9 @@ header {
     background-color: rgba(0, 0, 0, 0.615);
 }
 
-#galeria .foto:target{
+#galeria .foto:target {
     width: 70%;
+    height: 90%;
     z-index: 10;
     border-radius: 10px;
     position: fixed;
@@ -118,24 +116,7 @@ header {
     background-color: rgba(0, 0, 0, 0.615);
 }
 
-#galeria .video:target .detalhes a{
-    font-family: 'Visby', sans-serif;
-    color: #131B26;
-    font-size: 25px;
-    text-decoration: none;
-    font-weight: 900;
-    background-color: #F99F42;
-    border-radius: 10px;
-    padding: 5px 20px 5px 20px;
-    border: 2px solid #131B26;
-}
-
-.video:target .detalhes {
-    display: block;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
+#galeria .video:target .detalhes a,
 .foto:target .detalhes a {
     font-family: 'Visby', sans-serif;
     color: #131B26;
@@ -144,14 +125,15 @@ header {
     font-weight: 900;
     background-color: #F99F42;
     border-radius: 10px;
-    padding: 5px 20px 5px 20px;
+    padding: 5px 20px;
     border: 2px solid #131B26;
 }
 
+.video:target .detalhes,
 .foto:target .detalhes {
     display: block;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin: 10px 0;
+    /* Ajuste simplificado para margens */
 }
 
 .detalhes {
@@ -213,23 +195,19 @@ header {
 
 footer {
     width: 100%;
-    height: 350px;
+    height: 355px;
     background-color: white;
-    top: 45px;
-    position: relative;
 }
 
 .rodape {
-    top: 10%;
     width: 80%;
-    height: 10px;
 }
 
 .img-rod-2 {
-    position: relative;
-    float: right;
-    top: -127px;
-    width: 25%;
+    position: absolute;
+    left: 76%;
+    top: 239%;
+    width: 455px;
 }
 
 .txt-footer {
@@ -238,19 +216,27 @@ footer {
 
 @media only screen and (max-width: 1370px) {
     .img-rod-2 {
-        top: 7px;
+        display: none;
     }
-
 
     header {
-        height: 15vb;
+        height: 15vh;
+        /* Troque 'vb' por 'vh' */
     }
-}
 
+    #terra {
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 
-@media (max-width: 1024px) {
     footer {
-        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .img-rod-2 {
@@ -261,17 +247,9 @@ footer {
     .txt-footer {
         z-index: 1;
     }
-
-    #terra .dentro-terra {
-        height: 700px;
-        position: relative;
-        top: 70px;
-    }
-
 }
 
-
-@media (max-width:840px) {
+@media (max-width: 840px) {
     header {
         height: 100px;
     }
@@ -285,8 +263,7 @@ footer {
     }
 }
 
-@media (max-width:600px) {
-
+@media (max-width: 600px) {
     .container {
         width: 80%;
         align-items: center;
@@ -321,21 +298,20 @@ footer {
     }
 
     #galeria .foto:target {
-       left: 4%;
-       width: 90%;
-       top: 200px;
+        left: 4%;
+        width: 90%;
+        top: 200px;
     }
-    
+
     .foto:target .detalhes a {
         font-size: 15px;
     }
-
 
     #galeria .foto img {
         width: 90%;
         border-radius: 10px;
     }
-    
+
     #galeria .foto {
         width: 100%;
     }
@@ -344,7 +320,7 @@ footer {
         width: 372px;
     }
 
-    #portifolio-img .box-video {
+    #galeria .video {
         display: none;
     }
 
@@ -371,7 +347,6 @@ footer {
     }
 
     footer {
-        height: 170px;
         top: 5px;
     }
 
@@ -404,5 +379,4 @@ footer {
         margin-bottom: -10px;
         margin-left: 20px;
     }
-
 }

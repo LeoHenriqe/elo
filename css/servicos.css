@@ -5,9 +5,16 @@
 
 .servicos {
     overflow: hidden;
-    top: 489px;
     height: 950px;
     z-index: -10;
+}
+
+.servicos #img-conta {
+    width: 27%;
+}
+
+.center-servicos .box h1 {
+    font-size: 1.2em;
 }
 
 .rodape .img-fundo-roda {
@@ -27,116 +34,82 @@
 }
 
 .img-rod-2 {
-    position: relative;
-    left: 733px;
-    top: -79px;
-    width: 400px;
-    height: 380px;
+    position: absolute;
+    left: 76%;
+    top: 102%;
 }
 
 .txt-footer {
-    position: relative;
     left: 250px;
     width: 300px;
 }
 
 footer {
     z-index: 1000;
-    position: relative;
-    margin-top: 23%;
     height: 335px;
 }
 
 @media only screen and (max-width: 1370px) {
-    .img-rod-2{
-        left: 225px;
-        top: -5px;
+    .img-rod-2 {
+        display: none;
     }
 
-    .servicos{
-        top: 450px;
+    .servicos {
+        height: 600px;
     }
 
-    .roda-fora{
-        position: relative;
-    }
-
-    .txt-footer{
-        left: 10px;
+    .txt-footer {
         width: 300px;
     }
 
-    .rodape{
-        margin: 0 0 0 0;
+    .rodape {
         top: 10px;
         height: 1px;
     }
 
-    footer{
-        position: relative;
-        top: 400px;
-        height: 387px;
-        margin: 0 0 0 0;
+    footer {
+        height: 300px;
     }
 }
 
-@media only screen and (max-width: 1024px) {
-    .servicos {
-        top: 400px;
-    }
-
-    footer .rodape .txt-footer {
-        left: -80px;
-    }
-
-    .rodape .img-fundo-roda {
-        left: 80px;
-        top: -5px;
-    }
-
-    footer .roda-fora {
-        right: 40px;
-    }
-}
-
-@media only screen and (max-width: 840px) {
-    header{
+@media only screen and (max-width: 900px) {
+    header {
         height: 100px;
     }
-    
-    .servicos .center-servicos{
-        top: 310px;
-        position: relative;
+
+    .servicos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: 1800px;
     }
 
-    .servicos .center-servicos img{
+    .servicos .center-servicos img {
         width: 140px;
     }
 
-    .servicos .center-servicos h1{
+    .servicos .center-servicos h1 {
         width: 400px;
         font-size: 20px;
     }
 
-    .servicos .top-servicos{
-        top: 220px;
-        left: 120px;
-        position: relative;
+    .servicos #img-conta {
+        width: 15%;
     }
 
-    .servicos{
-        top: 328px;
-        height: 1400px;
+    .rodape{
+        height: 300px;
+        background-color: white;
     }
 
     footer{
-        height: 310px;
-        top: 62px;
+        margin-top: -200px;
     }
-    
-    footer .rodape .txt-footer {
-        left: 230px;
-        top: 20px;
+
+    .txt-footer{
+        width: 360px;
     }
 
     footer .rodape .txt-footer .relogio img {
@@ -149,8 +122,9 @@ footer {
 
     footer .rodape .txt-footer h1,
     #h1-relo {
-        width: 400px;
-        font-size: 22px;
+        width: 200px;
+        font-size: 20px;
+        text-align: left;
     }
 
     .rodape .img-fundo-roda {
@@ -168,9 +142,11 @@ footer {
         height: 100px;
     }
 
-    .servicos .center-servicos {
-        top: 350px;
-        position: relative;
+    .servicos .center-servicos{
+        height: 62%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .servicos .center-servicos h1 {
@@ -178,60 +154,65 @@ footer {
         width: 300px;
     }
 
-    .servicos .top-servicos {
-        top: 300px;
-        left: 60px;
-        position: relative;
-    }
-
-    .servicos .top-servicos h1{
+    .servicos .top-servicos h1 {
         font-size: 30px;
     }
 
-    .servicos .top-servicos img{
-        left: 5px;
-        position: relative;
+    .servicos {
+        height: 1900px;
+        z-index: -100;
     }
 
-    .servicos {
-        top: 308px;
-        height: 1400px;
-        z-index: -100;
+    .servicos #img-conta{
+        width: 25%;
     }
 
     footer {
         width: 100%;
-        top: 150px;
-        height: 180px;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: -220px;
+    }
+
+    footer .rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 !important;
     }
 
     .rodape .img-fundo-roda {
         display: none;
     }
 
-    .rodape {
-        top: 10px;
+    footer .rodape .txt-footer{
+        width: 100% !important;
+        height: 100px;
+        text-align: left;
+        margin-top: 30px;
     }
 
     footer .rodape .txt-footer h1,
     #h1-relo {
-        width: 190px;
-        font-size: 11px;
+        font-size: 18px;
     }
 
-    footer .rodape .txt-footer img, #imgrel{
-        width: 17px;
+    footer .rodape .txt-footer img,
+    #imgrel {
+        width: 15px;
     }
 
     footer .rodape .txt-footer {
-        margin-top: -20px;
-        margin-left: -320px;
-        position: relative;
         width: 100px;
     }
 
     footer .rodape .roda-fora {
-        width: 90px;
+        width: 100px;
         height: 100px;
+        margin-left: 70px;
     }
 }

@@ -1,27 +1,67 @@
-.prancha-sec{
+.prancha-sec {
     width: 100%;
     align-items: center;
     display: flex;
     flex-direction: column;
 }
 
-.container{
+.container {
     width: 90%;
     align-items: center;
     display: flex;
     flex-direction: column;
 }
 
-.container video{
+.container video {
     width: 100%;
     border-radius: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+.img-rod-2 {
+    position: absolute;
+    left: 75%;
+    top: 213% !important;
+}
 
-    #terra #h1-prancha{
+.txt-footer {
+    height: 160px;
+}
+
+footer .rodape {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+    #terra .dentro-terra {
+        height: 500px !important;
+    }
+
+    .img-rod-2 {
+        display: none;
+    }
+
+    #terra #h1-prancha {
         width: 100%;
         text-align: center;
     }
+}
 
+/* Melhora a renderização de fontes */
+body,
+h1,
+p {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Adicionando prefixos de fornecedor onde necessário */
+img {
+    -webkit-user-drag: none;
+    /* Impede arrastar imagens no WebKit */
+    user-select: none;
+    /* Impede seleção de texto em alguns navegadores */
 }

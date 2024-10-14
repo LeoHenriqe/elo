@@ -2,16 +2,17 @@ body {
     font-family: 'Visby', sans-serif;
 }
 
-.container{
+.container {
     width: 90%;
 }
 
 header {
     height: 12vb;
+    /* Consider using a fixed value for better compatibility */
     z-index: 1000;
 }
 
-#portifolio-img{
+#portifolio-img {
     display: flex;
     align-items: center;
     text-align: center;
@@ -26,23 +27,18 @@ header {
 
 #portifolio-img .imgs-port {
     display: grid;
-    grid-template-columns: 500px 500px 500px;
+    grid-template-columns: repeat(3, 500px);
+    /* Utilize repeat for easier management */
     align-items: center;
     text-align: center;
     justify-content: center;
 }
 
 #portifolio-img .imgs-port img {
-    width: 60%;
+    width: 55%;
     height: auto;
     border-radius: 10px;
     box-shadow: rgb(0, 0, 0) 10px 5px 10px -15px, rgb(0, 0, 0) 10px 5px 50px -5px;
-}
-
-#portifolio-img {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
 }
 
 #portifolio-img .imgs-port .box img,
@@ -50,11 +46,17 @@ p {
     align-self: center;
 }
 
-#portifolio-img .imgs-port .box{
+#portifolio-img .imgs-port .box {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
+}
+
+img#drone-img {
+    width: 290px !important;
+    height: 170px !important;
+    margin-top: 25px;
 }
 
 #portifolio-img p {
@@ -75,16 +77,11 @@ p {
 }
 
 .rodape {
-    height: 1px;
+    height: 120px;
 }
 
 .rodape .roda-fora {
-    height: 200px;
-}
-
-footer {
-    position: relative;
-    top: 100px;
+    height: 150px;
 }
 
 .img-rod-2 {
@@ -94,6 +91,50 @@ footer {
 @media only screen and (max-width: 1370px) {
     header {
         height: 15vb;
+        /* Again, consider using a fixed value */
+    }
+
+    #terra {
+        height: 700px;
+    }
+
+    #portifolio-img .container .imgs-port {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #portifolio-img .container .imgs-port .box {
+        width: 100%;
+    }
+
+    #portifolio-img .imgs-port .box {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    #portifolio-img p {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    #portifolio-img .box img {
+        width: 80%;
+    }
+
+    img#drone-img {
+        width: 80% !important;
+        height: 60% !important;
+        margin-top: 50px !important;
+    }
+
+    #portifolio-img h1 {
+        width: 600px;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: justify;
     }
 
     .img-rod-2 {
@@ -106,73 +147,58 @@ footer {
 }
 
 @media only screen and (max-width: 840px) {
-    #portifolio-img .imgs-port img {
-        width: 80%;
-        height: auto;
-        border-radius: 10px;
-        box-shadow: rgb(0, 0, 0) 10px 5px 10px -15px, rgb(0, 0, 0) 10px 5px 50px -5px;
-    }
-    
-    #portifolio-img h1 {
-        font-size: 15px;
-        width: 250px;
-        height: 200px;
+    #terra {
+        height: 600px;
+        align-items: center;
+        justify-content: center;
     }
 
-    #portifolio-img .imgs-port{
-        display: grid;
-        grid-template-columns: 300px 300px;
+    .dentro-terra {
+        justify-content: center;
+        height: 600px !important;
+    }
+
+    #portifolio-img .imgs-port img {
+        width: 80%;
+        margin-top: 60px;
+    }
+
+    #portifolio-img h1 {
+        font-size: 20px;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    #portifolio-img .imgs-port {
+    #terra {
+        height: 500px;
+        align-items: center;
+        justify-content: center;
         display: flex;
-        flex-direction: column;
     }
 
-    #portifolio-img .imgs-sec {
+    .dentro-terra {
+        height: 500px;
+        align-items: center;
+        justify-content: center;
         display: flex;
-        flex-direction: column;
     }
 
     #portifolio-img p {
-        font-size: 25px;
-        color: white;
-        width: 250px;
-        font-weight: bold;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        font-size: 20px;
     }
 
     #portifolio-img h1 {
         width: 350px;
-        margin-top: 20px;
+        margin-top: 10px;
         margin-bottom: 40px;
     }
 
     #portifolio-img .imgs-port img {
-        width: 80%;
-        height: auto;
-        border-radius: 10px;
+        width: 90%;
     }
 
     #portifolio-img .imgs-sec img {
-        width: 80%;
-        height: auto;
-        border-radius: 10px;
-    }
-
-    #portifolio-img .imgs-port .box-1,
-    .box-2,
-    .box-3 {
-        height: 500px;
-    }
-
-    #portifolio-img .imgs-sec .box-1,
-    .box-2,
-    .box-3 {
-        height: 510px;
+        width: 90%;
     }
 
     .rodape .roda-fora {

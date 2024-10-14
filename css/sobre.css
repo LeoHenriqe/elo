@@ -18,6 +18,8 @@ h1 {
 footer {
     top: 230%;
     padding-bottom: 3%;
+    position: relative;
+    /* Adicionado para garantir posicionamento correto */
 }
 
 .traco {
@@ -82,6 +84,17 @@ footer {
     margin-bottom: 5%;
 }
 
+/* Adicionando prefixos de fornecedor */
+body,
+p,
+h1 {
+    -webkit-font-smoothing: antialiased;
+    /* Melhora a renderização de fontes no WebKit */
+    -moz-osx-font-smoothing: grayscale;
+    /* Melhora a renderização de fontes no Firefox */
+}
+
+/* Media Queries */
 @media only screen and (max-width: 1370px) {
     footer {
         top: 290%;

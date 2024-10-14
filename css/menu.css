@@ -16,7 +16,8 @@
   padding: 0;
 }
 
-.burger:before {
+.burger:before,
+.burger:after {
   content: "";
   display: block;
   border-bottom: 5px solid orange;
@@ -24,18 +25,10 @@
   border-radius: 3px;
   margin-bottom: 5px;
   transition: transform 0.5s ease-in-out;
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
 }
 
-.burger:after {
-  border-radius: 3px;
-  content: "";
-  display: block;
-  border-bottom: 5px solid orange;
-  width: 100%;
+.burger:before {
   margin-bottom: 5px;
-  transition: transform 0.5s ease-in-out;
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
 }
 
 .burger-check {
@@ -45,21 +38,16 @@
 .burger-check:checked~.burger {
   border-bottom: 4px solid transparent;
   transition: border-bottom 0.8s ease-in-out;
-  -webkit-transition: border-bottom 0.8s ease-in-out;
 }
 
 .burger-check:checked~.burger:before {
   transform: rotate(-405deg) translateY(1px) translateX(-3px);
-  -webkit-transform: rotate(-405deg) translateY(1px) translateX(-3px);
   transition: transform 0.5s ease-in-out;
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
 }
 
 .burger-check:checked~.burger:after {
   transform: rotate(405deg) translateY(-4px) translateX(-5px);
-  -webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);
   transition: transform 0.5s ease-in-out;
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
 }
 
 .navigation {
@@ -75,7 +63,7 @@
 
 .burger-check:checked~.navigation {
   max-height: 500px;
-  transition: max-height 0.5s ease-in-out;
+  /* Ajuste conforme necessário */
 }
 
 .navigation .conteudo .port-h1 {
@@ -104,7 +92,7 @@
   float: right;
   margin-top: -100px;
   margin-right: 50px;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 a {
@@ -123,7 +111,8 @@ a {
   font-family: 'Visby', sans-serif;
   font-weight: bold;
   padding: 10px;
-  list-style-type: '';
+  list-style-type: none;
+  /* Removido o valor '' */
   text-align: center;
 }
 

@@ -29,6 +29,7 @@
                     <a style="border-top-right-radius: 10px;border-top-left-radius: 10px;
                     " href="/portifolio.html">Terraplanagem</a>
                     <a href="prancha.html">Caminhão Prancha</a>
+                    <a href="drone.html">Drone</a>
                     <a style="border-bottom-right-radius: 3px; border-bottom-left-radius: 3px;"
                         href="cacambas.html">Caçambas</a>
                 </li>
@@ -53,31 +54,28 @@
                         <li>
                             <a href="prancha.html">Caminhão Prancha</a>
                         </li>
+                        <li>
+                            <a href="drone.html">Drone</a>
+                        </li>
                     </details>
                     <li><a href="servicos.html">Serviços</a></li>
                     <li><a href="equipe.html">Nossa Equipe</a></li>
                     <li><a href="maquinas.html">Frota</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="drone.html">Drone</a></li>
                     <li style="border: none;"><a href="contato.html">Contatos</a></li>
                 </ul>
             </nav>
     </header>
-
-    <body>
-        <section id="form-sec">
-            <section id="form-cont">
-                <div class="txt-contact">
-                    <h2 class="contact-cont">CONTATOS</h2>
-                </div>
-                <form action="https://formsubmit.co/ajax/leo.ab13@hotmail.com" method="POST" data-form>
-                    <input type="text" name="nome" id="nome" required placeholder="Nome" />
-                    <input type="email" name="email" id="email" required placeholder="Email" />
-                    <textarea name="mensagem" id="mensagem" required placeholder="Digite sua mensagem..."></textarea>
-                    <button type="submit" data-button>Enviar</button>
-                </form>
-            </section>
-        </section>
-        <section>
+    <section id="form-sec">
+        <h2>CONTATOS</h2>
+        <div class="container">
+            <form action="https://formsubmit.co/ajax/leo.ab13@hotmail.com" method="POST" data-form>
+                <input type="text" name="nome" id="nome" required placeholder="Nome" />
+                <input type="email" name="email" id="email" required placeholder="Email" />
+                <textarea name="mensagem" id="mensagem" required placeholder="Digite sua mensagem..."></textarea>
+                <button type="submit" data-button>Enviar</button>
+            </form>
             <div class="contato-left">
                 <p>Ou entre em contato pelas nossas redes sociais!</p>
                 <div class="email" id="email">
@@ -93,9 +91,10 @@
                     <h1>elo_empreendimento</h1>
                 </div>
             </div>
-        </section>
-        <script src="/script.js"></script>
-        <script src="/form.js"></script>
-    </body>
+        </div>
+    </section>
+    <script src="/script.js"></script>
+    <script src="/form.js"></script>
+</body>
 
 </html>

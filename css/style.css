@@ -15,7 +15,8 @@ header .menu-right {
 header {
     background-color: #131B26;
     display: flex;
-    height: 12vb;
+    height: 12vh;
+    /* Corrigido 'vb' para 'vh' */
     align-items: center;
     justify-content: space-around;
 }
@@ -82,7 +83,7 @@ details li {
     text-align: center;
     align-items: center;
     top: 30px;
-    height: 120px;
+    height: 150px;
     border-radius: 10px;
     position: relative;
     width: 230px;
@@ -101,14 +102,14 @@ details li {
     list-style: none;
 }
 
-.scav-mobile{
+.scav-mobile {
     display: none;
 }
 
 .scav {
     right: 0;
     bottom: 0;
-    height: 1080px;
+    height: 700px;
     width: 100%;
     position: relative;
     top: -10px;
@@ -116,29 +117,23 @@ details li {
 
 .scav video {
     width: 100%;
-    height: 750px;
+    height: 720px;
     object-fit: cover;
 }
 
 .equipe {
-    width: 100%;
-    height: 110vh;
     background-color: #131B26;
-    top: -350px;
-    position: relative;
+    display: flex;
+    padding: 50px;
 }
 
 .container-equipe {
-    height: 70%;
-    width: 100%;
-    position: relative;
-    top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .equipe .equipe-img {
-    position: absolute;
-    top: 15%;
-    left: 10%;
     width: 28%;
 }
 
@@ -147,10 +142,8 @@ details li {
 }
 
 .equipe .equipe-txt {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    width: 40%;
+    width: 50%;
+    margin-left: 50px;
 }
 
 .equipe h1 {
@@ -183,21 +176,19 @@ details li {
 }
 
 .servicos {
-    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 1350px;
-    margin-top: -26%;
-    position: relative;
+    height: 900px;
     background-image: url(/imagens/FUNDO-SERVIÇOS.png);
 }
 
 .servicos a {
-    position: absolute;
-    top: 80%;
-    left: 45%;
     font-size: 2rem;
     color: white;
     border: 4px solid white;
@@ -208,12 +199,46 @@ details li {
     text-decoration: none;
 }
 
+/* Adicionando prefixos de fornecedor */
+header,
+body,
+details,
+summary {
+    -webkit-box-sizing: border-box;
+    /* Para Safari */
+    -moz-box-sizing: border-box;
+    /* Para Firefox */
+    box-sizing: border-box;
+    /* Padrão */
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        /* Ajusta o layout em telas pequenas */
+    }
+
+    .equipe .equipe-img {
+        width: 80%;
+        /* Reduz o tamanho da imagem em telas pequenas */
+    }
+
+    .equipe h1,
+    .equipe h2 {
+        font-size: 2rem;
+        /* Ajusta o tamanho da fonte */
+    }
+
+    .servicos {
+        height: auto;
+        /* Permite que a altura se ajuste ao conteúdo */
+    }
+}
+
+
 .servicos .top-servicos {
-    position: absolute;
-    top: 15%;
-    left: 13%;
-    width: 70%;
-    align-items: center;
+    width: 100%;
     text-align: center;
 }
 
@@ -230,18 +255,16 @@ details li {
 }
 
 .center-servicos {
-    width: 95%;
     display: inline-flex;
-    position: absolute;
-    top: 40%;
-    left: 2%;
+    padding: 30px;
 }
 
 .servicos .center-servicos h1 {
     margin-top: 30px;
-    font-size: 25px;
+    font-size: 1.4em;
     color: white;
     font-family: 'Visby', sans-serif;
+    font-weight: 600;
 }
 
 .center-servicos .box {
@@ -250,16 +273,16 @@ details li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: justify;
+    text-align: center;
 }
 
-.center-servicos .box img{
+.center-servicos .box img {
     width: 50%;
 }
 
 .rellax {
-    margin-top: -610px;
-    margin-bottom: 200px;
+    margin-top: -350px;
+    margin-bottom: 100px;
     position: relative;
     z-index: -100;
 }
@@ -267,36 +290,36 @@ details li {
 .paralax {
     background-position: center center;
     background-attachment: fixed;
-    background-size: 100%;
+    /* Pode não funcionar em alguns navegadores */
+    background-size: cover;
+    /* Melhor compatibilidade */
     min-height: 800px;
     background-image: url(/imagens/DSC00625-Aprimorado-NR.jpg);
 }
 
 .aba-isa {
-    background-image: url(/imagens/fundo-isa-e-rodape\ 2.png);
+    background-color: #131B26;
     width: 100%;
-    height: 1100px;
+    height: 600px;
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
 }
 
 .aba-isa .container-isa {
-    position: relative;
-    top: 11%;
+    align-items: center;
+    justify-content: center;
     display: flex;
+    padding: 50px;
 }
 
 .aba-isa .container-isa #img-top-isa {
     width: 10%;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 .aba-isa .container-isa .isa-img {
     width: 28%;
-    left: 10%;
-    position: relative;
+    margin-right: 50px;
 }
 
 .aba-isa .center-isa a img {
@@ -306,9 +329,6 @@ details li {
 }
 
 .aba-isa .center-isa {
-    margin-top: 2%;
-    left: 45%;
-    position: absolute;
     width: 40%;
 }
 
@@ -340,47 +360,44 @@ details li {
     text-align: center;
     padding: 8px;
     position: relative;
-    top: 20px;
+    top: 30px;
 }
 
-footer{
-    width: 100%;
-    position: absolute;
-    top: 465%;
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
 }
 
-.rodape {
-    width: 80%;
-    height: 10px;
-    position: relative;
-    left: 10%;
+footer .rodape {
     display: flex;
     align-self: center;
+    justify-content: center;
+    width: 80%;
+    margin-top: 50px;
 }
 
 .rodape .roda-fora {
     width: 150px;
     height: 150px;
-    margin-right: 80px;
-    top: 20px;
-    position: relative;
+    margin-right: 60px;
 }
 
 .rodape .txt-footer .relogio,
 .email,
 .insta,
 .whatsapp {
-    width: 60%;
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .rodape .txt-footer .relogio img,
 .email img,
 .insta img,
 .whatsapp img {
-    width: 21%;
+    width: 4%;
     text-align: center;
 }
 
@@ -388,17 +405,18 @@ footer{
 .email h1,
 .insta h1,
 .whatsapp h1 {
-    margin-left: 40px;
+    margin-left: 20px;
     font-size: 1.4rem;
     font-family: 'Visby', sans-serif;
     font-weight: 600;
     color: #131B26;
-    position: absolute;
 }
 
 .rodape .logo-rodape {
     display: none;
 }
+
+/* Media Queries */
 
 @media only screen and (max-width: 1370px) {
     header {
@@ -406,7 +424,7 @@ footer{
         z-index: 1000;
     }
 
-    header .menu{
+    header .menu {
         position: relative;
         top: -45px;
     }
@@ -421,17 +439,20 @@ footer{
     }
 
     .servicos {
-        margin-top: -500px;
-        height: 950px;
+        height: 700px;
     }
 
     .center-servicos img {
         width: 65%;
     }
 
-    .center-servicos h1 {
-        font-size: 20px;
-        text-align: justify;
+    .center-servicos .box h1 {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .aba-isa {
+        height: 450px;
     }
 
     .container-isa .isa-img {
@@ -448,8 +469,7 @@ footer{
     }
 
     footer {
-        position: absolute;
-        top: 560%;
+        top: 465%;
     }
 
     .roda-fora {
@@ -457,96 +477,56 @@ footer{
         position: relative;
     }
 
-    .rodape{
-        width: 85%;
-    }
-}
-
-@media only screen and (max-width: 1024px) {
-    header .menu {
-        top: -40px;
-    }
-
-    .equipe h2 {
-        width: 500px;
-    }
-
-    .servicos .center-servicos {
-        left: 30px;
-        top: 350px;
-        text-align: center;
-    }
-
-    .servicos .center-servicos h1 {
-        width: 330px;
-    }
-
-    .servicos .center-servicos img {
-        width: 180px;
-    }
-
-    .servicos .center-servicos h1 {
-        line-height: 15px;
-        font-size: 17px;
-        text-align: center;
-    }
-
-    .rodape .roda-fora{
-        top: 60px;
-    }
-
     .rodape {
-        top: 10px;
         width: 85%;
     }
 }
 
 @media only screen and (max-width: 890px) {
-    
-
-
-    .equipe{
-        min-height: 1000px;
-    }
-
-    .equipe .equipe-txt {
+    .equipe {
         text-align: center;
         align-items: center;
         display: flex;
         flex-direction: column;
-        top: 550px;
-        left: 1%;
-        width: 98%;
+    }
+
+    .equipe .equipe-txt {
+        text-align: left;
+        align-items: left;
+        display: flex;
+        flex-direction: column;
     }
 
     .equipe .container-equipe h1 {
         font-size: 30px;
-        width: 250px;
     }
 
     .equipe .container-equipe h2 {
-        font-size: 25px;
-        width: 500px;
+        font-size: 20px;
+        width: 340px;
     }
 
     .equipe .container-equipe .equipe-img {
         width: 50%;
-        top: 5%;
-        left: 25%;
     }
 
     .equipe .container-equipe a {
-        font-size: 22px;
+        font-size: 25px;
     }
 
     .servicos {
-        height: 1250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 1600px;
+        margin-top: -210px;
+        z-index: -1000;
+        background-position: center;
+        background-image: url(/imagens/FUNDO-SERVIÇOS.png);
     }
 
     .servicos .top-servicos img {
-        width: 15%;
-        left: 10px;
-        position: relative;
+        width: 10%;
     }
 
     .servicos .center-servicos {
@@ -555,32 +535,32 @@ footer{
         flex-direction: column;
         align-items: center;
         text-align: center;
-        top: 27%;
     }
 
     .servicos .center-servicos img {
-        width: 50%;
-        margin-bottom: 10px;
+        width: 15%;
+    }
+
+    .servicos .center-servicos #cont {
+        width: 10% !important;
     }
 
     .servicos .center-servicos h1 {
-        font-size: 22px;
+        font-size: 20px;
         line-height: 17px;
-        margin-bottom: 40px;
         text-align: center;
-        position: relative;
-        width: 100%;
-        top: 10px;
+        width: 80%;
     }
 
     .servicos a {
-        top: 1050px;
         font-size: 16px;
         border: 2px solid white;
     }
 
     .rellax {
-        height: 700px;
+        height: 800px;
+        margin-top: -600px;
+        z-index: -10001;
     }
 
     .paralax {
@@ -592,22 +572,19 @@ footer{
     }
 
     .aba-isa {
-        height: 1400px;
-        width: 100%;
-    }
-
-    .aba-isa .container-isa {
-        width: 100%;
-        height: 60%;
+        height: 780px;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
-    .aba-isa .center-isa {
-        top: 40%;
-        left: 30%;
+    .aba-isa .container-isa {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .aba-isa .center-isa .wpp {
@@ -616,13 +593,13 @@ footer{
     }
 
     .aba-isa .center-isa #img-top-isa {
-        width: 20%;
+        width: 30%;
     }
 
     .aba-isa .container-isa .isa-img {
         width: 45%;
-        left: 1%;
-        top: -8%;
+        margin: 0;
+        margin-bottom: 20px;
     }
 
     .aba-isa .container-isa h1 {
@@ -633,64 +610,43 @@ footer{
     .aba-isa .container-isa h2 {
         font-size: 22px;
         text-align: center;
-        width: 500px;
-        left: -24%;
-        margin-bottom: 20px;
-        position: relative;
     }
 
     .aba-isa .container-isa a {
         font-size: 15px;
     }
 
-    footer {
-        height: 10px;
-        position: relative;
-        top: -330px;
-    }
-
-    .rodape{
-        width: 80%;
-       }
-
-    .rodape .roda-fora {
-        width: 20%;
-        top: 40px;
-        right: 20px;
-        position: relative;
-    }
-
-    .rodape .txt-footer {
-        position: absolute;
-        top: 10px;
-        left: 26%;
+    .rodape {
+        width: 100% !important;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        margin: 0 !important;
     }
 
     .rodape .txt-footer .relogio,
     .email,
     .whatsapp,
     .insta {
-        width: 400px;
+        width: 500px;
     }
 
     .rodape .txt-footer .relogio h1,
     .email h1,
     .whatsapp h1,
     .insta h1 {
-        font-size: 20px;
-        margin-bottom: -10px;
+        font-size: 24px;
     }
 
     .rodape .txt-footer .relogio img,
     .email img,
     .whatsapp img,
     .insta img {
-        width: 20px;
-        margin-bottom: -10px;
+        width: 24px;
     }
-
 }
-
 
 @media only screen and (max-width: 600px) {
     .menu {
@@ -735,29 +691,36 @@ footer{
         position: relative;
     }
 
-    .scav{
+    .scav {
         display: none;
     }
 
-    .scav-mobile{
+    .scav-mobile {
         right: 0;
         bottom: 0;
-        height: 840px;
+        height: 480px;
         width: 100%;
         position: relative;
         top: -10px;
         z-index: 10;
         display: block;
     }
-    
+
     .scav-mobile video {
         width: 100%;
         height: 500px;
         object-fit: cover;
     }
 
-    .equipe{
-        min-height: 800px;
+    .equipe {
+        height: 500px;
+    }
+
+    .equipe .container-equipe {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
     }
 
     .equipe .equipe-txt {
@@ -765,14 +728,11 @@ footer{
         align-items: center;
         display: flex;
         flex-direction: column;
-        top: 300px;
-        left: 1%;
-        width: 98%;
+        margin: 0 !important;
     }
 
     .equipe .container-equipe h1 {
         font-size: 25px;
-        width: 200px;
     }
 
     .equipe .container-equipe h2 {
@@ -781,42 +741,39 @@ footer{
     }
 
     .equipe .container-equipe .equipe-img {
-        width: 55%;
-        top: 5%;
-        left: 23%;
+        width: 60%;
+        margin-bottom: 20px;
     }
 
     .equipe .container-equipe a {
         font-size: 17px;
-        top: -30px;
-        position: relative;
+        z-index: 1000000;
     }
 
     .servicos {
-        margin-top: -135%;
-        height: 1500px;
+        height: 1900px;
+        margin-top: -240px;
+        z-index: 100000;
     }
 
     .servicos .top-servicos img {
-        width: 25%;
+        width: 15%;
     }
 
     .servicos .top-servicos h1 {
-        width: 100%;
-        font-size: 35px;
+        font-size: 30px;
+        text-align: center;
     }
 
     .servicos .center-servicos {
-        width: 90%;
-        left: 5%;
+        width: 70%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        top: 27%;
     }
 
     .servicos .center-servicos img {
-        width: 50%;
+        width: 30%;
         margin-bottom: 10px;
     }
 
@@ -829,15 +786,18 @@ footer{
         text-align: justify;
     }
 
+    .servicos .center-servicos #cont {
+        width: 17% !important;
+    }
+
     .servicos a {
-        top: 1250px;
         font-size: 16px;
-        left: 40%;
         border: 2px solid white;
+        z-index: 10000;
     }
 
     .rellax {
-        height: 600px;
+        height: 800px;
     }
 
     .paralax {
@@ -849,27 +809,26 @@ footer{
     }
 
     .aba-isa {
-        height: 850px;
+        height: 500px;
         width: 100%;
     }
 
     .aba-isa .container-isa {
-        width: 100%;
-        height: 60%;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        margin: 0 !important;
+    }
+
+    .aba-isa .center-isa {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
-    .aba-isa .center-isa {
-        top: 30%;
-        left: 30%;
-    }
-
     .aba-isa .center-isa .wpp {
         width: 10%;
-        margin-top: 10px;
     }
 
     .aba-isa .center-isa #img-top-isa {
@@ -878,8 +837,6 @@ footer{
 
     .aba-isa .container-isa .isa-img {
         width: 45%;
-        left: 1%;
-        top: -8%;
     }
 
     .aba-isa .container-isa h1 {
@@ -890,45 +847,49 @@ footer{
     .aba-isa .container-isa h2 {
         font-size: 17px;
         text-align: justify;
-        width: 320px;
-        left: -52%;
         margin-bottom: 20px;
-        position: relative;
+        width: 300px !important;
+        margin: 0 !important;
     }
 
     .aba-isa .container-isa a {
-        font-size: 11px;
+        font-size: 10px;
+        padding: 0;
     }
 
     footer {
-        height: 10px;
-        position: relative;
-        top: -220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
-    .rodape{
-        width: 80%;
+    .rodape {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0 !important;
     }
 
     .rodape .roda-fora {
         width: 25%;
         height: 100px;
-        top: 40px;
-        right: 20px;
-        position: relative;
+        margin: 0;
     }
 
     .rodape .txt-footer {
-        position: absolute;
-        top: 10px;
-        left: 20%;
+        margin-top: 40px;
+        width: 300px;
     }
 
     .rodape .txt-footer .relogio,
     .email,
     .whatsapp,
     .insta {
-        width: 210px;
+        width: 100%;
     }
 
     .rodape .txt-footer .relogio h1,
@@ -947,25 +908,4 @@ footer{
         margin-bottom: -10px;
         margin-left: 12px;
     }
-
 }
-/*
-@media only screen and (max-width: 390px) {
-    .servicos {
-        position: relative;
-        top: -30px;
-    }
-
-    .equipe{
-        min-height: 700px;
-    }
-
-    .aba-isa .center-isa a {
-        font-size: 11px;
-    }
-
-   .rodape{
-    width: 80%;
-   }
-
-}*/

@@ -1,0 +1,319 @@
+@import url(https://db.onlinewebfonts.com/c/9c5be4b39185e4a2c3e60f60682788ff?family=Stereotype+W01+Semi+Bold);
+
+body {
+    background-color: #131B26;
+    font-family: 'Visby', sans-serif;
+}
+
+#btn-voltar-sec {
+    height: 200px;
+    background-color: #131B26;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#btn-voltar-sec .btn-voltar {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 2.5rem;
+    border: 2px solid #F99F42;
+    color: #F99F42;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: 'Visby', sans-serif;
+}
+
+#drone-sec,
+#beneficios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 70px;
+    background-image: url(../imagens/simbolo-rodape3 - Copia.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.container-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    width: 70%;
+}
+
+.container-2 h1 {
+    font-weight: 600;
+    font-size: 3em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container-2 li {
+    font-size: 1.4em;
+    text-align: justify;
+    font-weight: 400;
+    list-style-type: disc;
+    padding: 10px;
+    letter-spacing: 3px;
+}
+
+.h1-drone {
+    font-size: 3.9rem;
+    padding: 50px 0px;
+    font-weight: 600;
+    color: white;
+    font-family: "Stereotype W01 Semi Bold";
+}
+
+#drone {
+    width: 20%;
+}
+
+.flex-left p {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: justify;
+    width: 800px;
+    letter-spacing: 2px;
+}
+
+.flex-left {
+    width: 50%;
+}
+
+#drone-png {
+    width: 860px;
+    height: 560px;
+}
+
+footer {
+    width: 100%;
+    background-color: white;
+}
+
+footer .img-rod-2 {
+    float: right;
+    top: -480px;
+    position: relative;
+}
+
+.rodape {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.rodape .roda-fora {
+    width: 150px;
+    height: 150px;
+}
+
+.rodape .txt-footer .relogio,
+.email,
+.insta,
+.whatsapp {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.rodape .txt-footer .relogio img,
+.email img,
+.insta img,
+.whatsapp img {
+    width: 5%;
+    text-align: center;
+}
+
+.rodape .txt-footer .relogio h1,
+.email h1,
+.insta h1,
+.whatsapp h1 {
+    margin-left: 40px;
+    font-size: 1.1rem;
+    font-family: 'Visby', sans-serif;
+    font-weight: 600;
+    color: #131B26;
+}
+
+.rodape .logo-rodape {
+    display: none;
+}
+
+@media only screen and (max-width: 1280px) {
+    #drone-sec .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-image: none;
+        margin: 0 !important;
+    }
+
+    #beneficios {
+        margin-top: -150px;
+    }
+
+    .flex-left {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .flex-left p {
+        font-size: 1.4em;
+    }
+
+    #drone-png {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #drone {
+        width: 30%;
+    }
+
+    #drone-png {
+        width: 400px;
+        height: 300px;
+    }
+
+    .flex-left p {
+        font-size: 1.4em;
+        width: 100%;
+    }
+
+    .flex-left {
+        width: 100%;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        background-image: none;
+    }
+
+    .rodape {
+        width: 80%;
+        height: 250px;
+        display: flex;
+        align-self: center;
+        justify-content: space-between;
+    }
+
+    .txt-footer {
+        margin: 0 !important;
+    }
+
+    footer {
+        width: 100%;
+        height: 100% !important;
+    }
+
+    footer .img-rod-2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #drone {
+        width: 50%;
+    }
+
+    #drone-png {
+        width: 310px;
+        height: 240px;
+    }
+
+    .flex-left p {
+        font-size: 1.1em;
+        width: 100%;
+    }
+
+    .flex-left {
+        width: 100%;
+    }
+
+    #beneficios ul li {
+        text-align: left;
+        font-size: 1.1em;
+    }
+
+    .h1-drone {
+        font-size: 3em;
+        padding: 50px 0px;
+        font-weight: bolder;
+        color: white;
+        font-family: 'Visby', sans-serif;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-image: none;
+    }
+
+    .container-2 h1 {
+        font-size: 1.5rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .rodape {
+        width: 80%;
+        display: flex;
+        align-self: center;
+        justify-content: space-between;
+    }
+
+    .rodape .roda-fora {
+        width: 100px;
+        height: 100px;
+    }
+
+    .txt-footer #h1-relo {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .txt-footer h1 {
+        font-size: 1rem;
+    }
+
+    .txt-footer {
+        width: 100% !important;
+        margin-top: 40px !important;
+    }
+
+    footer {
+        width: 100%;
+        height: 300px !important;
+    }
+
+    footer .img-rod-2 {
+        display: none;
+    }
+}

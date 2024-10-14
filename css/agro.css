@@ -1,12 +1,12 @@
-p{
+p {
     font-family: 'Visby', sans-serif;
 }
 
-.container{
+.container {
     width: 85%;
 }
 
-.agro-top{
+.agro-top {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,13 +14,13 @@ p{
     text-align: center;
 }
 
-.box img{
+.box img {
     width: 40%;
     border-radius: 20px;
     padding: 10px;
 }
 
-#galeria{
+#galeria {
     width: 100%;
 }
 
@@ -37,7 +37,7 @@ p{
     flex-direction: column;
 }
 
-.cav-venda{
+.cav-venda {
     background-color: #192230;
     border-radius: 100px;
     padding: 30px;
@@ -45,19 +45,73 @@ p{
     margin-top: 20px;
 }
 
-.cav-venda p{
+.cav-venda p {
     font-size: 30px;
     color: white;
     font-weight: bolder;
 }
 
+.img-rod-2 {
+    position: absolute;
+    left: 0;
+    top: -27%;
+}
+
+.txt-footer {
+    height: 160px;
+}
+
+footer .rodape {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1500px) {
+    .img-rod-2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .txt-footer {
+        height: 160px;
+        margin: 0 !important;
+    }
+
+    footer .rodape {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 !important;
+    }
+}
+
 @media only screen and (max-width: 600px) {
-    .cav-venda{
+    .cav-venda {
         border-radius: 10px;
     }
 
-    .box img{
+    .box img {
         width: 95%;
         border-radius: 20px;
+    }
+
+    .img-rod-2 {
+        display: none;
+    }
+
+    .txt-footer {
+        top: 50px;
+        left: 0 !important;
+    }
+
+    footer {
+        height: 390px;
     }
 }

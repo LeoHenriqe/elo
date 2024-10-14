@@ -5,7 +5,6 @@
 .box img {
     width: 30%;
     border-radius: 20px;
-    padding: 8px;
 }
 
 #portifolio-img {
@@ -22,14 +21,12 @@
     text-align: center;
 }
 
-#galeria .foto img {
-    width: 100%;
+#galeria img {
+    width: 80%;
     border-radius: 10px;
 }
 
 #galeria .foto {
-    padding: 2px;
-    width: 60%;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -40,16 +37,19 @@
     text-align: center;
 }
 
-@media only screen and (max-width: 1024px) {}
+@media only screen and (max-width: 840px) {
 
-@media only screen and (max-widht: 840px) {
+    /* Corrigido "max-widht" para "max-width" */
     header {
         height: 100px;
+    }
+
+    .box img {
+        width: 95%;
     }
 }
 
 @media only screen and (max-width: 600px) {
-
     #terra {
         height: 600px;
     }
@@ -59,17 +59,11 @@
         text-align: center;
     }
 
-    #terra .dentro-terra {
-        top: 50px;
-        position: relative;
-    }
-
     .rodape .roda-fora {
         height: 100px;
     }
 
-    .box img {
+    .box #galeria img {
         width: 95%;
     }
-
 }
