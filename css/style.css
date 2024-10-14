@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    /* Aplicado globalmente */
 }
 
 body {
@@ -199,7 +201,7 @@ details li {
     text-decoration: none;
 }
 
-/* Adicionando prefixos de fornecedor */
+/* Adicionando prefixos de fornecedor para algumas propriedades */
 header,
 body,
 details,
@@ -235,7 +237,6 @@ summary {
         /* Permite que a altura se ajuste ao conteúdo */
     }
 }
-
 
 .servicos .top-servicos {
     width: 100%;
@@ -317,6 +318,7 @@ summary {
     width: 10%;
 }
 
+
 .aba-isa .container-isa .isa-img {
     width: 28%;
     margin-right: 50px;
@@ -356,6 +358,8 @@ summary {
     color: #F99F42;
     border: 2px solid #F99F42;
     border-radius: 10px;
+    display: inline-flex;
+    /* Alterado para inline-flex para melhor compatibilidade */
     align-items: center;
     text-align: center;
     padding: 8px;
