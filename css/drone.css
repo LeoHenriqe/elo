@@ -274,6 +274,7 @@ footer .img-rod-2 {
         justify-content: center;
         flex-direction: column;
         background-image: none;
+        width: 100%;
     }
 
     .container-2 h1 {
