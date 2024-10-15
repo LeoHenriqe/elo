@@ -219,6 +219,10 @@ footer {
         display: none;
     }
 
+    .img-rod-2 {
+        display: none;
+    }
+
     header {
         height: 15vh;
         /* Troque 'vb' por 'vh' */
