@@ -49,6 +49,16 @@ footer {
     height: 335px;
 }
 
+@media only screen and (max-width: 1600px) {
+    .img-rod-2 {
+        display: none;
+    }
+
+    .servicos{
+        height: 700px;
+    }
+}
+
 @media only screen and (max-width: 1370px) {
     .img-rod-2 {
         display: none;
@@ -106,6 +116,10 @@ footer {
 
     footer{
         margin-top: -200px;
+    }
+
+    .img-rod-2 {
+        display: none;
     }
 
     .txt-footer{
