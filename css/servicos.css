@@ -143,8 +143,8 @@ footer {
     }
 
     .servicos .center-servicos{
-        height: 65%;
-        margin-top: 50px;
+        height: 70%;
+        margin-top: 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -164,7 +164,7 @@ footer {
     }
 
     .servicos {
-        height: 2000px;
+        height: 2040px;
         z-index: -100;
     }
 
