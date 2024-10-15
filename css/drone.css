@@ -154,6 +154,18 @@ footer .img-rod-2 {
     display: none;
 }
 
+@media only screen and (max-width: 1600px) {
+    footer .img-rod-2 {
+        display: none;
+    }
+
+    #drone-png {
+        width: 700px;
+        height: 500px;
+        margin-top: -20%;
+    }
+}
+
 @media only screen and (max-width: 1280px) {
     #drone-sec .container {
         display: flex;
@@ -183,7 +195,7 @@ footer .img-rod-2 {
     }
 
     #drone-png {
-        width: 70%;
+        width: 60%;
     }
 }
 

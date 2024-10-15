@@ -34,6 +34,12 @@ footer .rodape {
     align-items: center;
 }
 
+@media only screen and (max-width: 1600px) {
+    footer .img-rod-2 {
+        display: none;
+    }
+}
+
 /* Media Queries */
 @media only screen and (max-width: 600px) {
     #terra .dentro-terra {

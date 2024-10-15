@@ -68,8 +68,8 @@ footer .rodape {
     align-items: center;
 }
 
-@media only screen and (max-width: 1500px) {
-    .img-rod-2 {
+@media only screen and (max-width: 1600px) {
+    footer .img-rod-2 {
         display: none;
     }
 }

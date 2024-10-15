@@ -129,6 +129,12 @@ footer .img-rod-2 {
     position: relative;
 }
 
+@media only screen and (max-width: 1600px) {
+    footer .img-rod-2 {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 1370px) {
     .img-rod-2 {
         display: none;

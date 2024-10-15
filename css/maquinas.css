@@ -88,6 +88,12 @@ img#drone-img {
     top: -28%;
 }
 
+@media only screen and (max-width: 1600px) {
+    footer .img-rod-2 {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 1370px) {
     header {
         height: 15vb;
