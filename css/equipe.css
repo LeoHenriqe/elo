@@ -7,6 +7,10 @@
     border-radius: 20px;
 }
 
+#terra{
+    background-image: url(/equipe/capaequipe.png);
+}
+
 #portifolio-img {
     width: 100%;
     display: flex;
