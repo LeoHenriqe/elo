@@ -107,7 +107,7 @@ img#drone-img {
     }
 
     #terra {
-        height: 700px;
+        height: 600px;
     }
 
     #portifolio-img .container .imgs-port {
@@ -201,7 +201,7 @@ img#drone-img {
     }
 
     #terra .img-fundo {
-        margin-top: 15%;
+        margin-top: 30% !important;
     }
 
     #portifolio-img p {
