@@ -12,7 +12,9 @@ header {
     z-index: 1000;
 }
 
-#terra{
+#terra {
+    background-position: center center;
+    background-size: cover;
     background-image: url(/img\ maquinas/frota-capa.png);
 }
 
@@ -157,6 +159,11 @@ img#drone-img {
 }
 
 @media only screen and (max-width: 840px) {
+
+    header{
+        height: 100px;
+    }
+
     #terra {
         height: 600px;
         align-items: center;
@@ -165,7 +172,7 @@ img#drone-img {
 
     .dentro-terra {
         justify-content: center;
-        height: 600px !important;
+        height: 500px !important;
     }
 
     #portifolio-img .imgs-port img {
@@ -179,18 +186,22 @@ img#drone-img {
 }
 
 @media only screen and (max-width: 600px) {
-    #terra {
-        height: 500px;
-        align-items: center;
-        justify-content: center;
-        display: flex;
+    #terra .dentro-terra {
+        height: 500px !important;
     }
 
-    .dentro-terra {
-        height: 500px;
-        align-items: center;
-        justify-content: center;
-        display: flex;
+    #terra {
+        height: 500px !important;
+    }
+
+    #terra h1 {
+        font-size: 2rem !important;
+        width: 100%;
+        text-align: center;
+    }
+
+    #terra .img-fundo {
+        margin-top: 15%;
     }
 
     #portifolio-img p {

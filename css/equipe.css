@@ -7,8 +7,10 @@
     border-radius: 20px;
 }
 
-#terra{
+#terra {
     background-image: url(/equipe/capaequipe.png);
+    background-position: center center;
+    background-size: cover;
 }
 
 #portifolio-img {
@@ -61,7 +63,11 @@
 
 @media only screen and (max-width: 600px) {
     #terra {
-        height: 600px;
+        height: 500px;
+    }
+
+    #terra h1 {
+        font-size: 2rem !important;
     }
 
     #terra .dentro-terra p {

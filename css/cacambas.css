@@ -30,6 +30,8 @@ summary:hover {
     z-index: -10;
     position: relative;
     background-image: url(/cacambas/FUNDO.png);
+    background-position: center center;
+    background-size: cover;
 }
 
 #terra .dentro-terra {
@@ -151,6 +153,18 @@ footer .img-rod-2 {
         display: none;
     }
 
+    #terra {
+        height: 600px;
+    }
+
+    #terra h1 {
+        font-size: 2rem !important;
+    }
+
+    #terra .img-fundo {
+        margin-top: 220px !important;
+    }
+
     header {
         height: 100px;
     }
@@ -161,8 +175,14 @@ footer .img-rod-2 {
         height: 100px;
     }
 
-    #terra .dentro-terra h1 {
-        font-size: 20px;
+    #terra h1 {
+        font-size: 2rem !important;
+        width: 100%;
+        text-align: center;
+    }
+
+    #terra {
+        height: 500px;
     }
 
     #terra .dentro-terra p {

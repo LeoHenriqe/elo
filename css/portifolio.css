@@ -264,6 +264,18 @@ footer {
         height: 100px;
     }
 
+    #terra {
+        height: 600px;
+    }
+
+    #terra h1 {
+        font-size: 2rem !important;
+    }
+
+    #terra .img-fundo {
+        margin-top: 200px !important;
+    }
+
     .img-rod-2 {
         display: none;
     }
@@ -285,8 +297,12 @@ footer {
         height: 100px;
     }
 
+    #terra {
+        height: 500px;
+    }
+
     #terra .dentro-terra h1 {
-        font-size: 40px;
+        font-size: 2rem;
     }
 
     #terra .dentro-terra p {

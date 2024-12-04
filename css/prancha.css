@@ -5,7 +5,7 @@
     flex-direction: column;
 }
 
-#terra{
+#terra {
     background-image: url(/img-agro/Caminhão-Prancha.png) !important;
     background-position: center;
     background-size: cover;
@@ -48,8 +48,19 @@ footer .rodape {
 
 /* Media Queries */
 @media only screen and (max-width: 600px) {
-    #terra .dentro-terra {
+
+    #terra .dentro-terra{
+       height: 500px !important;
+    }
+
+    #terra {
         height: 500px !important;
+    }
+
+    #terra h1 {
+        font-size: 2rem !important;
+        width: 100%;
+        text-align: center;
     }
 
     .img-rod-2 {
