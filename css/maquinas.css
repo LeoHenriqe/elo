@@ -12,6 +12,10 @@ header {
     z-index: 1000;
 }
 
+#terra{
+    background-image: url(/img\ maquinas/frota-capa.png);
+}
+
 #portifolio-img {
     display: flex;
     align-items: center;

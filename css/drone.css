@@ -45,11 +45,11 @@ body {
 }
 
 .container-2 {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    flex-direction: column;
     color: white;
-    width: 70%;
+    width: 90%;
+    background-color: red;
 }
 
 .container-2 h1 {
@@ -66,6 +66,8 @@ body {
     list-style-type: disc;
     padding: 10px;
     letter-spacing: 3px;
+    background-color: red;
+    width: 90%;
 }
 
 .h1-drone {
@@ -87,6 +89,11 @@ body {
     text-align: justify;
     width: 800px;
     letter-spacing: 2px;
+}
+
+#videodrone{
+    max-width: 35%;
+    border-radius: 10px;
 }
 
 .flex-left {

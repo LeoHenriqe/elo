@@ -6,6 +6,10 @@ p {
     width: 85%;
 }
 
+#terra{
+    background-image: url(/img-agro/Agronegocios-terra-planagem.png);
+}
+
 .agro-top {
     display: flex;
     flex-direction: column;

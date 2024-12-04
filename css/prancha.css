@@ -5,6 +5,12 @@
     flex-direction: column;
 }
 
+#terra{
+    background-image: url(/img-agro/Caminhão-Prancha.png) !important;
+    background-position: center;
+    background-size: cover;
+}
+
 .container {
     width: 90%;
     align-items: center;
